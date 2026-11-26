@@ -53,7 +53,7 @@ for (const p of przedmioty) {
     if (ID != null && post.id !== ID) continue;
     const sl = slajdyPosta(posty, i);
     // odcisk treści: jeśli post albo zapowiedź następnego się zmieniły – renderujemy od nowa
-    const odcisk = crypto.createHash("md5").update(JSON.stringify([post.dzial, sl])).digest("hex");
+    const odcisk = crypto.createHash("md5").update(JSON.stringify([post.dzial, sl, PRZEDMIOTY[p]])).digest("hex");
     const plikOdc = `${out}/${nr3(post.id)}.md5`;
     if (ID == null && !WSZYSTKO && fs.existsSync(`${out}/${nr3(post.id)}_1.jpg`) && fs.existsSync(plikOdc) && fs.readFileSync(plikOdc, "utf8") === odcisk) continue;
     for (const f of fs.readdirSync(out).filter((f) => f.startsWith(nr3(post.id) + "_"))) fs.unlinkSync(`${out}/${f}`);
