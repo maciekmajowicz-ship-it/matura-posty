@@ -5,6 +5,11 @@ on:
     # co 2 h od 8 do 20 czasu polskiego (cron w UTC – zima i lato; skrypt sam sprawdza godzinę PL)
     - cron: "5 6-19 * * *"
   workflow_dispatch:
+    inputs:
+      tylko_rolka:
+        description: "Wrzuć teraz tylko rolkę (bez karuzeli)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,6 +30,7 @@ jobs:
       IG_TOKEN_ANGIELSKI: ${{ secrets.IG_TOKEN_ANGIELSKI }}
       IG_USER_ID_ANGIELSKI: ${{ secrets.IG_USER_ID_ANGIELSKI }}
       TRYB: ${{ github.event_name == 'schedule' && '--auto' || '' }}
+      ROLKA_TERAZ: ${{ inputs.tylko_rolka && '1' || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -45,8 +51,11 @@ jobs:
         env:
           CHROME_PATH: /usr/bin/google-chrome
         run: |
-          node publikuj.js $TRYB --plan | tee plan.txt
-          if [ -n "$TRYB" ]; then node publikuj_rolke.js --auto --plan | tee rolki.txt; else : > rolki.txt; fi
+          if [ -n "$ROLKA_TERAZ" ]; then : > plan.txt; node publikuj_rolke.js --plan | tee rolki.txt
+          else
+            node publikuj.js $TRYB --plan | tee plan.txt
+            if [ -n "$TRYB" ]; then node publikuj_rolke.js --auto --plan | tee rolki.txt; else : > rolki.txt; fi
+          fi
           [ -s plan.txt ] || [ -s rolki.txt ] || exit 0
           while read p id; do node render.js $p --id $id; done < plan.txt
           while read p id; do node render.js $p --id $id && node rolka.js $p $id; done < rolki.txt
@@ -55,6 +64,7 @@ jobs:
           sleep 20
       - name: Publikacja
         run: |
+          if [ -n "$ROLKA_TERAZ" ]; then node publikuj_rolke.js; exit $?; fi
           node publikuj.js $TRYB
           if [ -n "$TRYB" ]; then node publikuj_rolke.js --auto; fi
       - name: Zapis stanu
