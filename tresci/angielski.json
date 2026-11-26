@@ -1,0 +1,878 @@
+[
+  {
+    "id": 1,
+    "typ": "lekcja",
+    "dzial": "Matura",
+    "temat": "Jak wygląda matura z angielskiego",
+    "opis": "Zanim zaczniemy gramatykę – zobacz, z czego składa się matura z angielskiego i co trzeba umieć.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #1", "tytul": "Matura z angielskiego **w pigułce**", "pod": "Z czego się składa i od czego zacząć naukę 👉" },
+      { "t": "punkty", "tytul": "Część pisemna – 4 obszary", "punkty": [
+        "**Rozumienie ze słuchu** – nagrania i zadania do nich",
+        "**Rozumienie tekstów pisanych** – czytanie ze zrozumieniem",
+        "**Znajomość środków językowych** – gramatyka i słownictwo",
+        "**Wypowiedź pisemna** – własny tekst, np. e-mail"
+      ] },
+      { "t": "punkty", "tytul": "Część ustna", "punkty": [
+        "Jest **obowiązkowa** i zdajesz ją przed komisją",
+        "Rozmawiasz z egzaminatorem, opisujesz ilustrację, odpowiadasz na pytania",
+        "Liczy się **komunikacja** – mów, nawet jeśli nie idealnie"
+      ], "uwaga": "Żeby zdać pisemną na poziomie podstawowym, potrzebujesz co najmniej **30%**." },
+      { "t": "porownanie", "tytul": "Co daje punkty?", "lewa": { "naglowek": "Gramatyka 🧩", "punkty": ["czasy", "okresy warunkowe", "strona bierna", "mowa zależna"] }, "prawa": { "naglowek": "Słownictwo 📚", "punkty": ["działy tematyczne", "kolokacje", "phrasal verbs", "zwroty do pisania"] } },
+      { "t": "punkty", "tytul": "Jak będzie wyglądał ten profil", "numeruj": false, "punkty": [
+        "Idziemy **po kolei**: od czasów aż do pisania e-maila",
+        "Zasady po polsku, przykłady po angielsku z tłumaczeniem",
+        "Co kilka lekcji **quiz** – sprawdzisz, co zapamiętałeś"
+      ] }
+    ]
+  },
+  {
+    "id": 2,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Simple",
+    "opis": "Pierwszy czas, od którego zaczyna się wszystko. Kiedy go używamy i jak nie zgubić końcówki -s.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #2", "tytul": "Present Simple – **zawsze, zwykle, nigdy**", "pod": "Czas nawyków i faktów w minutę 👉" },
+      { "t": "punkty", "tytul": "Kiedy go używasz?", "punkty": [
+        "**Nawyki**: I get up at 7. – Wstaję o 7.",
+        "**Fakty**: Water boils at 100°C. – Woda wrze w 100°C.",
+        "**Rozkłady**: The bus leaves at 8. – Autobus odjeżdża o 8.",
+        "**Stany**: She lives in Gdańsk. – Ona mieszka w Gdańsku."
+      ] },
+      { "t": "punkty", "tytul": "He / she / it = **-s**", "punkty": [
+        "work → she **works**",
+        "go → he **goes**, watch → he **watches**",
+        "study → she **studies** (spółgłoska + y → -ies)",
+        "play → he **plays** (samogłoska + y → zwykłe -s)"
+      ], "uwaga": "**have** → he **has** (nie: haves)" },
+      { "t": "porownanie", "tytul": "Przeczenie i pytanie", "lewa": { "naglowek": "I / you / we / they", "punkty": ["I **don't** like tea.", "**Do** you like tea?"] }, "prawa": { "naglowek": "he / she / it", "punkty": ["She **doesn't** like tea.", "**Does** she like tea?"] }, "uwaga": "Po do/does czasownik wraca do **formy podstawowej**." },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ She don't like it → ✅ She **doesn't** like it",
+        "❌ Does he likes it? → ✅ Does he **like** it?",
+        "❌ My brother play football → ✅ My brother **plays** football"
+      ] },
+      { "t": "punkty", "tytul": "Słowa-sygnały", "numeruj": false, "punkty": [
+        "always, usually, often, sometimes, never",
+        "every day / every week, on Mondays",
+        "Szyk: I **often** go… / She is **often** late."
+      ], "uwaga": "Przysłówek częstotliwości stoi **przed** czasownikiem, ale **po** be." }
+    ]
+  },
+  {
+    "id": 3,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Continuous",
+    "opis": "Co dzieje się teraz, a co tylko przez chwilę? Present Continuous krok po kroku.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #3", "tytul": "Present Continuous – **dzieje się teraz**", "pod": "Budowa, użycie i pisownia -ing 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**am / is / are + czasownik z -ing**",
+        "I'm reading. – Czytam (teraz).",
+        "She isn't working today. – Ona dziś nie pracuje.",
+        "Are you listening? – Słuchasz?"
+      ] },
+      { "t": "punkty", "tytul": "Kiedy go używasz?", "punkty": [
+        "**Teraz**: Look! It's snowing. – Patrz! Pada śnieg.",
+        "**Chwilowo**: I'm living with my aunt this month. – W tym miesiącu mieszkam u cioci.",
+        "**Zmiany**: Prices are going up. – Ceny rosną.",
+        "**Irytacja** z always: You're always interrupting me! – Ciągle mi przerywasz!"
+      ] },
+      { "t": "punkty", "tytul": "Pisownia -ing", "punkty": [
+        "make → **making** (znika nieme -e)",
+        "swim → **swimming**, run → **running** (podwojenie)",
+        "lie → **lying**, die → **dying** (-ie → -y)",
+        "play → **playing** (bez zmian)"
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I reading now → ✅ I**'m** reading now",
+        "❌ She is swiming → ✅ She is **swimming**",
+        "❌ Is raining → ✅ **It**'s raining"
+      ], "uwaga": "W angielskim zdanie prawie zawsze ma **podmiot** – nawet „it”." }
+    ]
+  },
+  {
+    "id": 4,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Simple vs Present Continuous",
+    "opis": "Najczęstszy dylemat na początek: Simple czy Continuous? Porównanie z przykładami.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #4", "tytul": "Simple czy **Continuous**?", "pod": "Rozróżnisz je po jednym poście 👉" },
+      { "t": "porownanie", "tytul": "Najważniejsza różnica", "lewa": { "naglowek": "Present Simple", "punkty": ["zawsze, regularnie", "fakty i nawyki", "I **work** in a shop.", "Pracuję w sklepie."] }, "prawa": { "naglowek": "Present Continuous", "punkty": ["teraz, chwilowo", "akcja w toku", "I**'m working** at home today.", "Dziś pracuję z domu."] } },
+      { "t": "porownanie", "tytul": "Słowa-sygnały", "lewa": { "naglowek": "Simple", "punkty": ["always, usually", "often, never", "every day", "on Fridays"] }, "prawa": { "naglowek": "Continuous", "punkty": ["now, right now", "at the moment", "today, this week", "Look! / Listen!"] } },
+      { "t": "porownanie", "tytul": "Jedno słowo, dwa znaczenia", "lewa": { "naglowek": "Simple", "punkty": ["He **plays** the guitar.", "Gra na gitarze (umie, gra regularnie)."] }, "prawa": { "naglowek": "Continuous", "punkty": ["He**'s playing** the guitar.", "Gra na gitarze (w tej chwili)."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I am agree → ✅ I **agree**",
+        "❌ I'm usually going to school by bus → ✅ I usually **go**…",
+        "❌ Listen! She sings → ✅ Listen! She**'s singing**"
+      ], "uwaga": "Po polsku jest jeden czas teraźniejszy – po angielsku **dwa**." }
+    ]
+  },
+  {
+    "id": 5,
+    "typ": "quiz",
+    "dzial": "Tenses",
+    "temat": "Quiz: Present Simple i Continuous",
+    "opis": "Sprawdź, czy odróżniasz Present Simple od Present Continuous.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Simple czy Continuous? **Sprawdź się**", "pod": "3 zadania – odpowiedzi na kolejnych slajdach 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "Be quiet! The baby ___ .", "odp": ["sleeps", "is sleeping", "sleep", "are sleeping"] },
+      { "t": "odpowiedz", "poprawna": "B. is sleeping", "tresc": "„Be quiet!” = dzieje się **teraz**, więc Present Continuous. Baby = it → **is**." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "My sister ___ (not / eat) meat. She's a vegetarian." },
+      { "t": "odpowiedz", "poprawna": "doesn't eat", "tresc": "To stały fakt o niej → Present Simple. She → **doesn't** + forma podstawowa." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "Does your brother speaks German?" },
+      { "t": "odpowiedz", "poprawna": "Does your brother **speak** German?", "tresc": "Po **does** czasownik bez -s. Końcówka -s jest już w „does”." }
+    ]
+  },
+  {
+    "id": 6,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Past Simple – czasowniki regularne",
+    "opis": "Past Simple to podstawa opowiadania o przeszłości. Zaczynamy od czasowników regularnych.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #6", "tytul": "Past Simple – **wczoraj, rok temu**", "pod": "Czasowniki regularne i końcówka -ed 👉" },
+      { "t": "punkty", "tytul": "Kiedy go używasz?", "punkty": [
+        "Czynność **zakończona** w przeszłości",
+        "Znamy czas: yesterday, last week, in 2020, two days **ago**",
+        "I **watched** a film yesterday. – Wczoraj obejrzałem film.",
+        "We **visited** Rome in 2022. – Zwiedziliśmy Rzym w 2022."
+      ] },
+      { "t": "punkty", "tytul": "Pisownia -ed", "punkty": [
+        "work → **worked**, play → **played**",
+        "live → **lived** (dodajesz samo -d)",
+        "study → **studied** (spółgłoska + y → -ied)",
+        "stop → **stopped**, plan → **planned** (podwojenie)"
+      ] },
+      { "t": "porownanie", "tytul": "Przeczenie i pytanie", "lewa": { "naglowek": "Przeczenie", "punkty": ["I **didn't** call her.", "Nie zadzwoniłem do niej."] }, "prawa": { "naglowek": "Pytanie", "punkty": ["**Did** you call her?", "Zadzwoniłeś do niej?"] }, "uwaga": "Po **did / didn't** czasownik w formie podstawowej – bez -ed!" },
+      { "t": "punkty", "tytul": "Wymowa -ed 🔊", "punkty": [
+        "/t/ – worked, watched, stopped",
+        "/d/ – played, lived, cleaned",
+        "/ɪd/ – wanted, needed (po t i d)"
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I didn't watched it → ✅ I didn't **watch** it",
+        "❌ Did you played? → ✅ Did you **play**?",
+        "❌ I have visited Rome in 2022 → ✅ I **visited** Rome in 2022"
+      ] }
+    ]
+  },
+  {
+    "id": 7,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Past Simple – czasowniki nieregularne",
+    "opis": "Czasowników nieregularnych trzeba się nauczyć – ale jest na to sposób. Zacznij od tych najczęstszych.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #7", "tytul": "Nieregularne? **Ucz się grupami**", "pod": "Najczęstsze czasowniki w 3 formach 👉" },
+      { "t": "punkty", "tytul": "Grupa „ought”", "wstep": "Druga i trzecia forma są takie same:", "punkty": [
+        "buy – **bought** – bought (kupić)",
+        "bring – **brought** – brought (przynieść)",
+        "think – **thought** – thought (myśleć)",
+        "teach – **taught** – taught (uczyć kogoś)"
+      ] },
+      { "t": "punkty", "tytul": "Trzy takie same formy", "punkty": [
+        "put – **put** – put (położyć)",
+        "cut – **cut** – cut (ciąć)",
+        "cost – **cost** – cost (kosztować)",
+        "read – **read** – read (czytać)"
+      ], "uwaga": "**read** w przeszłości wymawiasz /red/ – jak kolor „red”." },
+      { "t": "punkty", "tytul": "Musisz je znać na pamięć", "punkty": [
+        "go – **went** – gone (iść, jechać)",
+        "see – **saw** – seen (widzieć)",
+        "take – **took** – taken (brać)",
+        "write – **wrote** – written (pisać)"
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I goed → ✅ I **went**",
+        "❌ I didn't went → ✅ I didn't **go**",
+        "❌ Did she bought it? → ✅ Did she **buy** it?"
+      ], "uwaga": "Ucz się po **5 czasowników dziennie** i układaj z nimi zdania." }
+    ]
+  },
+  {
+    "id": 8,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Past Continuous",
+    "opis": "Co działo się w danym momencie w przeszłości? Past Continuous i jego połączenie z Past Simple.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #8", "tytul": "Past Continuous – **co się działo?**", "pod": "Plus duet z Past Simple, który jest na każdej maturze 👉" },
+      { "t": "punkty", "tytul": "Budowa i użycie", "punkty": [
+        "**was / were + -ing**",
+        "Czynność **w toku** w danym momencie w przeszłości",
+        "At 8 p.m. I **was doing** my homework. – O 20 odrabiałem lekcje.",
+        "They **were sleeping**. – Oni spali."
+      ] },
+      { "t": "porownanie", "tytul": "Długa akcja + krótka akcja", "lewa": { "naglowek": "Past Continuous", "punkty": ["tło, akcja w toku", "I **was having** a shower…"] }, "prawa": { "naglowek": "Past Simple", "punkty": ["coś ją przerywa", "…when the phone **rang**."] }, "uwaga": "Brałem prysznic, kiedy zadzwonił telefon." },
+      { "t": "punkty", "tytul": "When czy while?", "punkty": [
+        "**while** + akcja w toku: While I **was cooking**, he **was watching** TV.",
+        "Gdy gotowałem, on oglądał telewizję.",
+        "**when** + krótka akcja: I was reading **when** she **came** in.",
+        "Czytałem, kiedy weszła."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ They was playing → ✅ They **were** playing",
+        "❌ When I came, she cooked dinner (= wtedy zaczęła)",
+        "✅ When I came, she **was cooking** dinner (= już gotowała)"
+      ] }
+    ]
+  },
+  {
+    "id": 9,
+    "typ": "quiz",
+    "dzial": "Tenses",
+    "temat": "Quiz: Past Simple i Past Continuous",
+    "opis": "Trzy zadania z czasów przeszłych. Dasz radę bez błędu?",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Przeszłość **bez błędów?**", "pod": "Past Simple i Past Continuous – sprawdź się 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "I ___ to the cinema last Saturday.", "odp": ["go", "have gone", "went", "was go"] },
+      { "t": "odpowiedz", "poprawna": "C. went", "tresc": "„Last Saturday” = zakończony czas w przeszłości → Past Simple. go – **went** – gone." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "We ___ (walk) home when it started to rain." },
+      { "t": "odpowiedz", "poprawna": "were walking", "tresc": "Długa akcja w toku (Past Continuous) przerwana przez krótką (started – Past Simple). We → **were**." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "She didn't bought anything yesterday." },
+      { "t": "odpowiedz", "poprawna": "She didn't **buy** anything yesterday.", "tresc": "Po **didn't** zawsze forma podstawowa czasownika." }
+    ]
+  },
+  {
+    "id": 10,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Perfect – podstawy",
+    "opis": "Present Perfect, czyli przeszłość, która ma związek z teraźniejszością. Budowa i trzy główne zastosowania.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #10", "tytul": "Present Perfect **bez stresu**", "pod": "Czas, którego nie ma w polskim – wyjaśniam prosto 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**have / has + III forma** czasownika",
+        "I**'ve finished**. – Skończyłem.",
+        "She **hasn't called**. – Nie zadzwoniła.",
+        "**Have** you **eaten**? – Jadłeś?"
+      ] },
+      { "t": "punkty", "tytul": "3 główne zastosowania", "punkty": [
+        "**Doświadczenie**: I've never been to London. – Nigdy nie byłem w Londynie.",
+        "**Skutek teraz**: I've lost my keys. – Zgubiłem klucze (i nie mam ich).",
+        "**Trwa do dziś**: We've known each other for years. – Znamy się od lat."
+      ] },
+      { "t": "porownanie", "tytul": "been czy gone?", "lewa": { "naglowek": "has been to", "punkty": ["He **has been** to Paris.", "Był w Paryżu (i wrócił)."] }, "prawa": { "naglowek": "has gone to", "punkty": ["He **has gone** to Paris.", "Pojechał do Paryża (jest tam)."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ She have finished → ✅ She **has** finished",
+        "❌ I have went → ✅ I have **gone**",
+        "❌ Have you ever be…? → ✅ Have you ever **been**…?"
+      ], "uwaga": "W Present Perfect zawsze **III forma**, nie II." }
+    ]
+  },
+  {
+    "id": 11,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Perfect vs Past Simple",
+    "opis": "Kiedy Present Perfect, a kiedy Past Simple? Jedna zasada rozwiązuje większość zadań.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #11", "tytul": "Perfect czy Past? **Jedna zasada**", "pod": "Ten błąd robi bardzo wielu Polaków 👉" },
+      { "t": "porownanie", "tytul": "Kluczowa różnica", "lewa": { "naglowek": "Present Perfect", "punkty": ["nie mówimy kiedy", "albo czas trwa do teraz", "I**'ve seen** this film.", "Widziałem ten film."] }, "prawa": { "naglowek": "Past Simple", "punkty": ["podajemy kiedy", "czas się skończył", "I **saw** it last week.", "Widziałem go w zeszłym tygodniu."] } },
+      { "t": "porownanie", "tytul": "Słowa-sygnały", "lewa": { "naglowek": "Present Perfect", "punkty": ["ever, never", "already, yet, just", "for, since", "this week (wciąż trwa)"] }, "prawa": { "naglowek": "Past Simple", "punkty": ["yesterday", "last year", "two days ago", "in 2019, when…?"] } },
+      { "t": "punkty", "tytul": "Rozmowa krok po kroku", "punkty": [
+        "Have you ever **been** to Spain? – Byłeś kiedyś w Hiszpanii?",
+        "Yes, I **have**. – Tak, byłem.",
+        "When **did** you **go**? – Kiedy pojechałeś?",
+        "I **went** there in 2023. – Pojechałem tam w 2023."
+      ], "uwaga": "Ogólne pytanie → Present Perfect. Szczegóły (kiedy?) → **Past Simple**." },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I have seen him yesterday → ✅ I **saw** him yesterday",
+        "❌ When have you arrived? → ✅ When **did** you **arrive**?",
+        "❌ I have finished school in 2020 → ✅ I **finished**…"
+      ] }
+    ]
+  },
+  {
+    "id": 12,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "for, since, already, yet, just",
+    "opis": "Małe słówka, które od razu podpowiadają Present Perfect. Gdzie je postawić i czym się różnią?",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #12", "tytul": "For czy **since**?", "pod": "Plus already, yet i just – w jednym poście 👉" },
+      { "t": "porownanie", "tytul": "for vs since", "lewa": { "naglowek": "for = przez (ile?)", "punkty": ["for two hours", "for three years", "for ages"] }, "prawa": { "naglowek": "since = od (kiedy?)", "punkty": ["since 9 o'clock", "since 2020", "since Monday"] }, "uwaga": "I've lived here **for** five years / **since** 2021. – Mieszkam tu od pięciu lat / od 2021." },
+      { "t": "punkty", "tytul": "already, yet, just", "punkty": [
+        "**already** – już (zdania twierdzące): I've **already** done it.",
+        "**yet** – już? / jeszcze nie (pytania i przeczenia, na końcu): Have you done it **yet**? I haven't done it **yet**.",
+        "**just** – właśnie: She's **just** left. – Właśnie wyszła."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I live here for 5 years → ✅ I**'ve lived** here for 5 years",
+        "❌ I know him since 2019 → ✅ I**'ve known** him since 2019",
+        "❌ since two years → ✅ **for** two years"
+      ], "uwaga": "Polskie „od” + czas teraźniejszy = po angielsku **Present Perfect**." }
+    ]
+  },
+  {
+    "id": 13,
+    "typ": "quiz",
+    "dzial": "Tenses",
+    "temat": "Quiz: Present Perfect",
+    "opis": "Present Perfect czy Past Simple? For czy since? Sprawdź się w trzech zadaniach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Present Perfect – **zdasz ten test?**", "pod": "3 zadania, odpowiedzi na kolejnych slajdach 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "My parents ___ married in 2005.", "odp": ["have got", "got", "have been getting", "are getting"] },
+      { "t": "odpowiedz", "poprawna": "B. got", "tresc": "Podany rok (**in 2005**) = zakończony czas → Past Simple. Get married – pobrać się." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę (for / since)", "tresc": "She has worked in this company ___ March." },
+      { "t": "odpowiedz", "poprawna": "since", "tresc": "March to **punkt w czasie** (od kiedy?) → since. Ona pracuje w tej firmie od marca." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "I have met Kate two days ago." },
+      { "t": "odpowiedz", "poprawna": "I **met** Kate two days ago.", "tresc": "**ago** zawsze z Past Simple, nigdy z Present Perfect." }
+    ]
+  },
+  {
+    "id": 14,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Present Perfect Continuous",
+    "opis": "Jak długo coś trwa i dlaczego jesteś zmęczony? Present Perfect Continuous w prostych przykładach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #14", "tytul": "„Od godziny czekam!” **po angielsku**", "pod": "Present Perfect Continuous w prostych słowach 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**have / has been + -ing**",
+        "I**'ve been waiting** for an hour. – Czekam od godziny.",
+        "How long **have** you **been learning** English? – Jak długo uczysz się angielskiego?"
+      ] },
+      { "t": "punkty", "tytul": "Kiedy go używasz?", "punkty": [
+        "Czynność trwa **od przeszłości do teraz** (często: how long, for, since)",
+        "Widać **skutek** czynności: I'm tired because I've been running.",
+        "Jestem zmęczony, bo biegałem."
+      ] },
+      { "t": "porownanie", "tytul": "Perfect czy Perfect Continuous?", "lewa": { "naglowek": "Present Perfect", "punkty": ["ile? efekt", "I**'ve read** 3 books.", "Przeczytałem 3 książki."] }, "prawa": { "naglowek": "Perfect Continuous", "punkty": ["jak długo? proces", "I**'ve been reading** all day.", "Czytam cały dzień."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I wait for an hour → ✅ I**'ve been waiting** for an hour",
+        "❌ I've been knowing him for years → ✅ I**'ve known** him…",
+        "❌ She has been work → ✅ She has been **working**"
+      ], "uwaga": "Czasowniki stanu (know, like, own) – bez formy Continuous." }
+    ]
+  },
+  {
+    "id": 15,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Past Perfect",
+    "opis": "Przeszłość jeszcze wcześniejsza niż przeszłość. Past Perfect i jak ustawić kolejność wydarzeń.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #15", "tytul": "Past Perfect – **zanim to się stało**", "pod": "Czas „przeszły do przeszłości” 👉" },
+      { "t": "punkty", "tytul": "Budowa i użycie", "punkty": [
+        "**had + III forma** (dla wszystkich osób)",
+        "Czynność **wcześniejsza** od innej czynności w przeszłości",
+        "When I got to the station, the train **had left**.",
+        "Kiedy dotarłem na dworzec, pociąg (już) odjechał."
+      ] },
+      { "t": "porownanie", "tytul": "Jedna forma zmienia sens", "lewa": { "naglowek": "Past Simple", "punkty": ["When we arrived, the film **started**.", "Film zaczął się, gdy przyszliśmy."] }, "prawa": { "naglowek": "Past Perfect", "punkty": ["When we arrived, the film **had started**.", "Film już trwał, gdy przyszliśmy."] } },
+      { "t": "punkty", "tytul": "Słowa-sygnały", "numeruj": false, "punkty": [
+        "**by the time** – zanim, do czasu gdy",
+        "**before / after**, already, never… before",
+        "By the time I called, she **had gone** to bed.",
+        "Zanim zadzwoniłem, ona już poszła spać."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ She had went → ✅ She had **gone**",
+        "❌ I had see it before → ✅ I had **seen** it before",
+        "❌ He has left when I came → ✅ He **had** left when I came"
+      ] }
+    ]
+  },
+  {
+    "id": 16,
+    "typ": "quiz",
+    "dzial": "Tenses",
+    "temat": "Quiz: Perfect Continuous i Past Perfect",
+    "opis": "Trzy szybkie zadania z dwóch ostatnich lekcji.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Czasy Perfect – **sprawdź się**", "pod": "Uzupełnij, wybierz, popraw 👉" },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "Your eyes are red. ___ you ___ (cry)?" },
+      { "t": "odpowiedz", "poprawna": "Have you been crying?", "tresc": "Widać **skutek** (czerwone oczy) czynności, która właśnie trwała → Present Perfect Continuous." },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "When I opened the fridge, I saw that somebody ___ my cake.", "odp": ["eats", "had eaten", "has eaten", "is eating"] },
+      { "t": "odpowiedz", "poprawna": "B. had eaten", "tresc": "Ktoś zjadł ciasto **wcześniej**, niż otworzyłem lodówkę → Past Perfect." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "I've been knowing Tom since primary school." },
+      { "t": "odpowiedz", "poprawna": "I**'ve known** Tom since primary school.", "tresc": "**know** to czasownik stanu – nie ma formy Continuous." }
+    ]
+  },
+  {
+    "id": 17,
+    "typ": "lekcja",
+    "dzial": "Future",
+    "temat": "will vs going to",
+    "opis": "Will czy going to? Różnica, którą łatwo zapamiętać – z przykładami.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #17", "tytul": "Will czy **going to**?", "pod": "Przyszłość bez zgadywania 👉" },
+      { "t": "porownanie", "tytul": "Najważniejsza różnica", "lewa": { "naglowek": "will", "punkty": ["decyzja w tej chwili", "obietnica, propozycja", "I**'ll help** you!", "Pomogę ci!"] }, "prawa": { "naglowek": "going to", "punkty": ["wcześniejszy plan", "zamiar", "I**'m going to** study law.", "Zamierzam studiować prawo."] } },
+      { "t": "porownanie", "tytul": "Przewidywanie", "lewa": { "naglowek": "will – opinia", "punkty": ["I think it **will rain**.", "Myślę, że będzie padać."] }, "prawa": { "naglowek": "going to – dowód", "punkty": ["Look at those clouds! It**'s going to rain**.", "Zaraz będzie padać."] } },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**will + forma podstawowa**: She **will** pass. / She **won't** pass.",
+        "**am/is/are going to + forma podstawowa**: We**'re going to** move.",
+        "won't = will not"
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I will to go → ✅ I will **go**",
+        "❌ When I will finish, I'll call you → ✅ When I **finish**…",
+        "❌ If it will rain… → ✅ If it **rains**…"
+      ], "uwaga": "Po **when, if, as soon as, before, after** – czas teraźniejszy, nie will." }
+    ]
+  },
+  {
+    "id": 18,
+    "typ": "lekcja",
+    "dzial": "Future",
+    "temat": "Czasy teraźniejsze o przyszłości",
+    "opis": "Present Continuous i Present Simple też mówią o przyszłości. Kiedy?",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #18", "tytul": "Czas teraźniejszy **o jutrze?**", "pod": "Tak – i to bardzo często 👉" },
+      { "t": "punkty", "tytul": "Present Continuous = ustalenia", "punkty": [
+        "Coś **umówionego**: znamy czas, miejsce, osoby",
+        "I**'m meeting** Tom at 6. – Spotykam się z Tomem o 6.",
+        "We**'re flying** to Rome on Friday. – W piątek lecimy do Rzymu."
+      ] },
+      { "t": "punkty", "tytul": "Present Simple = rozkłady", "punkty": [
+        "Plany, rozkłady jazdy, program wydarzeń",
+        "The train **leaves** at 7:15. – Pociąg odjeżdża o 7:15.",
+        "The concert **starts** at 8 p.m. – Koncert zaczyna się o 20."
+      ] },
+      { "t": "porownanie", "tytul": "Podsumowanie przyszłości", "lewa": { "naglowek": "Plan / ustalenie", "punkty": ["going to – zamiar", "Present Continuous – umówione"] }, "prawa": { "naglowek": "Inne", "punkty": ["will – decyzja teraz, opinia", "Present Simple – rozkład"] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "Umówiona wizyta: ✅ I**'m seeing** the dentist at 10 (naturalniej niż will)",
+        "❌ What do you do tonight? (plan) → ✅ What **are** you **doing** tonight?"
+      ] }
+    ]
+  },
+  {
+    "id": 19,
+    "typ": "lekcja",
+    "dzial": "Future",
+    "temat": "Future Continuous i Future Perfect",
+    "opis": "Co będziesz robić jutro o tej porze i co już zrobisz do czerwca? Dwa czasy przyszłe z rozszerzenia.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #19", "tytul": "Jutro o tej porze **będę…**", "pod": "Future Continuous i Future Perfect 👉" },
+      { "t": "punkty", "tytul": "Future Continuous", "punkty": [
+        "**will be + -ing**",
+        "Czynność **w toku** w danym momencie w przyszłości",
+        "This time tomorrow I**'ll be lying** on the beach.",
+        "Jutro o tej porze będę leżeć na plaży."
+      ] },
+      { "t": "punkty", "tytul": "Future Perfect", "punkty": [
+        "**will have + III forma**",
+        "Czynność **zakończona przed** danym momentem w przyszłości",
+        "By June I **will have finished** school.",
+        "Do czerwca skończę szkołę."
+      ] },
+      { "t": "porownanie", "tytul": "Porównaj", "lewa": { "naglowek": "Future Continuous", "punkty": ["At 9 I'll be **taking** the exam.", "O 9 będę w trakcie egzaminu."] }, "prawa": { "naglowek": "Future Perfect", "punkty": ["By 12 I'll have **finished** it.", "Do 12 już go skończę."] } },
+      { "t": "punkty", "tytul": "Zapamiętaj", "numeruj": false, "punkty": [
+        "**by** + czas (by Friday, by 2030) = do, najpóźniej przed",
+        "**this time next week / at 5 tomorrow** → Future Continuous",
+        "❌ By Friday I will finish → ✅ By Friday I **will have finished**"
+      ] }
+    ]
+  },
+  {
+    "id": 20,
+    "typ": "quiz",
+    "dzial": "Future",
+    "temat": "Quiz: czasy przyszłe",
+    "opis": "Will, going to, Present Continuous, Future Perfect – sprawdź, czy już je odróżniasz.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Przyszłość – **trafisz?**", "pod": "3 zadania z czasów przyszłych 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "„The phone is ringing.” „OK, I ___ it.”", "odp": ["am going to answer", "answer", "'ll answer", "am answering"] },
+      { "t": "odpowiedz", "poprawna": "C. 'll answer", "tresc": "Decyzja podjęta **w tej chwili** → will." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "I'll text you as soon as I will get home." },
+      { "t": "odpowiedz", "poprawna": "…as soon as I **get** home.", "tresc": "Po **as soon as** (when, if, before…) używamy czasu teraźniejszego, choć mówimy o przyszłości." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "By the end of this year, I ___ (save) enough money for a new laptop." },
+      { "t": "odpowiedz", "poprawna": "will have saved", "tresc": "**By the end of** = do pewnego momentu → czynność zakończona → Future Perfect." }
+    ]
+  },
+  {
+    "id": 21,
+    "typ": "lekcja",
+    "dzial": "Tenses",
+    "temat": "Stative verbs",
+    "opis": "Czasowniki, które nie lubią -ing. Lista i podchwytliwe wyjątki.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #21", "tytul": "Dlaczego nie **„I'm knowing”?**", "pod": "Czasowniki stanu – lista i pułapki 👉" },
+      { "t": "punkty", "tytul": "Co to są stative verbs?", "wstep": "Opisują **stan**, nie czynność – zwykle bez -ing:", "numeruj": false, "punkty": [
+        "**myśli**: know, believe, understand, remember",
+        "**uczucia**: like, love, hate, prefer, want, need",
+        "**posiadanie**: own, belong, have (= mieć)",
+        "**inne**: seem, mean, cost, agree"
+      ] },
+      { "t": "porownanie", "tytul": "Dwa znaczenia – think", "lewa": { "naglowek": "stan = sądzę", "punkty": ["I **think** it's a good idea.", "Uważam, że to dobry pomysł."] }, "prawa": { "naglowek": "czynność = rozważam", "punkty": ["I**'m thinking** about it.", "Zastanawiam się nad tym."] } },
+      { "t": "porownanie", "tytul": "Dwa znaczenia – have", "lewa": { "naglowek": "stan = posiadam", "punkty": ["I **have** a dog.", "Mam psa."] }, "prawa": { "naglowek": "czynność", "punkty": ["I**'m having** lunch.", "Jem lunch."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I'm agree / I'm agreeing → ✅ I **agree**",
+        "❌ I'm not understanding → ✅ I **don't understand**",
+        "❌ This bag is belonging to me → ✅ This bag **belongs** to me"
+      ] }
+    ]
+  },
+  {
+    "id": 22,
+    "typ": "lekcja",
+    "dzial": "Conditionals",
+    "temat": "Zero i First Conditional",
+    "opis": "Okresy warunkowe zaczynamy od dwóch najprostszych: zerowego i pierwszego.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #22", "tytul": "If… – okresy **0 i 1**", "pod": "Fakty i realne sytuacje 👉" },
+      { "t": "punkty", "tytul": "Zero Conditional – fakty", "punkty": [
+        "**If + Present Simple, Present Simple**",
+        "Zawsze prawdziwe: prawa natury, ogólne zasady",
+        "If you heat ice, it **melts**. – Jeśli podgrzejesz lód, topnieje."
+      ] },
+      { "t": "punkty", "tytul": "First Conditional – realne", "punkty": [
+        "**If + Present Simple, will + forma podstawowa**",
+        "Realna sytuacja w **przyszłości**",
+        "If it **rains**, we**'ll stay** at home.",
+        "Jeśli będzie padać, zostaniemy w domu."
+      ] },
+      { "t": "punkty", "tytul": "unless = if not", "punkty": [
+        "**Unless** you hurry, you'll miss the bus.",
+        "= **If** you **don't** hurry, you'll miss the bus.",
+        "Jeśli się nie pospieszysz, spóźnisz się na autobus."
+      ], "uwaga": "Po unless nie dodajesz już „not”." },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ If it will rain, … → ✅ If it **rains**, …",
+        "❌ If you will study, you'll pass → ✅ If you **study**, …",
+        "❌ Unless you don't hurry → ✅ Unless you **hurry**"
+      ], "uwaga": "Przecinek stawiasz, gdy zdanie **zaczyna się** od if." }
+    ]
+  },
+  {
+    "id": 23,
+    "typ": "lekcja",
+    "dzial": "Conditionals",
+    "temat": "Second Conditional",
+    "opis": "Gdybym miał więcej czasu… Drugi okres warunkowy, czyli sytuacje nierealne teraz.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #23", "tytul": "Gdybym był milionerem… **2nd Conditional**", "pod": "Sytuacje nierealne lub mało prawdopodobne 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**If + Past Simple, would + forma podstawowa**",
+        "If I **had** more time, I **would travel** more.",
+        "Gdybym miał więcej czasu, więcej bym podróżował."
+      ], "uwaga": "Forma przeszła, ale znaczenie: **teraz** lub w przyszłości." },
+      { "t": "porownanie", "tytul": "1st czy 2nd?", "lewa": { "naglowek": "1st – realne", "punkty": ["If I **pass**, I'll celebrate.", "Jeśli zdam, będę świętować."] }, "prawa": { "naglowek": "2nd – nierealne", "punkty": ["If I **won** the lottery, I'd buy a house.", "Gdybym wygrał w lotto, kupiłbym dom."] } },
+      { "t": "punkty", "tytul": "If I were you…", "punkty": [
+        "Rada: **If I were you, I'd** talk to her.",
+        "Na twoim miejscu porozmawiałbym z nią.",
+        "Na egzaminie bezpieczniej: **were** przy każdej osobie (If he were…)."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ If I would have money… → ✅ If I **had** money…",
+        "❌ If I am you… → ✅ If I **were** you…",
+        "❌ I would bought it → ✅ I would **buy** it"
+      ], "uwaga": "**would** nigdy w części z if." }
+    ]
+  },
+  {
+    "id": 24,
+    "typ": "quiz",
+    "dzial": "Conditionals",
+    "temat": "Quiz: stative verbs i okresy 0–2",
+    "opis": "Sprawdź, czy pamiętasz czasowniki stanu i pierwsze okresy warunkowe.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "If you know it, **you'll pass**", "pod": "3 zadania – sprawdź się 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "If I ___ you, I would apologise.", "odp": ["am", "were", "will be", "would be"] },
+      { "t": "odpowiedz", "poprawna": "B. were", "tresc": "Rada w 2nd Conditional: **If I were you** – na twoim miejscu." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "If you ___ (not / leave) now, you'll be late." },
+      { "t": "odpowiedz", "poprawna": "don't leave", "tresc": "1st Conditional: if + **Present Simple**, will + forma podstawowa." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "Sorry, I'm not understanding this question." },
+      { "t": "odpowiedz", "poprawna": "Sorry, I **don't understand** this question.", "tresc": "**understand** to czasownik stanu – nie używamy go w formie Continuous." }
+    ]
+  },
+  {
+    "id": 25,
+    "typ": "lekcja",
+    "dzial": "Conditionals",
+    "temat": "Third Conditional",
+    "opis": "Gdybym się uczył, zdałbym… Trzeci okres warunkowy, czyli gdybanie o przeszłości.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #25", "tytul": "Gdybym wtedy… **3rd Conditional**", "pod": "Gdybanie o przeszłości, której nie zmienisz 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**If + Past Perfect, would have + III forma**",
+        "If I **had studied**, I **would have passed**.",
+        "Gdybym się uczył, zdałbym (ale nie zdałem)."
+      ] },
+      { "t": "punkty", "tytul": "Kiedy go używasz?", "punkty": [
+        "Sytuacja **w przeszłości**, która się nie wydarzyła",
+        "Żal, krytyka, wyobrażanie sobie innego scenariusza",
+        "If you **had told** me, I **would have helped**.",
+        "Gdybyś mi powiedział, pomógłbym."
+      ] },
+      { "t": "porownanie", "tytul": "2nd czy 3rd?", "lewa": { "naglowek": "2nd – teraz", "punkty": ["If I **had** a car, I'd drive you.", "Gdybym miał auto (teraz), podwiózłbym cię."] }, "prawa": { "naglowek": "3rd – przeszłość", "punkty": ["If I **had had** a car, I'd **have driven** you.", "Gdybym miał wtedy auto, podwiózłbym cię."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ If I would have known… → ✅ If I **had known**…",
+        "❌ I would have went → ✅ I would have **gone**",
+        "❌ If I studied, I would have passed → ✅ If I **had studied**…"
+      ], "uwaga": "Skrót **I'd** może znaczyć I **had** albo I **would** – patrz na kontekst." }
+    ]
+  },
+  {
+    "id": 26,
+    "typ": "lekcja",
+    "dzial": "Conditionals",
+    "temat": "Mixed Conditionals",
+    "opis": "Okresy mieszane łączą przeszłość z teraźniejszością. Dwa schematy, które warto znać na rozszerzenie.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #26", "tytul": "Okresy **mieszane** – 2 schematy", "pod": "Przydatne zwłaszcza na rozszerzeniu 👉" },
+      { "t": "punkty", "tytul": "Przeszłość → skutek teraz", "punkty": [
+        "**If + Past Perfect, would + forma podstawowa**",
+        "If I **had studied** medicine, I **would be** a doctor now.",
+        "Gdybym studiował medycynę, byłbym teraz lekarzem."
+      ] },
+      { "t": "punkty", "tytul": "Teraz → skutek w przeszłości", "punkty": [
+        "**If + Past Simple, would have + III forma**",
+        "If I **were** braver, I **would have asked** her out.",
+        "Gdybym był odważniejszy (w ogóle), zaprosiłbym ją na randkę."
+      ] },
+      { "t": "porownanie", "tytul": "Jak rozpoznać?", "lewa": { "naglowek": "Patrz na czas", "punkty": ["wtedy → Past Perfect", "teraz, ogólnie → Past Simple"] }, "prawa": { "naglowek": "Sygnały", "punkty": ["now, today → would + forma podstawowa", "yesterday, last year → would have + III"] } },
+      { "t": "punkty", "tytul": "Szybkie podsumowanie okresów", "punkty": [
+        "**0**: If + Present, Present",
+        "**1**: If + Present, will",
+        "**2**: If + Past Simple, would",
+        "**3**: If + Past Perfect, would have + III"
+      ] }
+    ]
+  },
+  {
+    "id": 27,
+    "typ": "quiz",
+    "dzial": "Conditionals",
+    "temat": "Quiz: okresy warunkowe",
+    "opis": "Trzeci okres i okresy mieszane – trzy zadania na sprawdzenie.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Gdybyś to wiedział… **sprawdź!**", "pod": "Okresy warunkowe – 3 zadania 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "If she had left earlier, she ___ the bus.", "odp": ["wouldn't miss", "won't miss", "wouldn't have missed", "didn't miss"] },
+      { "t": "odpowiedz", "poprawna": "C. wouldn't have missed", "tresc": "Przeszłość, która się nie wydarzyła → 3rd Conditional: **would have + III forma**." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "If I hadn't gone to bed so late last night, I ___ (not / be) so tired now." },
+      { "t": "odpowiedz", "poprawna": "wouldn't be", "tresc": "Przeszłość (last night) → skutek **teraz** (now) → okres mieszany: would + forma podstawowa." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "If you would have asked me, I would have helped you." },
+      { "t": "odpowiedz", "poprawna": "If you **had asked** me, I would have helped you.", "tresc": "W części z **if** nigdy nie ma would – tu Past Perfect." }
+    ]
+  },
+  {
+    "id": 28,
+    "typ": "lekcja",
+    "dzial": "Grammar",
+    "temat": "I wish / If only",
+    "opis": "Jak po angielsku żałować i marzyć? I wish i If only w trzech wersjach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #28", "tytul": "Szkoda, że… = **I wish**", "pod": "3 schematy, które musisz rozróżniać 👉" },
+      { "t": "punkty", "tytul": "Żal dotyczący teraźniejszości", "punkty": [
+        "**I wish + Past Simple**",
+        "I wish I **had** a car. – Szkoda, że nie mam auta.",
+        "I wish I **were** taller. – Chciałbym być wyższy."
+      ] },
+      { "t": "punkty", "tytul": "Żal dotyczący przeszłości", "punkty": [
+        "**I wish + Past Perfect**",
+        "I wish I **hadn't said** that. – Żałuję, że to powiedziałem.",
+        "I wish I **had studied** more. – Szkoda, że nie uczyłem się więcej."
+      ] },
+      { "t": "punkty", "tytul": "Irytacja – ktoś inny", "punkty": [
+        "**I wish + somebody + would**",
+        "I wish you **would stop** shouting. – Przestań wreszcie krzyczeć.",
+        "I wish it **would stop** raining. – Oby przestało padać."
+      ], "uwaga": "Nie mów ❌ I wish I would… – o sobie używasz **Past Simple**." },
+      { "t": "punkty", "tytul": "If only = mocniej", "numeruj": false, "punkty": [
+        "Te same schematy, ale z większymi emocjami:",
+        "**If only** I **knew** the answer! – Gdybym tylko znał odpowiedź!",
+        "**If only** I **hadn't missed** the train! – Gdybym tylko nie spóźnił się na pociąg!"
+      ] }
+    ]
+  },
+  {
+    "id": 29,
+    "typ": "lekcja",
+    "dzial": "Passive Voice",
+    "temat": "Strona bierna – podstawy",
+    "opis": "Strona bierna wraca na maturze w zadaniach z transformacją zdań. Zaczynamy od podstaw.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #29", "tytul": "Strona bierna **w 3 krokach**", "pod": "Ważne, kto coś zrobił? Nie zawsze 👉" },
+      { "t": "punkty", "tytul": "Budowa", "punkty": [
+        "**be + III forma** czasownika",
+        "English **is spoken** here. – Tu mówi się po angielsku.",
+        "The house **was built** in 1900. – Dom został zbudowany w 1900."
+      ] },
+      { "t": "punkty", "tytul": "Jak zamienić zdanie?", "punkty": [
+        "Dopełnienie staje się **podmiotem**: Shakespeare wrote **Hamlet**.",
+        "**be** w tym samym czasie co oryginał + III forma",
+        "**Hamlet was written** by Shakespeare."
+      ] },
+      { "t": "punkty", "tytul": "Kiedy jej używasz?", "numeruj": false, "punkty": [
+        "Wykonawca **nieznany**: My bike was stolen. – Ukradziono mi rower.",
+        "Wykonawca **nieważny**: The room is cleaned every day.",
+        "Pokój jest sprzątany codziennie.",
+        "Wykonawcę dodajesz przez **by**: …by Shakespeare"
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I am born in 2008 → ✅ I **was born** in 2008",
+        "❌ The letter was wrote → ✅ The letter was **written**",
+        "❌ It made in China → ✅ It **is made** in China"
+      ] }
+    ]
+  },
+  {
+    "id": 30,
+    "typ": "lekcja",
+    "dzial": "Passive Voice",
+    "temat": "Strona bierna w różnych czasach",
+    "opis": "Strona bierna w każdym czasie działa tak samo – zmienia się tylko forma be. Zobacz tabelkę.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #30", "tytul": "Passive w każdym czasie – **jeden trik**", "pod": "Zmieniasz tylko „be” 👉" },
+      { "t": "punkty", "tytul": "Czasy proste i Perfect", "numeruj": false, "punkty": [
+        "Present Simple: it **is** done",
+        "Past Simple: it **was** done",
+        "Present Perfect: it **has been** done",
+        "Future: it **will be** done"
+      ] },
+      { "t": "punkty", "tytul": "Continuous i modalne", "numeruj": false, "punkty": [
+        "Present Continuous: it **is being** done",
+        "Past Continuous: it **was being** done",
+        "Modal: it **must / can / should be** done"
+      ] },
+      { "t": "punkty", "tytul": "Przykłady", "punkty": [
+        "The road **is being repaired**. – Droga jest (właśnie) remontowana.",
+        "The results **have been published**. – Wyniki zostały opublikowane.",
+        "The tickets **will be sent** by e-mail. – Bilety zostaną wysłane e-mailem."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ The road is repairing → ✅ The road **is being repaired**",
+        "❌ It has done → ✅ It **has been** done",
+        "❌ It must to be done → ✅ It **must be** done"
+      ] }
+    ]
+  },
+  {
+    "id": 31,
+    "typ": "quiz",
+    "dzial": "Passive Voice",
+    "temat": "Quiz: I wish i strona bierna",
+    "opis": "Trzy zadania z I wish i strony biernej. Sprawdź się!",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "I wish I knew… **a ty wiesz?**", "pod": "I wish i strona bierna – 3 zadania 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "I didn't go to the party. I wish I ___ .", "odp": ["went", "had gone", "would go", "go"] },
+      { "t": "odpowiedz", "poprawna": "B. had gone", "tresc": "Żal dotyczący **przeszłości** → I wish + Past Perfect." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę (strona bierna)", "tresc": "This bridge ___ (build) in 1925." },
+      { "t": "odpowiedz", "poprawna": "was built", "tresc": "Podany rok → Past Simple. Strona bierna: **was + III forma** (build – built – built)." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "My phone is repairing at the moment." },
+      { "t": "odpowiedz", "poprawna": "My phone **is being repaired** at the moment.", "tresc": "Telefon nie naprawia sam siebie → strona bierna w Present Continuous: **is being + III forma**." }
+    ]
+  },
+  {
+    "id": 32,
+    "typ": "lekcja",
+    "dzial": "Reported Speech",
+    "temat": "Mowa zależna – zdania twierdzące",
+    "opis": "Jak przekazać, co ktoś powiedział? Przesunięcie czasów i słówek w mowie zależnej.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #32", "tytul": "Powiedział, że… – **mowa zależna**", "pod": "Przesuwasz czas o krok w tył 👉" },
+      { "t": "punkty", "tytul": "Przesunięcie czasów", "numeruj": false, "punkty": [
+        "Present Simple → **Past Simple**",
+        "Present Continuous → **Past Continuous**",
+        "Past Simple / Present Perfect → **Past Perfect**",
+        "will → **would**, can → **could**"
+      ] },
+      { "t": "punkty", "tytul": "Przykład", "punkty": [
+        "„I**'m** tired,” she said.",
+        "→ She said (that) she **was** tired.",
+        "Powiedziała, że jest zmęczona."
+      ], "uwaga": "Po polsku nie zmieniamy czasu – po angielsku **tak**." },
+      { "t": "porownanie", "tytul": "Zmiana określeń", "lewa": { "naglowek": "Mowa niezależna", "punkty": ["today, now", "tomorrow", "yesterday", "here"] }, "prawa": { "naglowek": "Mowa zależna", "punkty": ["that day, then", "the next day", "the day before", "there"] } },
+      { "t": "porownanie", "tytul": "say czy tell?", "lewa": { "naglowek": "say (bez osoby)", "punkty": ["He **said** (that) he was busy.", "He said **to me**…"] }, "prawa": { "naglowek": "tell + osoba", "punkty": ["He **told me** (that) he was busy.", "❌ He said me…"] } }
+    ]
+  },
+  {
+    "id": 33,
+    "typ": "lekcja",
+    "dzial": "Reported Speech",
+    "temat": "Mowa zależna – pytania i polecenia",
+    "opis": "Pytania i polecenia w mowie zależnej – tu najczęściej pojawiają się błędy w szyku zdania.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #33", "tytul": "Zapytał, **gdzie mieszkam**", "pod": "Pytania i polecenia w mowie zależnej 👉" },
+      { "t": "punkty", "tytul": "Pytania z wh-", "punkty": [
+        "„Where **do you live**?” → He asked me where **I lived**.",
+        "Zapytał mnie, gdzie mieszkam.",
+        "Szyk jak w **zdaniu twierdzącym**: podmiot + czasownik, bez do/did"
+      ] },
+      { "t": "punkty", "tytul": "Pytania tak/nie", "punkty": [
+        "Dodajesz **if** albo **whether**",
+        "„Are you ready?” → She asked **if I was** ready.",
+        "Zapytała, czy jestem gotowy."
+      ] },
+      { "t": "punkty", "tytul": "Polecenia i prośby", "punkty": [
+        "**told / asked + osoba + to + czasownik**",
+        "„Close the door.” → He told me **to close** the door.",
+        "„Don't be late.” → She told us **not to be** late."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ He asked where did I live → ✅ He asked where **I lived**",
+        "❌ She asked me was I ready → ✅ She asked me **if I was** ready",
+        "❌ He told me don't go → ✅ He told me **not to go**"
+      ], "uwaga": "Na końcu pytania zależnego stawiasz **kropkę**, nie znak zapytania." }
+    ]
+  },
+  {
+    "id": 34,
+    "typ": "quiz",
+    "dzial": "Reported Speech",
+    "temat": "Quiz: mowa zależna",
+    "opis": "Przekształć, uzupełnij, popraw – trzy zadania z mowy zależnej.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "She said… **co powiedziała?**", "pod": "Mowa zależna – 3 zadania 👉" },
+      { "t": "pytanie", "tytul": "Wybierz poprawną formę", "tresc": "Tom ___ me that he was moving to Kraków.", "odp": ["said", "told", "asked", "spoke"] },
+      { "t": "odpowiedz", "poprawna": "B. told", "tresc": "Po luce jest osoba (**me**) → told. „Said me” jest niepoprawne." },
+      { "t": "pytanie", "tytul": "Uzupełnij lukę", "tresc": "„I will call you,” Anna said.\nAnna said that she ___ me." },
+      { "t": "odpowiedz", "poprawna": "would call", "tresc": "W mowie zależnej **will → would**." },
+      { "t": "pytanie", "tytul": "Popraw błąd", "tresc": "My mum asked me what time did I come home." },
+      { "t": "odpowiedz", "poprawna": "…asked me what time **I came** home.", "tresc": "W pytaniu zależnym szyk twierdzący i **bez did**." }
+    ]
+  },
+  {
+    "id": 35,
+    "typ": "lekcja",
+    "dzial": "Modal Verbs",
+    "temat": "must vs have to",
+    "opis": "Must czy have to? I dlaczego mustn't i don't have to znaczą coś zupełnie innego.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #35", "tytul": "Mustn't ≠ **don't have to**", "pod": "Ta pomyłka zmienia sens zdania 👉" },
+      { "t": "porownanie", "tytul": "must vs have to", "lewa": { "naglowek": "must", "punkty": ["obowiązek od mówiącego", "I **must** call Mum.", "Muszę zadzwonić do mamy (sam tak uważam)."] }, "prawa": { "naglowek": "have to", "punkty": ["obowiązek z zewnątrz", "I **have to** wear a uniform.", "Muszę nosić mundurek (taki przepis)."] } },
+      { "t": "porownanie", "tytul": "Uwaga na przeczenia!", "lewa": { "naglowek": "mustn't = nie wolno", "punkty": ["You **mustn't** use phones during the exam.", "Nie wolno używać telefonów."] }, "prawa": { "naglowek": "don't have to = nie musisz", "punkty": ["You **don't have to** come.", "Nie musisz przychodzić (ale możesz)."] } },
+      { "t": "punkty", "tytul": "must w innych czasach", "punkty": [
+        "must nie ma formy przeszłej – używasz **had to**",
+        "Yesterday I **had to** get up at 5. – Wczoraj musiałem wstać o 5.",
+        "Przyszłość: I**'ll have to** work. – Będę musiał pracować."
+      ] },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ I must to go → ✅ I must **go**",
+        "❌ She must went → ✅ She **had to** go",
+        "❌ He have to work → ✅ He **has to** work"
+      ], "uwaga": "Po czasownikach modalnych **bez to** (wyjątek: have to, ought to)." }
+    ]
+  },
+  {
+    "id": 36,
+    "typ": "lekcja",
+    "dzial": "Modal Verbs",
+    "temat": "should, might, must i can't",
+    "opis": "Rady, możliwość i pewność – modal verbs w najczęstszych znaczeniach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "ENGLISH #36", "tytul": "Rada, może, na pewno – **modal verbs**", "pod": "should, might, must, can't 👉" },
+      { "t": "punkty", "tytul": "should – rada", "punkty": [
+        "You **should** sleep more. – Powinieneś więcej spać.",
+        "You **shouldn't** eat so much sugar. – Nie powinieneś jeść tyle cukru.",
+        "**Should** I call her? – Czy powinienem do niej zadzwonić?"
+      ] },
+      { "t": "punkty", "tytul": "might / may / could – możliwość", "punkty": [
+        "It **might** rain later. – Później może padać.",
+        "She **may** be at home. – Może jest w domu.",
+        "**might not** = może nie: I might not come. – Może nie przyjdę."
+      ] },
+      { "t": "porownanie", "tytul": "Dedukcja: pewność", "lewa": { "naglowek": "must = na pewno tak", "punkty": ["The lights are on. He **must** be at home.", "Musi być w domu."] }, "prawa": { "naglowek": "can't = na pewno nie", "punkty": ["She **can't** be 40! She looks 20.", "Niemożliwe, żeby miała 40 lat."] } },
+      { "t": "punkty", "tytul": "Typowe błędy ⚠️", "numeruj": false, "punkty": [
+        "❌ You should to rest → ✅ You should **rest**",
+        "❌ He mustn't be at home (= na pewno nie) → ✅ He **can't** be at home",
+        "❌ She mights come → ✅ She **might** come"
+      ], "uwaga": "Modalne nie dostają **-s** w 3. osobie." }
+    ]
+  }
+]

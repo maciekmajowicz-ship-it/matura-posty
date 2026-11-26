@@ -1,0 +1,2054 @@
+[
+  {
+    "id": 1,
+    "typ": "lekcja",
+    "dzial": "Matura",
+    "temat": "Jak wygląda matura z polskiego",
+    "opis": "Zanim ruszymy z epokami – krótko o tym, z czego składa się matura z polskiego. Zapisz, żeby mieć plan w jednym miejscu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "MATURA 2027",
+        "tytul": "Matura z polskiego **w pigułce**",
+        "pod": "Wiesz, co cię czeka? Sprawdź w minutę 👉"
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Dwie części egzaminu",
+        "lewa": {
+          "naglowek": "Pisemna ✍️",
+          "punkty": [
+            "Test: czytanie i język",
+            "Test z wiedzy o literaturze",
+            "**Wypracowanie**"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Ustna 🗣️",
+          "punkty": [
+            "Losujesz zestaw zadań",
+            "Chwila na przygotowanie",
+            "Wypowiedź + **rozmowa** z komisją"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Wypracowanie – co trzeba wiedzieć",
+        "punkty": [
+          "Minimum **300 słów**",
+          "Odwołujesz się do **lektury obowiązkowej**",
+          "Dokładasz inny tekst i **kontekst**",
+          "Liczy się też **poprawność języka**"
+        ],
+        "uwaga": "Za mało słów = poważna strata punktów. Licz je na próbnych!"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Jak będziemy się uczyć",
+        "numeruj": false,
+        "punkty": [
+          "📚 **Epoki po kolei** – od antyku do współczesności",
+          "✍️ Co kilka postów: **język i pisanie**",
+          "🧠 Co 2–3 lekcje: **quiz** z tego, co już było"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Jedna rada na start",
+        "punkty": [
+          "Lektury czytaj **z ołówkiem**: bohaterowie, motywy, cytaty",
+          "Do każdej lektury zapisz **2–3 problemy**, o których można pisać",
+          "Szczegóły egzaminu sprawdzaj w **informatorze CKE**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Antyk – ramy i cechy epoki",
+    "opis": "Antyk to fundament całej literatury europejskiej. Daty, najważniejsze pojęcia i filozofowie – w jednym poście.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #1",
+        "tytul": "Antyk: tu **wszystko się zaczęło**",
+        "pod": "Bez tej epoki nie zrozumiesz reszty 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "**Antyk** = starożytność (łac. antiquus – dawny)",
+          "Dwie kultury: **Grecja** i **Rzym**",
+          "Początek literatury: eposy **Homera** (ok. VIII w. p.n.e.)",
+          "Umowny koniec: **476 r. n.e.** – upadek cesarstwa zachodniorzymskiego"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "**Antropocentryzm** – w centrum uwagi jest człowiek",
+          "**Harmonia i umiar** – ideał piękna i ładu",
+          "**Mimesis** – sztuka naśladuje rzeczywistość",
+          "**Kalokagatia** – jedność piękna i dobra"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Filozofowie, których musisz znać",
+        "punkty": [
+          "**Sokrates** – „wiem, że nic nie wiem”",
+          "**Platon** – świat idei i świat rzeczy",
+          "**Arystoteles** – „Poetyka”, pojęcie katharsis",
+          "**Stoicy** – spokój wobec losu; **Epikur** – mądre szczęście"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Antyk dał nam gatunki",
+        "numeruj": false,
+        "punkty": [
+          "📜 **Epos** – „Iliada” i „Odyseja” Homera",
+          "🎭 **Tragedia** i **komedia**",
+          "🎶 **Liryka**: oda, hymn, elegia, tren"
+        ],
+        "uwaga": "Kolejne epoki ciągle **wracają do antyku** – zwłaszcza renesans i klasycyzm."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Mity o karze: Prometeusz, Syzyf, Tantal",
+    "opis": "Trzy mity, które wracają w literaturze od tysięcy lat. Wiesz, czym jest prometeizm i syzyfowa praca?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #2",
+        "tytul": "Trzej **ukarani przez bogów**",
+        "pod": "Te mity przydadzą się w każdym wypracowaniu 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Prometeusz 🔥",
+        "punkty": [
+          "Wykradł bogom **ogień** i dał go ludziom",
+          "Kara: przykuty do skały na **Kaukazie**",
+          "Orzeł wyjadał mu wątrobę, która **odrastała**",
+          "Uwolnił go **Herakles**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Prometeizm – motyw do wypracowań",
+        "punkty": [
+          "**Poświęcenie się** dla dobra ludzkości",
+          "**Bunt** przeciw bogom w imię ludzi",
+          "Romantyczny przykład: **Konrad** z III cz. „Dziadów”"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Syzyf vs Tantal",
+        "lewa": {
+          "naglowek": "Syzyf 🪨",
+          "punkty": [
+            "Oszukiwał bogów",
+            "Wtacza głaz pod górę",
+            "Głaz zawsze się stacza",
+            "→ **syzyfowa praca**"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Tantal 🍇",
+          "punkty": [
+            "Okrutnie wystawił bogów na próbę",
+            "Stoi w wodzie pod owocami",
+            "Nie może pić ani jeść",
+            "→ **męki Tantala**"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Co z tym zrobić na maturze?",
+        "punkty": [
+          "Syzyf = **wysiłek bez końca** i bez efektu",
+          "Tantal = cierpienie z powodu **niezaspokojonych pragnień**",
+          "Prometeusz = **poświęcenie i bunt**"
+        ],
+        "uwaga": "Albert Camus w eseju „Mit Syzyfa” pokazał Syzyfa jako symbol ludzkiej egzystencji."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Mity o miłości i stracie",
+    "opis": "Orfeusz, Demeter i Narcyz – mity o miłości, rozpaczy i zapatrzeniu w siebie. Każdy z nich to gotowy kontekst.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #3",
+        "tytul": "Miłość **silniejsza niż śmierć?**",
+        "pod": "Trzy mity, które musisz znać 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Orfeusz i Eurydyka 🎵",
+        "punkty": [
+          "Eurydyka umiera ukąszona przez **węża**",
+          "Orfeusz schodzi do **Hadesu** i wzrusza bogów śpiewem",
+          "Warunek: **nie oglądać się** za siebie",
+          "Odwraca się – i **traci ją na zawsze**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Demeter i Persefona 🌾",
+        "punkty": [
+          "**Hades** porywa Persefonę, córkę Demeter",
+          "Zrozpaczona matka sprawia, że **ziemia nie rodzi**",
+          "Persefona część roku spędza **w podziemiu**",
+          "Mit tłumaczy **pory roku**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Narcyz 🌼",
+        "punkty": [
+          "Piękny młodzieniec zakochał się we **własnym odbiciu**",
+          "Wpatrzony w nie, umarł nad wodą",
+          "W tym miejscu wyrósł **kwiat narcyza**"
+        ],
+        "uwaga": "Stąd **narcyzm** – nadmierne skupienie na sobie."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Motywy do wypracowań",
+        "punkty": [
+          "Orfeusz – **potęga sztuki** i miłość wobec śmierci",
+          "Demeter – **rozpacz matki** po stracie dziecka",
+          "Narcyz – **egocentryzm** i pycha"
+        ],
+        "uwaga": "Czesław Miłosz napisał wiersz „Orfeusz i Eurydyka” po śmierci żony."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Mitologia w związkach frazeologicznych",
+    "opis": "Nić Ariadny, pięta Achillesa, puszka Pandory… Skąd się wzięły i co znaczą? Zapisz – to pojawia się w testach.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #4",
+        "tytul": "Mówisz mitami **na co dzień**",
+        "pod": "8 związków frazeologicznych z mitologii 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Dedal i Ikar 🪶",
+        "punkty": [
+          "Uciekają z **Krety** na skrzydłach z piór i wosku",
+          "Ikar leci **za blisko słońca**",
+          "Wosk się topi, Ikar **spada do morza**"
+        ],
+        "uwaga": "Motyw: **młodzieńczy zapał** i brak umiaru kontra rozwaga ojca."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Frazeologizmy – część 1",
+        "punkty": [
+          "**Nić Ariadny** – sposób na wyjście z trudnej sytuacji",
+          "**Pięta Achillesa** – czyjś słaby punkt",
+          "**Puszka Pandory** – źródło nieszczęść",
+          "**Koń trojański** – podstęp, ukryte zagrożenie"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Frazeologizmy – część 2",
+        "punkty": [
+          "**Jabłko niezgody** – przyczyna sporu",
+          "**Stajnia Augiasza** – ogromny bałagan",
+          "**Odyseja** – długa wędrówka pełna przygód",
+          "**Syzyfowa praca** – wysiłek bez efektu"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Skąd się wzięły?",
+        "punkty": [
+          "Ariadna dała **Tezeuszowi** nić, by wyszedł z labiryntu",
+          "Matka zanurzyła Achillesa w **Styksie**, trzymając go za piętę",
+          "Jabłko „dla najpiękniejszej” → sąd Parysa → **wojna trojańska**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "typ": "quiz",
+    "dzial": "Antyk",
+    "temat": "Quiz: antyk i mitologia",
+    "opis": "Sprawdź, ile zostało ci w głowie z pierwszych lekcji o antyku.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Mitologia: **zdasz ten test?**",
+        "pod": "3 pytania – odpowiedzi na kolejnych slajdach 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto **wykradł bogom ogień** i dał go ludziom?",
+        "odp": [
+          "Syzyf",
+          "Prometeusz",
+          "Tantal",
+          "Orfeusz"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. Prometeusz",
+        "tresc": "Za karę przykuto go do skały na Kaukazie. Stąd **prometeizm** – poświęcenie dla ludzkości."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "„To prawdziwa **stajnia Augiasza**!” – co oznacza ten związek?",
+        "odp": [
+          "słaby punkt",
+          "przyczyna sporu",
+          "ogromny bałagan",
+          "podstęp"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. ogromny bałagan",
+        "tresc": "Jedną z prac **Heraklesa** było oczyszczenie zaniedbanych stajni króla Augiasza."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Co oznacza pojęcie **kalokagatia**?",
+        "odp": [
+          "naśladowanie rzeczywistości",
+          "jedność piękna i dobra",
+          "oczyszczenie przez litość i trwogę",
+          "pycha wobec bogów"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. jedność piękna i dobra",
+        "tresc": "To grecki ideał człowieka: **piękny i dobry** jednocześnie."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Środki stylistyczne – paczka 1",
+    "opis": "Epitet, porównanie, metafora, personifikacja, apostrofa – pięć środków, które rozpoznasz w każdym wierszu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #1",
+        "tytul": "5 środków, które są **w każdym wierszu**",
+        "pod": "Paczka nr 1 – zapisz i ucz się po kolei 👉"
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Epitet vs porównanie",
+        "lewa": {
+          "naglowek": "Epitet",
+          "punkty": [
+            "Określa rzeczownik",
+            "**zielony** las",
+            "noc **ciemna**"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Porównanie",
+          "punkty": [
+            "Zestawia dwie rzeczy",
+            "Słówka: **jak, niby, jakby**",
+            "oczy **jak gwiazdy**"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Metafora (przenośnia)",
+        "punkty": [
+          "Słowa zyskują **nowe, przenośne** znaczenie",
+          "Nie ma słówka „jak”",
+          "Przykład: **morze łez**, **jesień życia**"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Personifikacja vs apostrofa",
+        "lewa": {
+          "naglowek": "Personifikacja",
+          "punkty": [
+            "Nadaje cechy **człowieka**",
+            "Rzeczom lub zjawiskom",
+            "„Wiatr **płacze** za oknem”"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Apostrofa",
+          "punkty": [
+            "**Bezpośredni zwrot** do kogoś",
+            "Często z wołaczem i „o”",
+            "„**Litwo! Ojczyzno moja!**”"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Jak pisać o środkach na maturze?",
+        "punkty": [
+          "Nie tylko **nazwij** środek",
+          "Napisz, **jaką ma funkcję**: co podkreśla, jakie budzi emocje",
+          "Wzór: „Metafora … **podkreśla** …”"
+        ],
+        "uwaga": "Samo wypisanie środków bez funkcji to zwykle **za mało**."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Teatr grecki i tragedia",
+    "opis": "Skąd wziął się teatr, jak zbudowana jest tragedia i czym są katharsis, fatum i hybris.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #5",
+        "tytul": "Teatr narodził się **ku czci boga**",
+        "pod": "Wszystko o tragedii greckiej 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Teatr grecki – podstawy",
+        "punkty": [
+          "Wyrósł z obrzędów ku czci **Dionizosa**",
+          "Grali tylko **mężczyźni**, w maskach",
+          "Na scenie **chór** i najwyżej trzech aktorów",
+          "Wielcy tragicy: **Ajschylos, Sofokles, Eurypides**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Budowa tragedii",
+        "punkty": [
+          "**Prolog** – wprowadzenie",
+          "**Parodos** – wejście chóru",
+          "**Epejsodia** (sceny) przeplatane **stasimonami** (pieśni chóru)",
+          "**Exodos** – zakończenie i wyjście chóru"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Zasady tragedii",
+        "punkty": [
+          "**Trzy jedności**: czasu, miejsca i akcji",
+          "**Decorum** – styl dopasowany do tematu",
+          "Drastyczne sceny dzieją się **poza sceną**",
+          "Bohaterowie pochodzą z **wysokiego rodu**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Pojęcia, które musisz znać",
+        "punkty": [
+          "**Fatum** – nieuchronne przeznaczenie",
+          "**Hybris** – pycha wobec bogów",
+          "**Tragizm** – każdy wybór prowadzi do klęski",
+          "**Katharsis** – oczyszczenie widza przez litość i trwogę"
+        ],
+        "uwaga": "Katharsis opisał **Arystoteles** w „Poetyce”."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "„Antygona” – fabuła i bohaterowie",
+    "opis": "„Antygona” Sofoklesa krok po kroku: kto jest kim i co się dzieje. Zapisz przed czytaniem lektury.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #6",
+        "tytul": "„Antygona” w **5 minut**",
+        "pod": "Fabuła i bohaterowie tragedii Sofoklesa 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Punkt wyjścia",
+        "punkty": [
+          "Synowie Edypa, **Eteokles** i **Polinejkes**, giną w walce ze sobą",
+          "Władzę w Tebach przejmuje ich wuj **Kreon**",
+          "Zakazuje pochować Polinejkesa – **zdrajcę**, który najechał miasto"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przebieg akcji",
+        "punkty": [
+          "**Antygona** łamie zakaz i grzebie brata",
+          "Jej siostra **Ismena** najpierw odmawia pomocy",
+          "Kreon skazuje Antygonę na **zamurowanie** w grocie",
+          "Ostrzeżony przez wróżbitę **Tejrezjasza** zmienia zdanie – za późno"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Tragiczny finał",
+        "punkty": [
+          "Antygona **odbiera sobie życie**",
+          "**Hajmon**, syn Kreona i narzeczony Antygony, zabija się",
+          "Samobójstwo popełnia też **Eurydyka**, żona Kreona",
+          "Kreon zostaje sam – **złamany**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Współkochać przyszłam, nie współnienawidzić.",
+        "autor": "Sofokles, „Antygona” (przekł. K. Morawski)",
+        "opis": "Słowa Antygony do Kreona – jej postawa wyrasta z **miłości**, nie z nienawiści."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "„Antygona” – konflikt racji",
+    "opis": "Kto ma rację: Antygona czy Kreon? To najważniejszy problem tragedii – i świetny temat wypracowania.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #7",
+        "tytul": "Antygona czy Kreon – **kto ma rację?**",
+        "pod": "Klucz do tej lektury 👉"
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Dwie racje",
+        "lewa": {
+          "naglowek": "Antygona",
+          "punkty": [
+            "**Prawo boskie**",
+            "Obowiązek wobec rodziny",
+            "Głos sumienia"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Kreon",
+          "punkty": [
+            "**Prawo państwowe**",
+            "Ład i bezpieczeństwo miasta",
+            "Autorytet władcy"
+          ]
+        },
+        "uwaga": "Obie racje da się uzasadnić – i na tym polega **tragizm**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Dlaczego to tragedia?",
+        "punkty": [
+          "Antygona: albo **złamie prawo**, albo **zdradzi brata**",
+          "Każdy wybór kończy się **klęską**",
+          "Nad rodem Labdakidów ciąży **fatum**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Wina Kreona",
+        "punkty": [
+          "**Upór** – nie słucha syna ani chóru",
+          "**Pycha (hybris)** – stawia swoje prawo ponad boskim",
+          "Kara: traci **syna i żonę**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Tematy wypracowań z „Antygoną”",
+        "punkty": [
+          "Jednostka wobec **władzy**",
+          "Prawo stanowione a **sumienie**",
+          "Postawa **niezłomna** – bunt w imię wartości",
+          "Władca i jego **odpowiedzialność**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "typ": "quiz",
+    "dzial": "Antyk",
+    "temat": "Quiz: teatr i „Antygona”",
+    "opis": "Teatr grecki i „Antygona” – sprawdź się, zanim przejdziemy do Biblii.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "„Antygona”: **pamiętasz szczegóły?**",
+        "pod": "3 pytania z teatru greckiego 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Jak nazywa się **pieśń chóru** przeplatająca epejsodia w tragedii greckiej?",
+        "odp": [
+          "prolog",
+          "stasimon",
+          "exodos",
+          "katharsis"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. stasimon",
+        "tresc": "**Parodos** to wejście chóru, **exodos** – zakończenie, a **stasimony** to pieśni między epejsodiami."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto w „Antygonie” jest **synem Kreona** i narzeczonym Antygony?",
+        "odp": [
+          "Polinejkes",
+          "Tejrezjasz",
+          "Hajmon",
+          "Eteokles"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Hajmon",
+        "tresc": "Hajmon broni Antygony przed ojcem, a po jej śmierci **odbiera sobie życie**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Jaką wartość reprezentuje **Antygona**?",
+        "odp": [
+          "prawo państwowe",
+          "posłuszeństwo władcy",
+          "prawo boskie i obowiązek wobec rodziny",
+          "dobro miasta ponad wszystko"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. prawo boskie i obowiązek wobec rodziny",
+        "tresc": "Kreon broni **prawa państwowego** – stąd tragiczny konflikt racji."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "typ": "lekcja",
+    "dzial": "Biblia",
+    "temat": "Biblia i Księga Rodzaju",
+    "opis": "Biblia to druga, obok antyku, podstawa kultury europejskiej. Zaczynamy od początku – od Księgi Rodzaju.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #8",
+        "tytul": "Biblia: **księga ksiąg**",
+        "pod": "Podstawy + Księga Rodzaju 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Biblia – podstawy",
+        "punkty": [
+          "Nazwa z greckiego: **biblia** – „księgi”",
+          "**Stary Testament** – przed narodzinami Chrystusa",
+          "**Nowy Testament** – życie i nauka Jezusa, początki Kościoła",
+          "Języki: **hebrajski, aramejski, grecki**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Polskie przekłady",
+        "punkty": [
+          "**Biblia Jakuba Wujka** (1599) – wpłynęła na polszczyznę",
+          "**Biblia Tysiąclecia** (1965) – najpopularniejszy współczesny przekład"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Księga Rodzaju – najważniejsze historie",
+        "punkty": [
+          "**Stworzenie świata** w sześć dni",
+          "**Adam i Ewa**: raj i grzech pierworodny",
+          "**Kain i Abel** – pierwsze bratobójstwo",
+          "**Potop** i arka Noego; **wieża Babel**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Motywy do wypracowań",
+        "punkty": [
+          "**Raj utracony** – tęsknota za szczęściem",
+          "**Kain** – zazdrość i zbrodnia",
+          "**Wieża Babel** – pycha i pomieszanie języków",
+          "**Abraham** – wiara wystawiona na próbę"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "typ": "lekcja",
+    "dzial": "Biblia",
+    "temat": "Hiob i Kohelet",
+    "opis": "Dlaczego cierpi niewinny? Czy wszystko jest marnością? Dwie biblijne księgi, które stawiają najtrudniejsze pytania.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #9",
+        "tytul": "Dlaczego cierpi **niewinny?**",
+        "pod": "Księga Hioba i Księga Koheleta 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Księga Hioba – fabuła",
+        "punkty": [
+          "Hiob – **sprawiedliwy**, bogaty i szczęśliwy",
+          "Szatan twierdzi, że jest wierny, bo mu się **powodzi**",
+          "Bóg pozwala go doświadczyć: Hiob traci **majątek, dzieci, zdrowie**",
+          "Mimo cierpienia **nie odwraca się od Boga**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Hiob – sens księgi",
+        "punkty": [
+          "Przyjaciele mówią: cierpisz, bo **zgrzeszyłeś**",
+          "Hiob wie, że jest **niewinny**",
+          "Bóg przemawia z wichru: człowiek **nie ogarnie** Jego zamysłów",
+          "Na końcu Hiob **odzyskuje** jeszcze więcej"
+        ],
+        "uwaga": "Motyw: **cierpienie niewinnego** i próba wiary."
+      },
+      {
+        "t": "cytat",
+        "cytat": "Marność nad marnościami – wszystko marność.",
+        "autor": "Księga Koheleta (Biblia Tysiąclecia)",
+        "opis": "Kohelet pokazuje, że **bogactwo, sława i wiedza** przemijają. Zostaje tylko Bóg."
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Hiob vs Kohelet",
+        "lewa": {
+          "naglowek": "Hiob",
+          "punkty": [
+            "Problem **cierpienia**",
+            "Opowieść z fabułą",
+            "Wiara mimo wszystko"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Kohelet",
+          "punkty": [
+            "Problem **przemijania**",
+            "Refleksja mędrca",
+            "Wszystko ma swój czas"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "typ": "lekcja",
+    "dzial": "Biblia",
+    "temat": "Psalmy i przypowieści",
+    "opis": "Psalmy to biblijna poezja, a przypowieści – opowieści z ukrytym sensem. Oba gatunki często wracają na maturze.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #10",
+        "tytul": "Biblia **w wierszach i opowieściach**",
+        "pod": "Psalmy i przypowieści 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Księga Psalmów",
+        "punkty": [
+          "**150 psalmów** – pieśni religijnych",
+          "Tradycyjnie przypisywane królowi **Dawidowi**",
+          "Rodzaje: **pochwalne**, **błagalne**, **dziękczynne**, **pokutne**",
+          "Typowy środek: **paralelizm** – powtarzanie budowy zdań"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Psalmy w polskiej literaturze",
+        "punkty": [
+          "Jan Kochanowski przełożył je wierszem: **„Psałterz Dawidów”** (1579)",
+          "Psalm = rozmowa człowieka z Bogiem: **radość, lęk, skarga**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przypowieść (parabola)",
+        "punkty": [
+          "Krótka opowieść z **dwoma znaczeniami**",
+          "Sens **dosłowny** – zwykła historia",
+          "Sens **przenośny** – prawda moralna lub religijna"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze przypowieści",
+        "punkty": [
+          "**O synu marnotrawnym** – przebaczenie i miłość ojca",
+          "**O miłosiernym Samarytaninie** – kim jest bliźni",
+          "**O siewcy** – jak przyjmujemy słowo Boże",
+          "**O talentach** – wykorzystanie darów"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "typ": "lekcja",
+    "dzial": "Biblia",
+    "temat": "Apokalipsa św. Jana",
+    "opis": "Ostatnia księga Biblii – pełna symboli, które literatura wykorzystuje do dziś. Co znaczą czterej jeźdźcy i liczba 666?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #11",
+        "tytul": "Koniec świata **w symbolach**",
+        "pod": "Apokalipsa św. Jana 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Co to za księga?",
+        "punkty": [
+          "**Ostatnia** księga Nowego Testamentu",
+          "Gr. apokalypsis – **objawienie**",
+          "Wizje św. Jana spisane na wyspie **Patmos**",
+          "Temat: **koniec świata** i ostateczne zwycięstwo dobra"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze symbole",
+        "punkty": [
+          "**Czterech jeźdźców** – m.in. wojna, głód, śmierć",
+          "**Bestia** i liczba **666** – zło",
+          "**Baranek** – Chrystus",
+          "**Nowe Jeruzalem** – nowy, zbawiony świat"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Apokaliptyczny = jaki?",
+        "punkty": [
+          "W języku potocznym: **katastroficzny**",
+          "Motyw **końca świata** wraca w literaturze wojennej",
+          "Ale pamiętaj: w Biblii Apokalipsa to też **nadzieja**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Do wypracowania",
+        "punkty": [
+          "Motyw **walki dobra ze złem**",
+          "Wizja **sądu ostatecznego**",
+          "Kontrast: Miłosz, **„Piosenka o końcu świata”** – koniec świata w zwykły, spokojny dzień"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "typ": "quiz",
+    "dzial": "Biblia",
+    "temat": "Quiz: Biblia",
+    "opis": "Hiob, Kohelet, psalmy i Apokalipsa – trzy pytania na rozgrzewkę.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Biblia: **3 pytania**, 30 sekund",
+        "pod": "Odpowiedzi na kolejnych slajdach 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Która księga biblijna podejmuje problem **cierpienia niewinnego**?",
+        "odp": [
+          "Księga Koheleta",
+          "Księga Hioba",
+          "Księga Psalmów",
+          "Apokalipsa"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. Księga Hioba",
+        "tresc": "Hiob traci wszystko, choć jest **sprawiedliwy**, ale nie odwraca się od Boga."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "„Marność nad marnościami – wszystko marność” to słowa z…",
+        "odp": [
+          "Księgi Rodzaju",
+          "Apokalipsy",
+          "Księgi Koheleta",
+          "przypowieści o talentach"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Księgi Koheleta",
+        "tresc": "Kohelet przypomina o **przemijaniu** wszystkiego, co ziemskie."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto przełożył psalmy wierszem w **„Psałterzu Dawidów”**?",
+        "odp": [
+          "Jakub Wujek",
+          "Mikołaj Rej",
+          "Jan Kochanowski",
+          "Adam Mickiewicz"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Jan Kochanowski",
+        "tresc": "„Psałterz Dawidów” ukazał się w **1579 r.** Jakub Wujek przełożył całą Biblię (prozą)."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "typ": "lekcja",
+    "dzial": "Antyk",
+    "temat": "Horacy: carpe diem i non omnis moriar",
+    "opis": "Rzymski poeta, który dał nam „carpe diem” i „non omnis moriar”. Kochanowski i wielu innych chętnie do niego wracali.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #12",
+        "tytul": "Horacy: **chwytaj dzień**",
+        "pod": "Trzy hasła, które warto znać 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kim był Horacy?",
+        "punkty": [
+          "Rzymski poeta, żył w latach **65–8 p.n.e.**",
+          "Tworzył w czasach cesarza **Augusta**",
+          "Najbardziej znany z **pieśni** (ód)",
+          "Łączył myśl **stoików** i **epikurejczyków**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Trzy hasła Horacego",
+        "punkty": [
+          "**Carpe diem** – „chwytaj dzień”, ciesz się chwilą",
+          "**Aurea mediocritas** – złoty środek, umiar",
+          "**Non omnis moriar** – „nie wszystek umrę”"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Exegi monumentum aere perennius.",
+        "autor": "Horacy, Pieśń III 30",
+        "opis": "„Wzniosłem pomnik trwalszy od spiżu” – poeta wierzy, że **dzięki poezji** będzie żył po śmierci."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Motyw horacjański w literaturze",
+        "punkty": [
+          "**Nieśmiertelność poety** dzięki twórczości",
+          "Jan Kochanowski: **„Niezwykłym i nie lada piórem opatrzony”**",
+          "Carpe diem wraca m.in. w renesansie i **baroku**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Budowa wypracowania",
+    "opis": "Wstęp, rozwinięcie, zakończenie – ale jak to zrobić dobrze? Prosty schemat wypracowania maturalnego.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #2",
+        "tytul": "Wypracowanie **krok po kroku**",
+        "pod": "Schemat, który zawsze działa 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Wstęp",
+        "punkty": [
+          "Wprowadź w **problem** z polecenia",
+          "Postaw **tezę** (stanowisko) albo **hipotezę** (do sprawdzenia)",
+          "Krótko – **3–5 zdań** wystarczy"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Rozwinięcie",
+        "punkty": [
+          "Kilka **argumentów** – każdy w osobnym akapicie",
+          "Odwołanie do **lektury obowiązkowej**",
+          "Odwołanie do **innego tekstu** literackiego",
+          "**Kontekst**, np. historyczny lub filozoficzny"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Zakończenie",
+        "punkty": [
+          "**Podsumuj** argumenty",
+          "Potwierdź tezę lub **zweryfikuj** hipotezę",
+          "Nie dodawaj nowych argumentów"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Teza vs hipoteza",
+        "lewa": {
+          "naglowek": "Teza",
+          "punkty": [
+            "Stwierdzasz od razu",
+            "Udowadniasz w rozwinięciu",
+            "„Władza **niszczy** człowieka.”"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Hipoteza",
+          "punkty": [
+            "Przypuszczenie",
+            "Sprawdzasz w rozwinięciu",
+            "„Władza **może** niszczyć…”"
+          ]
+        },
+        "uwaga": "Zawsze trzymaj się **polecenia** – to ono wyznacza temat."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "Średniowiecze – ramy i cechy",
+    "opis": "Wchodzimy w średniowiecze: daty, najważniejsze pojęcia i filozofia epoki, w której wszystko kręciło się wokół Boga.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #13",
+        "tytul": "Średniowiecze: **Bóg w centrum**",
+        "pod": "Ramy i cechy epoki 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "Początek: **476 r.** – upadek cesarstwa zachodniorzymskiego",
+          "Koniec: **1453 r.** (upadek Konstantynopola) lub **1492 r.** (odkrycie Ameryki)",
+          "W Polsce: od **966 r.** (chrzest) do początku **XVI w.**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "**Teocentryzm** – w centrum świata jest Bóg",
+          "**Uniwersalizm** – wspólna kultura, religia i łacina",
+          "**Memento mori** – „pamiętaj o śmierci”",
+          "Twórcy często **anonimowi**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Filozofia",
+        "punkty": [
+          "**Św. Augustyn** – „Państwo Boże”; świat duchowy ważniejszy niż ziemski",
+          "**Św. Tomasz z Akwinu** – wiara i rozum mogą iść w parze",
+          "**Św. Franciszek** – radość i miłość do stworzenia"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Antyk vs średniowiecze",
+        "lewa": {
+          "naglowek": "Antyk",
+          "punkty": [
+            "**Antropocentryzm**",
+            "Ciało i dusza w harmonii",
+            "Wielu bogów"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Średniowiecze",
+          "punkty": [
+            "**Teocentryzm**",
+            "Dusza ważniejsza niż ciało",
+            "Jeden Bóg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "Wzorce osobowe średniowiecza",
+    "opis": "Asceta, rycerz, władca – trzy ideały średniowiecza i teksty, w których je znajdziesz.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #14",
+        "tytul": "Święty, rycerz i **król**",
+        "pod": "Wzorce osobowe średniowiecza 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Asceta",
+        "punkty": [
+          "Rezygnuje z dóbr ziemskich, **umartwia ciało**",
+          "Celem jest **zbawienie duszy**",
+          "Przykład: **„Legenda o świętym Aleksym”**",
+          "Inna droga świętości: **św. Franciszek** – radość i ubóstwo"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Święty Aleksy",
+        "punkty": [
+          "Syn bogatego Rzymianina, w noc poślubną **opuszcza żonę**",
+          "Żyje jako **żebrak**, rozdaje majątek",
+          "Wraca do domu i mieszka **pod schodami**, nierozpoznany",
+          "Po śmierci dzieją się **cuda**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Rycerz",
+        "punkty": [
+          "Wierny **Bogu, władcy i ojczyźnie**",
+          "Odważny, honorowy, waleczny",
+          "Przykład: **Roland** z „Pieśni o Rolandzie”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Władca",
+        "punkty": [
+          "Dba o **kraj i poddanych**",
+          "Pobożny, hojny, zwycięski w wojnach",
+          "Przykład: **Bolesław Chrobry** w „Kronice polskiej” **Galla Anonima**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "typ": "quiz",
+    "dzial": "Średniowiecze",
+    "temat": "Quiz: Horacy i średniowiecze",
+    "opis": "Horacy, budowa wypracowania i początki średniowiecza – sprawdź się!",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Antyk czy **średniowiecze?**",
+        "pod": "3 pytania – dasz radę? 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Co oznacza horacjańskie **non omnis moriar**?",
+        "odp": [
+          "chwytaj dzień",
+          "złoty środek",
+          "nie wszystek umrę",
+          "pamiętaj o śmierci"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. nie wszystek umrę",
+        "tresc": "Poeta wierzy, że będzie żył **w swoich dziełach**. „Pamiętaj o śmierci” to średniowieczne **memento mori**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Który z bohaterów reprezentuje **wzorzec ascety**?",
+        "odp": [
+          "Roland",
+          "Bolesław Chrobry",
+          "święty Aleksy",
+          "Kreon"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. święty Aleksy",
+        "tresc": "Roland to wzorzec **rycerza**, Bolesław Chrobry – **władcy**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Czym różni się **hipoteza** od **tezy**?",
+        "odp": [
+          "Hipotezę stawia się w zakończeniu",
+          "To przypuszczenie do sprawdzenia",
+          "Nie wymaga argumentów",
+          "Niczym, to synonimy"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. To przypuszczenie do sprawdzenia",
+        "tresc": "Tezę udowadniasz, a hipotezę **weryfikujesz** w zakończeniu."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "„Bogurodzica”",
+    "opis": "Najstarsza zachowana polska pieśń religijna i jednocześnie hymn rycerstwa. Co warto o niej wiedzieć?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #15",
+        "tytul": "„Bogurodzica”: **pierwszy polski hymn**",
+        "pod": "Co musisz o niej wiedzieć 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Autor **nieznany**, powstała prawdopodobnie w **XIII w.**",
+          "Najstarszy zachowany zapis: **1407 r.**",
+          "Najstarsza polska **pieśń religijna** z zachowanym tekstem",
+          "Według Długosza śpiewana przez rycerstwo pod **Grunwaldem** (1410)"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Bogurodzica dziewica, Bogiem sławiena Maryja",
+        "autor": "„Bogurodzica”",
+        "opis": "Początek pieśni to **apostrofa** do Matki Bożej."
+      },
+      {
+        "t": "punkty",
+        "tytul": "O czym jest?",
+        "punkty": [
+          "**Modlitwa** do Maryi i Jezusa",
+          "Maryja jest **pośredniczką** między ludźmi a Bogiem",
+          "Prośba o dobre życie na ziemi i **zbawienie** po śmierci",
+          "Refren: **Kyrieleison** – „Panie, zmiłuj się”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Język i forma",
+        "punkty": [
+          "Pełno **archaizmów** – staropolskich słów i form",
+          "**Apostrofy** do Maryi i Jezusa",
+          "Ma też **melodię** – to pieśń śpiewana"
+        ],
+        "uwaga": "„Bogurodzica” pokazuje **teocentryzm** i hierarchię świata średniowiecza."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "„Lament świętokrzyski”",
+    "opis": "Matka Boża pod krzyżem jako zwykła, cierpiąca matka. Dlaczego ten utwór był tak nowatorski?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #16",
+        "tytul": "Płacz matki **pod krzyżem**",
+        "pod": "„Lament świętokrzyski” 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Pełny tytuł: **„Żale Matki Boskiej pod krzyżem”**",
+          "Powstał w **XV w.**, autor nieznany",
+          "Nazwa od klasztoru **Świętego Krzyża** na Łysej Górze",
+          "To **monolog** Maryi patrzącej na umierającego Syna"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Synku miły i wybrany,\nRozdziel z matką swoje rany",
+        "autor": "„Lament świętokrzyski”",
+        "opis": "Maryja chce **przejąć cierpienie** dziecka – jak każda kochająca matka."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Do kogo zwraca się Maryja?",
+        "punkty": [
+          "Do **słuchaczy** – „Posłuchajcie, bracia miła”",
+          "Do **Syna** na krzyżu",
+          "Do **archanioła Gabriela**, który zapowiadał radość",
+          "Do innych **matek**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Dlaczego to ważne?",
+        "punkty": [
+          "Motyw **Matki Bolesnej** (Mater Dolorosa)",
+          "Maryja jest **ludzka** – rozpacza i się skarży",
+          "Nie widzi zbawienia – widzi **cierpiące dziecko**"
+        ],
+        "uwaga": "Kontekst: rozpacz matki – jak **Demeter** w mitologii."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "Śmierć w średniowieczu: Polikarp i danse macabre",
+    "opis": "Jak średniowiecze wyobrażało sobie śmierć? „Rozmowa Mistrza Polikarpa ze Śmiercią” i taniec śmierci.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #17",
+        "tytul": "Śmierć, która **tańczy**",
+        "pod": "Polikarp i danse macabre 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "„Rozmowa Mistrza Polikarpa ze Śmiercią”",
+        "punkty": [
+          "Polski utwór z **XV w.**, autor nieznany",
+          "Mistrz Polikarp prosi Boga, by mógł **zobaczyć Śmierć**",
+          "Śmierć ukazuje się jako **odrażająca kobieta z kosą**",
+          "Rozmawiają – to **dialog**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Co mówi Śmierć?",
+        "punkty": [
+          "Jest **egalitarna** – zabiera każdego",
+          "Równo traktuje **papieża, króla i biedaka**",
+          "Wytyka grzechy różnych **stanów** – to **satyra**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Danse macabre",
+        "punkty": [
+          "Fr. „**taniec śmierci**”",
+          "Śmierć prowadzi korowód ludzi **wszystkich stanów**",
+          "Popularny motyw w sztuce i literaturze średniowiecza"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przesłanie",
+        "punkty": [
+          "**Memento mori** – pamiętaj o śmierci",
+          "Wobec śmierci **wszyscy są równi**",
+          "Żyj tak, by być gotowym na **sąd Boży**"
+        ],
+        "uwaga": "Groza miesza się tu z **humorem** i groteską."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "typ": "lekcja",
+    "dzial": "Średniowiecze",
+    "temat": "„Pieśń o Rolandzie”",
+    "opis": "Najsłynniejszy rycerz średniowiecza: wierny, odważny – i za dumny, by wezwać pomoc. Fabuła i problematyka.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #18",
+        "tytul": "Rycerz, który **nie zadął w róg**",
+        "pod": "„Pieśń o Rolandzie” 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Francuski epos rycerski – **chanson de geste**",
+          "Najstarszy rękopis: ok. **1100 r.**",
+          "Tło: bitwa w wąwozie **Roncevaux** (778 r.)",
+          "Roland to siostrzeniec **Karola Wielkiego**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Fabuła",
+        "punkty": [
+          "Przez zdradę **Ganelona** tylna straż wpada w zasadzkę Saracenów",
+          "Przyjaciel **Oliwier** prosi: zadmij w róg i wezwij pomoc",
+          "Roland odmawia z **dumy**, dmie dopiero, gdy jest za późno",
+          "Ginie, a jego duszę **aniołowie** zabierają do nieba"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Śmierć Rolanda",
+        "punkty": [
+          "Próbuje skruszyć swój miecz **Durendal**, by nie wpadł w ręce wrogów",
+          "Umiera zwrócony **w stronę wroga**",
+          "Podaje Bogu swoją **rękawicę** – gest wierności lennika"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Roland – zalety i wada",
+        "lewa": {
+          "naglowek": "Zalety ✅",
+          "punkty": [
+            "Odwaga i męstwo",
+            "Wierność Bogu i królowi",
+            "Miłość do „słodkiej Francji”"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Wada ❌",
+          "punkty": [
+            "**Pycha** i brawura",
+            "Przez nią giną jego ludzie"
+          ]
+        },
+        "uwaga": "W eposie pełno **hiperbol**: Roland sam pokonuje tłumy wrogów."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Środki stylistyczne – paczka 2",
+    "opis": "Anafora, pytanie retoryczne, inwersja, oksymoron, hiperbola i inne – druga paczka środków stylistycznych.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #3",
+        "tytul": "Kolejne środki, które **musisz rozpoznać**",
+        "pod": "Paczka nr 2 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Środki składniowe",
+        "punkty": [
+          "**Anafora** – to samo słowo na początku kolejnych wersów",
+          "**Pytanie retoryczne** – nie oczekuje odpowiedzi",
+          "**Wykrzyknienie** – wyraża silne emocje",
+          "**Inwersja** – zmieniony szyk zdania"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Oksymoron vs hiperbola",
+        "lewa": {
+          "naglowek": "Oksymoron",
+          "punkty": [
+            "Połączenie **sprzeczności**",
+            "„gorący lód”",
+            "„żywy trup”"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Hiperbola",
+          "punkty": [
+            "**Wyolbrzymienie**",
+            "„morze krwi”",
+            "„czekam wieki”"
+          ]
+        }
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Onomatopeja vs eufemizm",
+        "lewa": {
+          "naglowek": "Onomatopeja",
+          "punkty": [
+            "Słowo **naśladuje dźwięk**",
+            "„szumi”, „brzęczy”"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Eufemizm",
+          "punkty": [
+            "**Złagodzenie** przykrej treści",
+            "„odszedł” zamiast „umarł”"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przykład z lektury",
+        "punkty": [
+          "„Pieśń o Rolandzie”: Roland sam pokonuje tłumy → **hiperbola**",
+          "Funkcja: **heroizacja** – bohater wydaje się niezwyciężony"
+        ],
+        "uwaga": "Zawsze dopisz **funkcję** środka – samo nazwanie nie wystarczy."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "typ": "quiz",
+    "dzial": "Średniowiecze",
+    "temat": "Quiz: literatura średniowiecza",
+    "opis": "„Bogurodzica”, „Lament świętokrzyski”, Polikarp i Roland – sprawdź, czy wszystko pamiętasz.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Średniowiecze: **sprawdź się**",
+        "pod": "3 pytania – odpowiedzi obok 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Który utwór jest **monologiem Matki Bożej** pod krzyżem?",
+        "odp": [
+          "„Bogurodzica”",
+          "„Lament świętokrzyski”",
+          "„Rozmowa Mistrza Polikarpa ze Śmiercią”",
+          "„Pieśń o Rolandzie”"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. „Lament świętokrzyski”",
+        "tresc": "Maryja ukazana jest jako **Matka Bolesna** – cierpiąca, ludzka matka."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto zdradził Rolanda?",
+        "odp": [
+          "Oliwier",
+          "Karol Wielki",
+          "Ganelon",
+          "Durendal"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Ganelon",
+        "tresc": "**Oliwier** to przyjaciel Rolanda, a **Durendal** – jego miecz."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "„gorący lód” – jaki to środek stylistyczny?",
+        "odp": [
+          "hiperbola",
+          "eufemizm",
+          "oksymoron",
+          "anafora"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. oksymoron",
+        "tresc": "Oksymoron łączy wyrazy o **sprzecznych** znaczeniach."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "Renesans i humanizm",
+    "opis": "Odrodzenie antyku, człowiek w centrum, wielkie odkrycia. Wszystko, co musisz wiedzieć na start renesansu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #19",
+        "tytul": "Renesans: **człowiek wraca do centrum**",
+        "pod": "Ramy, cechy i humanizm 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "Fr. **renaissance** – „odrodzenie” (kultury antyku)",
+          "Zaczyna się we **Włoszech** w XIV w.",
+          "W Europie: **XV–XVI w.**",
+          "W Polsce: **XVI w.** – „złoty wiek”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przełomowe wydarzenia",
+        "punkty": [
+          "Druk **Gutenberga** (połowa XV w.)",
+          "Odkrycie Ameryki przez **Kolumba** (1492)",
+          "Wystąpienie **Lutra** i początek reformacji (1517)",
+          "**Kopernik** – „O obrotach sfer niebieskich” (1543)"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Homo sum, humani nihil a me alienum puto.",
+        "autor": "Terencjusz",
+        "opis": "„Jestem człowiekiem i nic, co ludzkie, nie jest mi obce” – **dewiza humanistów**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "**Humanizm** – zainteresowanie człowiekiem i jego możliwościami",
+          "**Antropocentryzm** – powrót do ideałów antyku",
+          "Rozwój **języków narodowych** obok łaciny",
+          "Ideał harmonii, **umiaru** i piękna"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "A niechaj narodowie wżdy postronni znają,\nIż Polacy nie gęsi, iż swój język mają.",
+        "autor": "Mikołaj Rej",
+        "opis": "Rej, „ojciec literatury polskiej”, pisał **wyłącznie po polsku**."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "Kochanowski – fraszki",
+    "opis": "Krótkie, dowcipne, czasem filozoficzne. Fraszki Kochanowskiego – co to za gatunek i które warto znać.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #20",
+        "tytul": "Fraszki: **krótko, a mądrze**",
+        "pod": "Kochanowski od lżejszej strony 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Jan Kochanowski",
+        "punkty": [
+          "Żył w latach **1530–1584**",
+          "Studiował m.in. w Krakowie i **Padwie**",
+          "Był sekretarzem króla **Zygmunta Augusta**",
+          "Osiadł w rodzinnym **Czarnolesie**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Fraszka – co to?",
+        "punkty": [
+          "Z włoskiego frasca – „**gałązka**”, drobiazg",
+          "**Krótki** utwór, często z zaskakującą puentą",
+          "Tematy: żart, obyczaje, ale też **filozofia**",
+          "Wydanie: „Fraszki” – **trzy księgi** (1584)"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Szlachetne zdrowie,\nNikt się nie dowie,\nJako smakujesz,\nAż się zepsujesz.",
+        "autor": "Jan Kochanowski, „Na zdrowie”",
+        "opis": "Prawdziwą wartość zdrowia doceniamy dopiero, gdy je **tracimy**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Fraszki, które warto znać",
+        "punkty": [
+          "**„Na lipę”** – pochwała natury i spokoju",
+          "**„Człowiek boże igrzysko”** – człowiek jak zabawka Boga",
+          "**„O żywocie ludzkim”** – wszystko jest „fraszką”, marnością",
+          "**„Do gór i lasów”** – poeta wspomina swoje życie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "Kochanowski – pieśni",
+    "opis": "Bóg jako architekt świata, umiar, cnota i patriotyzm. Najważniejsze motywy „Pieśni” Kochanowskiego.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #21",
+        "tytul": "Pieśni, czyli **filozofia życia**",
+        "pod": "Najważniejsze utwory Kochanowskiego 👉"
+      },
+      {
+        "t": "cytat",
+        "cytat": "Czego chcesz od nas, Panie, za Twe hojne dary?\nCzego za dobrodziejstwa, którym nie masz miary?",
+        "autor": "Jan Kochanowski, hymn „Czego chcesz od nas, Panie…”",
+        "opis": "Bóg to **dobry Stwórca i artysta**, a świat – piękny i uporządkowany."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Filozofia w pieśniach",
+        "punkty": [
+          "**Stoicyzm** – spokój wobec zmiennej Fortuny",
+          "**Epikureizm** – korzystaj z życia z umiarem",
+          "**Carpe diem** – jak u Horacego",
+          "Np. pieśń **„Chcemy sobie być radzi?”**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Pieśni patriotyczne",
+        "punkty": [
+          "**„Pieśń o spustoszeniu Podola”** – krytyka szlachty",
+          "Wzywa do obrony kraju przed **Tatarami**",
+          "Słowa: „Wieczna sromota i nienagrodzona szkoda, Polacy!”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Motyw horacjański",
+        "punkty": [
+          "Pieśń **„Niezwykłym i nie lada piórem opatrzony”**",
+          "Poeta przemieni się w **łabędzia** i zyska nieśmiertelność",
+          "Nawiązanie do Horacego: **non omnis moriar**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "typ": "quiz",
+    "dzial": "Renesans",
+    "temat": "Quiz: renesans i Kochanowski",
+    "opis": "Humanizm, fraszki i pieśni – szybki test z renesansu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Renesans: **ile pamiętasz?**",
+        "pod": "3 pytania – sprawdź się 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto napisał: „Polacy nie gęsi, iż swój język mają”?",
+        "odp": [
+          "Jan Kochanowski",
+          "Mikołaj Rej",
+          "Mikołaj Kopernik",
+          "Gall Anonim"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. Mikołaj Rej",
+        "tresc": "Rej pisał **tylko po polsku** i jest nazywany ojcem literatury polskiej."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Która fraszka Kochanowskiego mówi, że wartość czegoś doceniamy dopiero po **utracie**?",
+        "odp": [
+          "„Na lipę”",
+          "„Na zdrowie”",
+          "„Do gór i lasów”",
+          "„Człowiek boże igrzysko”"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. „Na zdrowie”",
+        "tresc": "„Szlachetne zdrowie, / Nikt się nie dowie, / Jako smakujesz, / Aż się zepsujesz.”"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Jaki obraz Boga przedstawia hymn **„Czego chcesz od nas, Panie…”**?",
+        "odp": [
+          "surowego sędziego",
+          "obojętnego obserwatora",
+          "dobrego Stwórcy i artysty",
+          "Boga, który karze za grzechy"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. dobrego Stwórcy i artysty",
+        "tresc": "Świat w hymnie jest **harmonijny i piękny** – to typowo renesansowa wizja."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "„Treny” – dlaczego przełomowe?",
+    "opis": "Cykl, w którym Kochanowski opłakuje córkę Urszulę. Geneza, gatunek i najważniejsze treny.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #22",
+        "tytul": "„Treny”: **ojciec po stracie**",
+        "pod": "Geneza i najważniejsze utwory 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Geneza",
+        "punkty": [
+          "W **1579 r.** umiera córka poety, **Urszula**",
+          "Miała ok. **dwóch i pół roku**",
+          "Kochanowski pisze cykl **19 trenów** (wyd. 1580)"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Co w nich nowego?",
+        "punkty": [
+          "**Tren** to antyczny gatunek – lament po zmarłym",
+          "Dotąd poświęcano go **wybitnym ludziom**",
+          "Kochanowski pisze o **małym dziecku** – to przełom",
+          "Bardzo **osobisty** ton: mówi ojciec, nie tylko poeta"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Wszytki płacze, wszytki łzy Heraklitowe\nI lamenty, i skargi Symonidowe",
+        "autor": "Jan Kochanowski, Tren I",
+        "opis": "Poeta przywołuje **antycznych** mistrzów smutku – Heraklita i Symonidesa."
+      },
+      {
+        "t": "cytat",
+        "cytat": "Wielkieś mi uczyniła pustki w domu moim,\nMoja droga Orszulo, tym zniknienim swoim.",
+        "autor": "Jan Kochanowski, Tren VIII",
+        "opis": "Prosty, codzienny obraz: dom po śmierci dziecka jest **pusty**."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "„Treny” – kryzys i pocieszenie",
+    "opis": "Od zwątpienia w mądrość i Boga po pocieszenie we śnie. Jak w „Trenach” zmienia się postawa poety?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #23",
+        "tytul": "Gdy **wszystko się sypie**",
+        "pod": "Kryzys światopoglądowy w „Trenach” 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kryzys – najważniejsze treny",
+        "punkty": [
+          "**Tren IX** – mądrość (filozofia) nie chroni przed cierpieniem",
+          "**Tren X** – gdzie jesteś, Urszulo? Czy istnieje **życie po śmierci**?",
+          "**Tren XI** – zwątpienie w sens **cnoty**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Orszulo moja wdzięczna, gdzieś mi się podziała?",
+        "autor": "Jan Kochanowski, Tren X",
+        "opis": "Ojciec szuka córki i nie wie, czy istnieje dla niej **jakieś miejsce** po śmierci."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Tren XIX albo Sen",
+        "punkty": [
+          "We śnie przychodzi do poety jego **zmarła matka**",
+          "Na ręku trzyma **Urszulę**",
+          "Mówi, że córka jest **szczęśliwa w niebie**",
+          "Radzi przyjąć los ze spokojem"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Ludzkie przygody ludzkie noś.",
+        "autor": "Jan Kochanowski, Tren XIX",
+        "opis": "Rada w duchu **stoicyzmu**: znoś to, co spotyka każdego człowieka."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "typ": "lekcja",
+    "dzial": "Renesans",
+    "temat": "„Odprawa posłów greckich”",
+    "opis": "Tragedia o Troi, która tak naprawdę mówi o Rzeczypospolitej. Fabuła, bohaterowie i przesłanie.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #24",
+        "tytul": "Troja, a mówi o **Polsce**",
+        "pod": "„Odprawa posłów greckich” 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Tragedia **Jana Kochanowskiego**",
+          "Wystawiona w **1578 r.** w Jazdowie",
+          "Okazja: ślub **Jana Zamoyskiego**",
+          "Fabuła z mitu o **wojnie trojańskiej**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Fabuła",
+        "punkty": [
+          "Grecy (**Ulisses i Menelaus**) żądają zwrotu Heleny",
+          "**Antenor** radzi oddać Helenę",
+          "**Aleksander** (Parys) i jego stronnik **Iketaon** chcą ją zatrzymać",
+          "Rada odrzuca żądania – Grecy zapowiadają **wojnę**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kasandra 🔮",
+        "punkty": [
+          "Wieszczka, której **nikt nie wierzy**",
+          "Przepowiada **zagładę Troi**",
+          "Jej wizja zapowiada los państwa rządzonego **nieodpowiedzialnie**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "O nierządne królestwo i zginienia bliskie,\nGdzie ani prawa ważą, ani sprawiedliwość\nMa miejsca, ale wszytko złotem kupić trzeba!",
+        "autor": "Jan Kochanowski, „Odprawa posłów greckich”",
+        "opis": "Słowa **Ulissesa** – to ostrzeżenie także dla **szlachty polskiej**."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Argument i kontekst",
+    "opis": "Jak zbudować dobry argument i czym jest kontekst? Dwie rzeczy, bez których wypracowanie nie zdobędzie punktów.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #4",
+        "tytul": "Argument, który **zdobywa punkty**",
+        "pod": "I czym właściwie jest kontekst 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Budowa argumentu",
+        "punkty": [
+          "**Twierdzenie** – co chcesz udowodnić",
+          "**Przykład** z tekstu – konkretna sytuacja lub postać",
+          "**Wyjaśnienie** – jak przykład potwierdza twierdzenie",
+          "**Wniosek** – powiązanie z tezą"
+        ]
+      },
+      {
+        "t": "przyklad",
+        "tytul": "Teza: Władza może prowadzić do pychy",
+        "kroki": [
+          "Twierdzenie: władca, który nie słucha innych, **sprowadza nieszczęście**",
+          "Przykład: **Kreon** w „Antygonie” ignoruje syna i Tejrezjasza",
+          "Wniosek: jego **pycha** kończy się śmiercią najbliższych"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Rodzaje kontekstów",
+        "punkty": [
+          "**Historycznoliteracki** – epoka, prąd, konwencja",
+          "**Historyczny** – wydarzenia z czasów powstania utworu",
+          "**Biograficzny** – życie autora (np. śmierć Urszuli i „Treny”)",
+          "**Filozoficzny, religijny, kulturowy** – np. stoicyzm, Biblia, mitologia"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kontekst – jak go użyć?",
+        "punkty": [
+          "Kontekst musi **coś wnosić** do argumentu",
+          "Nie wystarczy wspomnieć – trzeba go **połączyć z tezą**",
+          "Przykład: stoicyzm pomaga zrozumieć **Tren XIX**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "typ": "quiz",
+    "dzial": "Renesans",
+    "temat": "Quiz: „Treny” i „Odprawa”",
+    "opis": "Ostatni sprawdzian z Kochanowskiego. Zapisz i wróć do niego przed maturą.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Kochanowski: **test końcowy**",
+        "pod": "„Treny” i „Odprawa” – 3 pytania 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "W którym trenie poecie ukazuje się we śnie **matka z Urszulą** na ręku?",
+        "odp": [
+          "Tren I",
+          "Tren VIII",
+          "Tren X",
+          "Tren XIX"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "D. Tren XIX",
+        "tresc": "Matka pociesza syna i radzi: „Ludzkie przygody **ludzkie noś**”."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto w „Odprawie posłów greckich” radzi **oddać Helenę** Grekom?",
+        "odp": [
+          "Aleksander",
+          "Iketaon",
+          "Antenor",
+          "Priam"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Antenor",
+        "tresc": "Aleksander i jego stronnik **Iketaon** chcą zatrzymać Helenę."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Jaki kontekst przywołujesz, pisząc, że „Treny” powstały po **śmierci córki poety**?",
+        "odp": [
+          "filozoficzny",
+          "biograficzny",
+          "historyczny",
+          "religijny"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. biograficzny",
+        "tresc": "Kontekst biograficzny dotyczy **życia autora**."
+      }
+    ]
+  }
+]

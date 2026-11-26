@@ -1,0 +1,607 @@
+[
+  {
+    "id": 1,
+    "typ": "lekcja",
+    "dzial": "Liczby",
+    "temat": "Zbiory liczbowe",
+    "opis": "Od tego zaczyna się cała matma na maturze: jakie mamy rodzaje liczb i jak je rozpoznać.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #1", "tytul": "Zbiory liczbowe w **60 sekund**", "pod": "Jeśli to ogarniesz, reszta działu pójdzie z górki 👉" },
+      { "t": "punkty", "tytul": "5 zbiorów, które musisz znać", "punkty": [
+        "$\\mathbb{N}$ – **naturalne**: 0, 1, 2, 3, …",
+        "$\\mathbb{Z}$ – **całkowite**: …, −2, −1, 0, 1, 2, …",
+        "$\\mathbb{Q}$ – **wymierne**: da się zapisać jako ułamek $\\frac{p}{q}$",
+        "**Niewymierne**: nie da się, np. $\\sqrt{2}$, $\\pi$",
+        "$\\mathbb{R}$ – **rzeczywiste**: wymierne + niewymierne"
+      ] },
+      { "t": "wzor", "tytul": "Jak to się zawiera?", "wzor": "\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}", "opis": "Każda liczba naturalna jest całkowita, każda całkowita – wymierna, a każda wymierna – rzeczywista.", "uwaga": "Ułamek dziesiętny **okresowy**, np. 0,(3), to liczba **wymierna**!" },
+      { "t": "porownanie", "tytul": "Wymierna czy nie?", "lewa": { "naglowek": "Wymierne ✅", "punkty": ["$-7$", "$0{,}25 = \\frac14$", "$0{,}(3) = \\frac13$", "$\\sqrt{9} = 3$"] }, "prawa": { "naglowek": "Niewymierne ❌", "punkty": ["$\\sqrt{2}$", "$\\pi$", "$\\sqrt[3]{5}$", "$1+\\sqrt{3}$"] } },
+      { "t": "przyklad", "tytul": "Czy $\\sqrt{12}\\cdot\\sqrt{3}$ jest wymierna?", "kroki": ["Łączymy pod jednym pierwiastkiem: $\\sqrt{12\\cdot 3}=\\sqrt{36}$", "$\\sqrt{36}=6$"], "wynik": "Tak – to liczba **6** ✅" }
+    ]
+  },
+  {
+    "id": 2,
+    "typ": "quiz",
+    "dzial": "Liczby",
+    "temat": "Quiz: zbiory liczbowe",
+    "opis": "Szybki test – dasz radę bez zaglądania do notatek?",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Sprawdź się w **10 sekund**", "pod": "Zbiory liczbowe – 2 pytania, odpowiedzi w środku 👉" },
+      { "t": "pytanie", "tresc": "Która z liczb jest **niewymierna**?", "odp": ["$\\sqrt{16}$", "$0{,}(6)$", "$\\sqrt{8}$", "$-\\frac{3}{4}$"] },
+      { "t": "odpowiedz", "poprawna": "C. $\\sqrt{8}$", "kroki": ["$\\sqrt{16}=4$ – całkowita", "$0{,}(6)=\\frac23$ – wymierna", "$\\sqrt{8}=2\\sqrt{2}$ – **niewymierna**", "$-\\frac34$ – ułamek, więc wymierna"] },
+      { "t": "pytanie", "tresc": "Która z liczb jest **całkowita**?", "odp": ["$\\sqrt{2}\\cdot\\sqrt{8}$", "$\\frac{7}{2}$", "$\\sqrt{5}$", "$0{,}(1)$"] },
+      { "t": "odpowiedz", "poprawna": "A. $\\sqrt{2}\\cdot\\sqrt{8}$", "kroki": ["$\\sqrt{2}\\cdot\\sqrt{8} = \\sqrt{16} = 4$ – **całkowita**", "$\\frac72 = 3{,}5$ – nie jest całkowita", "$\\sqrt5$ – niewymierna", "$0{,}(1) = \\frac19$ – nie jest całkowita"] }
+    ]
+  },
+  {
+    "id": 3,
+    "typ": "lekcja",
+    "dzial": "Liczby",
+    "temat": "Przedziały liczbowe",
+    "opis": "Nawias okrągły czy ostry? Raz na zawsze: jak czytać i zapisywać przedziały.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #2", "tytul": "Nawias **okrągły** czy **ostry**?", "pod": "Przedziały liczbowe bez stresu 👉" },
+      { "t": "punkty", "tytul": "Jak czytać przedziały", "punkty": [
+        "$\\langle 2; 5\\rangle$ – od 2 do 5, **z końcami**",
+        "$(2; 5)$ – od 2 do 5, **bez końców**",
+        "$\\langle 2; 5)$ – 2 należy, 5 nie należy",
+        "Przy $-\\infty$ i $+\\infty$ nawias jest zawsze **okrągły**"
+      ] },
+      { "t": "porownanie", "tytul": "Na osi liczbowej", "lewa": { "naglowek": "Kropka pełna ●", "punkty": ["koniec **należy**", "nawias $\\langle\\ \\rangle$", "znak $\\le$ lub $\\ge$"] }, "prawa": { "naglowek": "Kropka pusta ○", "punkty": ["koniec **nie należy**", "nawias $(\\ )$", "znak $<$ lub $>$"] } },
+      { "t": "wzor", "tytul": "Nierówność → przedział", "wzor": ["x \\ge 3 \\iff x \\in \\langle 3; +\\infty)", "x < -1 \\iff x \\in (-\\infty; -1)", "-2 < x \\le 4 \\iff x \\in (-2; 4\\rangle"] },
+      { "t": "przyklad", "tytul": "Ile liczb całkowitych należy do $(-3; 2\\rangle$?", "kroki": ["$-3$ nie należy (nawias okrągły)", "$2$ należy (nawias ostry)", "Liczymy: $-2, -1, 0, 1, 2$"], "wynik": "**5** liczb całkowitych ✅" }
+    ]
+  },
+  {
+    "id": 4,
+    "typ": "lekcja",
+    "dzial": "Liczby",
+    "temat": "Wartość bezwzględna",
+    "opis": "Wartość bezwzględna to po prostu odległość na osi liczbowej. Zobacz, jak to ułatwia równania i nierówności.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #3", "tytul": "Wartość bezwzględna to **odległość**", "pod": "Jedno zdanie, które wyjaśnia wszystko 👉", "wzor": "|{-5}| = 5" },
+      { "t": "wzor", "tytul": "Definicja", "wzor": "|x| = \\begin{cases} x, & x \\ge 0 \\\\ -x, & x < 0 \\end{cases}", "opis": "Wynik nigdy nie jest ujemny: $|5|=5$, $|{-5}|=5$, $|0|=0$." },
+      { "t": "punkty", "tytul": "Na osi liczbowej", "punkty": [
+        "$|x|$ – odległość $x$ od **zera**",
+        "$|x-a|$ – odległość $x$ od liczby **a**",
+        "$|x+3| = |x-(-3)|$ – odległość od **−3**"
+      ] },
+      { "t": "przyklad", "tytul": "Rozwiąż $|x-2|=5$", "kroki": ["Szukamy liczb odległych od 2 o 5", "$x-2=5$ lub $x-2=-5$", "$x=7$ lub $x=-3$"], "wynik": "$x\\in\\{-3;\\ 7\\}$ ✅" },
+      { "t": "przyklad", "tytul": "Rozwiąż $|x+1|\\le 3$", "kroki": ["Odległość $x$ od $-1$ ma być co najwyżej 3", "$-3 \\le x+1 \\le 3$", "$-4 \\le x \\le 2$"], "wynik": "$x \\in \\langle -4; 2\\rangle$ ✅" },
+      { "t": "porownanie", "tytul": "Mniejsze czy większe?", "lewa": { "naglowek": "$|x-a| < r$", "punkty": ["punkty **blisko** $a$", "jeden przedział", "$(a-r;\\ a+r)$"] }, "prawa": { "naglowek": "$|x-a| > r$", "punkty": ["punkty **daleko** od $a$", "dwa przedziały", "na zewnątrz $(a-r;\\ a+r)$"] } }
+    ]
+  },
+  {
+    "id": 5,
+    "typ": "quiz",
+    "dzial": "Liczby",
+    "temat": "Quiz: przedziały i wartość bezwzględna",
+    "opis": "Trzy zadania w stylu maturalnym. Zapisz wyniki i sprawdź się na kolejnych slajdach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Przedziały i moduł: **3 zadania**", "pod": "Ile zrobisz bezbłędnie? 👉" },
+      { "t": "pytanie", "tresc": "Do przedziału $\\langle -2; 3)$ należy liczba:", "odp": ["$-3$", "$3$", "$-2$", "$3{,}5$"] },
+      { "t": "odpowiedz", "poprawna": "C. $-2$", "kroki": ["Nawias $\\langle$ przy $-2$ – lewy koniec **należy**", "Nawias $)$ przy 3 – liczba 3 nie należy", "$-3$ i $3{,}5$ są poza przedziałem"] },
+      { "t": "pytanie", "tresc": "Zbiorem rozwiązań nierówności $|x-3| < 2$ jest:", "odp": ["$(1; 5)$", "$\\langle 1; 5\\rangle$", "$(-5; -1)$", "$(-\\infty; 1)\\cup(5; +\\infty)$"] },
+      { "t": "odpowiedz", "poprawna": "A. $(1; 5)$", "kroki": ["$-2 < x-3 < 2$", "Dodajemy 3: $1 < x < 5$", "Nierówność ostra – nawiasy **okrągłe**"] },
+      { "t": "pytanie", "tresc": "Wartość wyrażenia $|2-\\sqrt5|$ jest równa:", "odp": ["$2-\\sqrt5$", "$\\sqrt5-2$", "$2+\\sqrt5$", "$-2-\\sqrt5$"] },
+      { "t": "odpowiedz", "poprawna": "B. $\\sqrt5-2$", "kroki": ["$\\sqrt5 \\approx 2{,}24 > 2$, więc $2-\\sqrt5 < 0$", "Moduł z liczby ujemnej to liczba **przeciwna**", "$|2-\\sqrt5| = \\sqrt5-2$"] }
+    ]
+  },
+  {
+    "id": 6,
+    "typ": "lekcja",
+    "dzial": "Procenty",
+    "temat": "Procenty – 3 typy zadań",
+    "opis": "Procent z liczby, jakim procentem jest liczba i liczba z jej procentu – trzy schematy, które ogarniają prawie wszystko.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #4", "tytul": "Procenty: tylko **3 typy** zadań", "pod": "Każde zadanie z procentami to jeden z nich 👉" },
+      { "t": "wzor", "tytul": "Procent to setna część", "wzor": ["1\\% = \\frac{1}{100} = 0{,}01", "p\\% \\text{ z liczby } a = \\frac{p}{100}\\cdot a"], "opis": "Np. $7\\% = 0{,}07$, a $120\\% = 1{,}2$." },
+      { "t": "przyklad", "tytul": "1. Ile to jest 15% z 240?", "kroki": ["$15\\% = 0{,}15$", "$0{,}15 \\cdot 240 = 36$"], "wynik": "**36**" },
+      { "t": "przyklad", "tytul": "2. Jakim procentem liczby 72 jest 18?", "kroki": ["$\\frac{18}{72} = \\frac14 = 0{,}25$", "$0{,}25 = 25\\%$"], "wynik": "**25%**" },
+      { "t": "przyklad", "tytul": "3. 30% pewnej liczby to 45. Jaka to liczba?", "kroki": ["$0{,}3 \\cdot x = 45$", "$x = 45 : 0{,}3 = 150$", "Sprawdzenie: $0{,}3 \\cdot 150 = 45$ ✅"], "wynik": "**150**" }
+    ]
+  },
+  {
+    "id": 7,
+    "typ": "lekcja",
+    "dzial": "Procenty",
+    "temat": "Podwyżki i obniżki",
+    "opis": "Podwyżka o 10%, a potem obniżka o 10% nie daje ceny wyjściowej. Zobacz dlaczego i jak liczyć to mnożnikiem.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #5", "tytul": "+10%, a potem −10%. **Wracasz do startu?**", "pod": "Nie! Zobacz, ile tracisz 👉" },
+      { "t": "wzor", "tytul": "Mnożnik procentowy", "wzor": ["\\text{wzrost o } p\\%:\\ \\cdot\\left(1+\\frac{p}{100}\\right)", "\\text{spadek o } p\\%:\\ \\cdot\\left(1-\\frac{p}{100}\\right)"], "opis": "Np. +20% to $\\cdot 1{,}2$, a −15% to $\\cdot 0{,}85$." },
+      { "t": "przyklad", "tytul": "Cena 200 zł: +10%, potem −10%", "kroki": ["$200 \\cdot 1{,}1 = 220$ zł", "$220 \\cdot 0{,}9 = 198$ zł"], "wynik": "Cena **spadła** o 2 zł, czyli o 1% ❗" },
+      { "t": "przyklad", "tytul": "Po obniżce o 20% kurtka kosztuje 240 zł. Ile kosztowała przed?", "kroki": ["Cena przed: $x$, po obniżce: $0{,}8x$", "$0{,}8x = 240$", "$x = 240 : 0{,}8 = 300$"], "wynik": "**300 zł** (a nie 288 zł!)" },
+      { "t": "punkty", "tytul": "Najczęstszy błąd", "punkty": [
+        "Obniżki **nie odwracasz**, dodając ten sam procent",
+        "$240 + 20\\% \\cdot 240 = 288$ ❌",
+        "Procent liczymy od ceny **przed** zmianą ✅"
+      ], "numeruj": false }
+    ]
+  },
+  {
+    "id": 8,
+    "typ": "lekcja",
+    "dzial": "Procenty",
+    "temat": "Punkty procentowe",
+    "opis": "Wzrost z 4% do 5% to wzrost o 1 punkt procentowy, ale o 25%. Wyjaśniamy różnicę.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #6", "tytul": "Procent vs **punkt procentowy**", "pod": "Pułapka, która lubi wracać na maturze 👉" },
+      { "t": "punkty", "tytul": "O co chodzi?", "punkty": [
+        "**Punkt procentowy** (p.p.) – zwykła różnica dwóch procentów",
+        "**Procent** – zmiana względna, czyli w stosunku do wartości początkowej"
+      ] },
+      { "t": "przyklad", "tytul": "Oprocentowanie wzrosło z 4% do 5%", "kroki": ["Różnica: $5 - 4 = 1$ **punkt procentowy**", "Względnie: $\\frac{5-4}{4} = \\frac14 = 25\\%$"], "wynik": "Wzrost o **1 p.p.**, czyli o **25%** ✅" },
+      { "t": "porownanie", "tytul": "Z 30% do 45%", "lewa": { "naglowek": "Punkty procentowe", "punkty": ["odejmujesz", "$45 - 30 = 15$", "wzrost o **15 p.p.**"] }, "prawa": { "naglowek": "Procenty", "punkty": ["dzielisz przez **start**", "$\\frac{15}{30} = 0{,}5$", "wzrost o **50%**"] } },
+      { "t": "przyklad", "tytul": "Poparcie spadło z 40% do 30%", "kroki": ["Spadek o $40 - 30 = 10$ p.p.", "Względnie: $\\frac{10}{40} = 0{,}25 = 25\\%$"], "wynik": "Spadło o **10 p.p.**, czyli o **25%**" }
+    ]
+  },
+  {
+    "id": 9,
+    "typ": "quiz",
+    "dzial": "Procenty",
+    "temat": "Quiz: procenty",
+    "opis": "Podwyżki, obniżki i punkty procentowe – trzy zadania na rozgrzewkę.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Procenty: **3 pułapki**", "pod": "Nie daj się złapać 👉" },
+      { "t": "pytanie", "tresc": "Cenę 80 zł podniesiono o 25%. Nowa cena to:", "odp": ["85 zł", "100 zł", "105 zł", "120 zł"] },
+      { "t": "odpowiedz", "poprawna": "B. 100 zł", "kroki": ["Mnożnik: $1 + 0{,}25 = 1{,}25$", "$80 \\cdot 1{,}25 = 100$"] },
+      { "t": "pytanie", "tresc": "Po obniżce o 25% bluza kosztuje 120 zł. Przed obniżką kosztowała:", "odp": ["150 zł", "160 zł", "145 zł", "90 zł"] },
+      { "t": "odpowiedz", "poprawna": "B. 160 zł", "kroki": ["$0{,}75x = 120$", "$x = 120 : 0{,}75 = 160$", "Sprawdzenie: $0{,}75 \\cdot 160 = 120$ ✅"] },
+      { "t": "pytanie", "tresc": "Bezrobocie spadło z 8% do 6%. Oznacza to spadek o:", "odp": ["2%", "25 punktów procentowych", "25%", "33%"] },
+      { "t": "odpowiedz", "poprawna": "C. 25%", "kroki": ["W punktach procentowych: $8 - 6 = 2$ p.p.", "Względnie: $\\frac{2}{8} = 0{,}25 = 25\\%$"] }
+    ]
+  },
+  {
+    "id": 10,
+    "typ": "lekcja",
+    "dzial": "Potęgi",
+    "temat": "Działania na potęgach",
+    "opis": "Mnożenie, dzielenie i potęgowanie potęg – wzory, które wracają w co drugim zadaniu.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #7", "tytul": "Potęgi: wzory, **bez których nie ruszysz**", "pod": "Działania na potęgach w pigułce 👉", "wzor": "a^m \\cdot a^n = a^{m+n}" },
+      { "t": "wzor", "tytul": "Działania na potęgach", "wzor": ["a^m \\cdot a^n = a^{m+n} \\qquad a^m : a^n = a^{m-n}", "(a^m)^n = a^{m\\cdot n}", "(a b)^n = a^n b^n \\qquad \\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}"], "opis": "Przy dzieleniu $a \\ne 0$ i $b \\ne 0$." },
+      { "t": "przyklad", "tytul": "Oblicz $\\frac{2^7 \\cdot 2^3}{2^8}$", "kroki": ["Licznik: $2^{7+3} = 2^{10}$", "Dzielenie: $2^{10-8} = 2^2$"], "wynik": "$= 4$" },
+      { "t": "przyklad", "tytul": "Zapisz $8^3 \\cdot 4^2$ jako potęgę liczby 2", "kroki": ["$8 = 2^3$, $4 = 2^2$", "$(2^3)^3 \\cdot (2^2)^2 = 2^9 \\cdot 2^4$", "$2^{9+4} = 2^{13}$"], "wynik": "$2^{13}$ ✅" },
+      { "t": "punkty", "tytul": "Uwaga na pułapki", "numeruj": false, "punkty": [
+        "$2^3 \\cdot 3^2 \\ne 6^5$ – różne podstawy!",
+        "$(-2)^4 = 16$, ale $-2^4 = -16$",
+        "$a^m + a^n \\ne a^{m+n}$",
+        "$2^{10} + 2^{10} = 2 \\cdot 2^{10} = 2^{11}$ ✅"
+      ] }
+    ]
+  },
+  {
+    "id": 11,
+    "typ": "lekcja",
+    "dzial": "Potęgi",
+    "temat": "Potęga zerowa i ujemna",
+    "opis": "Ujemny wykładnik nie daje liczby ujemnej – daje odwrotność. Zobacz przykłady krok po kroku.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #8", "tytul": "Potęga **ujemna** to nie liczba ujemna", "pod": "Zobacz, jak to działa 👉", "wzor": "2^{-3} = \\frac{1}{8}" },
+      { "t": "wzor", "tytul": "Definicje", "wzor": ["a^0 = 1 \\quad (a \\ne 0)", "a^{-n} = \\frac{1}{a^n}", "\\left(\\frac{a}{b}\\right)^{-n} = \\left(\\frac{b}{a}\\right)^n"], "opis": "Ujemny wykładnik = **odwrotność**." },
+      { "t": "przyklad", "tytul": "Oblicz $\\left(\\frac23\\right)^{-2}$", "kroki": ["Odwracamy ułamek: $\\left(\\frac32\\right)^2$", "$\\frac{3^2}{2^2} = \\frac94$"], "wynik": "$\\frac94 = 2{,}25$" },
+      { "t": "przyklad", "tytul": "Oblicz $5^{-1} + 5^0$", "kroki": ["$5^{-1} = \\frac15$", "$5^0 = 1$"], "wynik": "$\\frac15 + 1 = \\frac65 = 1{,}2$" },
+      { "t": "przyklad", "tytul": "Oblicz $\\frac{3^{-2}\\cdot 3^5}{3^4}$", "kroki": ["Licznik: $3^{-2+5} = 3^3$", "Dzielenie: $3^{3-4} = 3^{-1}$"], "wynik": "$= \\frac13$" }
+    ]
+  },
+  {
+    "id": 12,
+    "typ": "lekcja",
+    "dzial": "Pierwiastki",
+    "temat": "Działania na pierwiastkach",
+    "opis": "Wyłączanie czynnika przed pierwiastek i dodawanie pierwiastków – trik, który upraszcza mnóstwo zadań.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #9", "tytul": "Wyłączanie czynnika **przed pierwiastek**", "pod": "Trik, który upraszcza połowę zadań 👉", "wzor": "\\sqrt{50} = 5\\sqrt{2}" },
+      { "t": "wzor", "tytul": "Najważniejsze wzory", "wzor": ["\\sqrt{a}\\cdot\\sqrt{b} = \\sqrt{ab} \\qquad \\frac{\\sqrt a}{\\sqrt b} = \\sqrt{\\frac ab}", "\\sqrt{a^2} = |a|", "\\sqrt[3]{-8} = -2"], "opis": "W 1. linijce $a, b \\ge 0$ (przy dzieleniu $b > 0$). Pierwiastek 3. stopnia istnieje też z liczby ujemnej." },
+      { "t": "przyklad", "tytul": "Wyłącz czynnik: $\\sqrt{72}$", "kroki": ["Szukamy kwadratu w środku: $72 = 36\\cdot 2$", "$\\sqrt{36\\cdot 2} = \\sqrt{36}\\cdot\\sqrt2$"], "wynik": "$6\\sqrt2$" },
+      { "t": "przyklad", "tytul": "Oblicz $\\sqrt{12} + \\sqrt{27}$", "kroki": ["$\\sqrt{12} = \\sqrt{4\\cdot3} = 2\\sqrt3$", "$\\sqrt{27} = \\sqrt{9\\cdot 3} = 3\\sqrt3$", "$2\\sqrt3 + 3\\sqrt3$"], "wynik": "$5\\sqrt3$" },
+      { "t": "punkty", "tytul": "Uwaga na pułapki", "numeruj": false, "punkty": [
+        "$\\sqrt{9+16} \\ne \\sqrt9 + \\sqrt{16}$, bo $5 \\ne 7$",
+        "$\\sqrt{2} + \\sqrt{3} \\ne \\sqrt{5}$",
+        "$\\sqrt{(-3)^2} = 3$, a nie $-3$"
+      ] }
+    ]
+  },
+  {
+    "id": 13,
+    "typ": "quiz",
+    "dzial": "Potęgi i pierwiastki",
+    "temat": "Quiz: potęgi i pierwiastki",
+    "opis": "Trzy szybkie zadania z potęg i pierwiastków. Policz na kartce, zanim przesuniesz!",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Potęgi i pierwiastki: **sprawdź się**", "pod": "3 zadania, odpowiedzi w środku 👉" },
+      { "t": "pytanie", "tresc": "Liczba $\\frac{4^5\\cdot 2^{-3}}{8}$ jest równa:", "odp": ["$2^4$", "$2^5$", "$2^{-1}$", "$2^{10}$"] },
+      { "t": "odpowiedz", "poprawna": "A. $2^4$", "kroki": ["$4^5 = (2^2)^5 = 2^{10}$, $8 = 2^3$", "Licznik: $2^{10}\\cdot 2^{-3} = 2^7$", "$2^7 : 2^3 = 2^4$"] },
+      { "t": "pytanie", "tresc": "Liczba $\\sqrt{75} - \\sqrt{12}$ jest równa:", "odp": ["$\\sqrt{63}$", "$3\\sqrt3$", "$7\\sqrt3$", "$\\sqrt3$"] },
+      { "t": "odpowiedz", "poprawna": "B. $3\\sqrt3$", "kroki": ["$\\sqrt{75} = \\sqrt{25\\cdot 3} = 5\\sqrt3$", "$\\sqrt{12} = \\sqrt{4\\cdot 3} = 2\\sqrt3$", "$5\\sqrt3 - 2\\sqrt3 = 3\\sqrt3$"] },
+      { "t": "pytanie", "tresc": "Liczba $\\left(\\frac12\\right)^{-3}$ jest równa:", "odp": ["$-8$", "$\\frac18$", "$8$", "$-\\frac18$"] },
+      { "t": "odpowiedz", "poprawna": "C. $8$", "kroki": ["Ujemny wykładnik → odwracamy ułamek", "$\\left(\\frac21\\right)^3 = 2^3 = 8$"] }
+    ]
+  },
+  {
+    "id": 14,
+    "typ": "lekcja",
+    "dzial": "Pierwiastki",
+    "temat": "Usuwanie niewymierności z mianownika",
+    "opis": "Pierwiastek w mianowniku? Pokazujemy dwa przypadki i jeden trik, który zawsze działa.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #10", "tytul": "Pierwiastek w mianowniku? **Pozbądź się go**", "pod": "Dwa przypadki, jeden trik 👉", "wzor": "\\frac{6}{\\sqrt3} = 2\\sqrt3" },
+      { "t": "wzor", "tytul": "Przypadek 1: sam pierwiastek", "wzor": "\\frac{a}{\\sqrt b} = \\frac{a}{\\sqrt b}\\cdot\\frac{\\sqrt b}{\\sqrt b} = \\frac{a\\sqrt b}{b}", "opis": "Mnożysz licznik i mianownik przez **ten sam pierwiastek**." },
+      { "t": "przyklad", "tytul": "Usuń niewymierność: $\\frac{6}{\\sqrt3}$", "kroki": ["$\\frac{6}{\\sqrt3}\\cdot\\frac{\\sqrt3}{\\sqrt3} = \\frac{6\\sqrt3}{3}$", "Skracamy 6 i 3"], "wynik": "$2\\sqrt3$" },
+      { "t": "wzor", "tytul": "Przypadek 2: suma lub różnica", "wzor": "(a-b)(a+b) = a^2 - b^2", "opis": "Mnożysz przez to samo wyrażenie ze **zmienionym znakiem** w środku – pierwiastek znika z mianownika." },
+      { "t": "przyklad", "tytul": "Usuń niewymierność: $\\frac{2}{\\sqrt5 - 1}$", "kroki": ["Mnożymy przez $\\frac{\\sqrt5+1}{\\sqrt5+1}$", "Mianownik: $(\\sqrt5)^2 - 1^2 = 5-1 = 4$", "$\\frac{2(\\sqrt5+1)}{4}$"], "wynik": "$\\frac{\\sqrt5+1}{2}$" }
+    ]
+  },
+  {
+    "id": 15,
+    "typ": "lekcja",
+    "dzial": "Potęgi",
+    "temat": "Potęga o wykładniku wymiernym",
+    "opis": "Każdy pierwiastek da się zapisać jako potęgę z ułamkiem w wykładniku. Zobacz, jak to upraszcza rachunki.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #11", "tytul": "Pierwiastek to też **potęga**", "pod": "Ten zapis bardzo ułatwia życie 👉", "wzor": "\\sqrt[n]{a^m} = a^{\\frac mn}" },
+      { "t": "wzor", "tytul": "Zamiana pierwiastek ↔ potęga", "wzor": ["a^{\\frac1n} = \\sqrt[n]{a}", "a^{\\frac mn} = \\sqrt[n]{a^m}", "a^{-\\frac mn} = \\frac{1}{\\sqrt[n]{a^m}}"], "opis": "Dla $a > 0$. Mianownik ułamka = **stopień pierwiastka**." },
+      { "t": "przyklad", "tytul": "Oblicz $8^{\\frac23}$", "kroki": ["$8^{\\frac23} = \\left(\\sqrt[3]{8}\\right)^2$", "$\\sqrt[3]{8} = 2$, więc $2^2$"], "wynik": "$4$" },
+      { "t": "przyklad", "tytul": "Oblicz $27^{-\\frac13}$", "kroki": ["$27^{\\frac13} = \\sqrt[3]{27} = 3$", "Minus w wykładniku = odwrotność: $3^{-1}$"], "wynik": "$\\frac13$" },
+      { "t": "przyklad", "tytul": "Zapisz $\\sqrt{3}\\cdot\\sqrt[3]{3}$ jako potęgę liczby 3", "kroki": ["$\\sqrt3 = 3^{\\frac12}$, $\\sqrt[3]{3} = 3^{\\frac13}$", "Dodajemy wykładniki: $\\frac12 + \\frac13 = \\frac56$"], "wynik": "$3^{\\frac56}$" }
+    ]
+  },
+  {
+    "id": 16,
+    "typ": "lekcja",
+    "dzial": "Liczby",
+    "temat": "Notacja wykładnicza",
+    "opis": "Jak zapisać bardzo duże i bardzo małe liczby w postaci a·10^k – zasada i trzy przykłady.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #12", "tytul": "Bardzo duże i **bardzo małe** liczby", "pod": "Notacja wykładnicza w 4 slajdach 👉", "wzor": "45\\,000\\,000 = 4{,}5\\cdot 10^7" },
+      { "t": "wzor", "tytul": "Zasada", "wzor": "a\\cdot 10^k, \\quad 1 \\le a < 10,\\quad k \\in \\mathbb{Z}", "opis": "Przed przecinkiem stoi **jedna cyfra** różna od zera." },
+      { "t": "przyklad", "tytul": "Zapisz $45\\,000\\,000$", "kroki": ["Przecinek przesuwamy o 7 miejsc w lewo: $4{,}5$", "Duża liczba → wykładnik **dodatni**"], "wynik": "$4{,}5\\cdot 10^7$" },
+      { "t": "przyklad", "tytul": "Zapisz $0{,}00032$", "kroki": ["Przecinek przesuwamy o 4 miejsca w prawo: $3{,}2$", "Mała liczba → wykładnik **ujemny**"], "wynik": "$3{,}2 \\cdot 10^{-4}$" },
+      { "t": "przyklad", "tytul": "Oblicz $(2\\cdot10^5)\\cdot(6\\cdot 10^{-2})$", "kroki": ["$2\\cdot 6 = 12$, $10^{5+(-2)} = 10^3$", "$12 \\cdot 10^3$ – ale $12 \\ge 10$!", "$12 = 1{,}2\\cdot 10$, więc $1{,}2\\cdot 10^{1+3}$"], "wynik": "$1{,}2\\cdot 10^4$" }
+    ]
+  },
+  {
+    "id": 17,
+    "typ": "quiz",
+    "dzial": "Potęgi i pierwiastki",
+    "temat": "Quiz: pierwiastki i notacja wykładnicza",
+    "opis": "Niewymierność w mianowniku, potęga z ułamkiem i notacja wykładnicza – sprawdź, co zostało w głowie.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "3 zadania, **0 kalkulatora**", "pod": "Policz na kartce i przesuń 👉" },
+      { "t": "pytanie", "tresc": "Liczba $\\frac{4}{\\sqrt2}$ jest równa:", "odp": ["$2$", "$2\\sqrt2$", "$4\\sqrt2$", "$\\sqrt2$"] },
+      { "t": "odpowiedz", "poprawna": "B. $2\\sqrt2$", "kroki": ["$\\frac{4}{\\sqrt2}\\cdot\\frac{\\sqrt2}{\\sqrt2} = \\frac{4\\sqrt2}{2}$", "$= 2\\sqrt2$"] },
+      { "t": "pytanie", "tresc": "Liczba $16^{\\frac34}$ jest równa:", "odp": ["$8$", "$12$", "$64$", "$4$"] },
+      { "t": "odpowiedz", "poprawna": "A. $8$", "kroki": ["$\\sqrt[4]{16} = 2$", "$2^3 = 8$"] },
+      { "t": "pytanie", "tresc": "Liczba $0{,}000507$ zapisana w notacji wykładniczej to:", "odp": ["$5{,}07\\cdot10^{-4}$", "$5{,}07\\cdot 10^{-3}$", "$507\\cdot 10^{-6}$", "$50{,}7\\cdot10^{-5}$"] },
+      { "t": "odpowiedz", "poprawna": "A. $5{,}07\\cdot10^{-4}$", "kroki": ["Przecinek o 4 miejsca w prawo: $5{,}07$", "C i D mają tę samą wartość, ale $507$ i $50{,}7$ nie są z przedziału $\\langle 1; 10)$"] }
+    ]
+  },
+  {
+    "id": 18,
+    "typ": "lekcja",
+    "dzial": "Logarytmy",
+    "temat": "Logarytm – definicja",
+    "opis": "Logarytm to pytanie: do jakiej potęgi trzeba podnieść podstawę? Zobacz definicję i przykłady.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #13", "tytul": "Logarytm to **pytanie**, nie straszny wzór", "pod": "Zrozumiesz w minutę 👉", "wzor": "\\log_2 8 = \\,?" },
+      { "t": "wzor", "tytul": "Definicja", "wzor": "\\log_a b = c \\iff a^c = b", "opis": "Do jakiej potęgi podnieść **a**, żeby dostać **b**?", "uwaga": "Warunki: $a > 0$, $a \\ne 1$, $b > 0$." },
+      { "t": "przyklad", "tytul": "Oblicz $\\log_2 8$", "kroki": ["Pytanie: $2^{?} = 8$", "$2^3 = 8$"], "wynik": "$\\log_2 8 = 3$" },
+      { "t": "przyklad", "tytul": "Oblicz $\\log_3 \\frac19$", "kroki": ["Pytanie: $3^{?} = \\frac19$", "$\\frac19 = \\frac{1}{3^2} = 3^{-2}$"], "wynik": "$\\log_3 \\frac19 = -2$" },
+      { "t": "przyklad", "tytul": "Oblicz $\\log 1000$", "kroki": ["Brak podstawy = podstawa **10**", "$10^3 = 1000$"], "wynik": "$\\log 1000 = 3$" },
+      { "t": "punkty", "tytul": "Warto pamiętać", "numeruj": false, "punkty": [
+        "$\\log_a 1 = 0$, bo $a^0 = 1$",
+        "$\\log_a a = 1$, bo $a^1 = a$",
+        "$\\log_a a^n = n$"
+      ] }
+    ]
+  },
+  {
+    "id": 19,
+    "typ": "lekcja",
+    "dzial": "Logarytmy",
+    "temat": "Działania na logarytmach",
+    "opis": "Suma, różnica i liczba przed logarytmem – trzy wzory, dzięki którym policzysz większość zadań z logarytmami.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #14", "tytul": "Logarytmy: **3 wzory**, które robią robotę", "pod": "Plus przykłady krok po kroku 👉" },
+      { "t": "wzor", "tytul": "Ta sama podstawa!", "wzor": ["\\log_a x + \\log_a y = \\log_a (xy)", "\\log_a x - \\log_a y = \\log_a \\frac xy", "n\\cdot\\log_a x = \\log_a x^n"], "uwaga": "Dla $x, y > 0$, $a > 0$, $a \\ne 1$." },
+      { "t": "przyklad", "tytul": "Oblicz $\\log_6 4 + \\log_6 9$", "kroki": ["$\\log_6 (4\\cdot 9) = \\log_6 36$", "$6^2 = 36$"], "wynik": "$2$" },
+      { "t": "przyklad", "tytul": "Oblicz $\\log_3 54 - \\log_3 2$", "kroki": ["$\\log_3 \\frac{54}{2} = \\log_3 27$", "$3^3 = 27$"], "wynik": "$3$" },
+      { "t": "przyklad", "tytul": "Oblicz $2\\log_5 10 - \\log_5 4$", "kroki": ["$2\\log_5 10 = \\log_5 10^2 = \\log_5 100$", "$\\log_5 \\frac{100}{4} = \\log_5 25$"], "wynik": "$2$" },
+      { "t": "punkty", "tytul": "Uwaga na pułapki", "numeruj": false, "punkty": [
+        "$\\log_a(x+y) \\ne \\log_a x + \\log_a y$ ❌",
+        "$\\frac{\\log_a x}{\\log_a y} \\ne \\log_a \\frac xy$ ❌",
+        "Wzory działają tylko przy **tej samej podstawie**"
+      ] }
+    ]
+  },
+  {
+    "id": 20,
+    "typ": "quiz",
+    "dzial": "Logarytmy",
+    "temat": "Quiz: logarytmy",
+    "opis": "Trzy zadania z logarytmów – definicja i działania. Ile zrobisz bez podglądania?",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Logarytmy: **sprawdź się**", "pod": "3 zadania w stylu maturalnym 👉" },
+      { "t": "pytanie", "tresc": "Liczba $\\log_4 64$ jest równa:", "odp": ["$16$", "$3$", "$4$", "$8$"] },
+      { "t": "odpowiedz", "poprawna": "B. $3$", "kroki": ["Pytanie: $4^{?} = 64$", "$4^3 = 64$"] },
+      { "t": "pytanie", "tresc": "Liczba $\\log_2 24 - \\log_2 3$ jest równa:", "odp": ["$3$", "$\\log_2 21$", "$8$", "$4$"] },
+      { "t": "odpowiedz", "poprawna": "A. $3$", "kroki": ["$\\log_2 \\frac{24}{3} = \\log_2 8$", "$2^3 = 8$, więc wynik to 3"] },
+      { "t": "pytanie", "tresc": "Liczba $\\log_5 \\frac{1}{25}$ jest równa:", "odp": ["$-5$", "$\\frac12$", "$-2$", "$2$"] },
+      { "t": "odpowiedz", "poprawna": "C. $-2$", "kroki": ["$\\frac{1}{25} = \\frac{1}{5^2} = 5^{-2}$", "Więc $\\log_5 \\frac{1}{25} = -2$"] }
+    ]
+  },
+  {
+    "id": 21,
+    "typ": "lekcja",
+    "dzial": "Wyrażenia algebraiczne",
+    "temat": "Wzory skróconego mnożenia",
+    "opis": "Kwadrat sumy, kwadrat różnicy i różnica kwadratów – wzory, które oszczędzają mnóstwo liczenia.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #15", "tytul": "**3 wzory**, które oszczędzą Ci liczenia", "pod": "Wzory skróconego mnożenia 👉", "wzor": "(a+b)^2 = \\,?" },
+      { "t": "wzor", "tytul": "Wzory skróconego mnożenia", "wzor": ["(a+b)^2 = a^2 + 2ab + b^2", "(a-b)^2 = a^2 - 2ab + b^2", "a^2 - b^2 = (a-b)(a+b)"], "uwaga": "**Częsty błąd:** $(a+b)^2 \\ne a^2 + b^2$ – nie zapominaj o $2ab$!" },
+      { "t": "przyklad", "tytul": "Rozwiń $(x+3)^2$", "kroki": ["$a = x$, $b = 3$", "$x^2 + 2\\cdot x\\cdot 3 + 3^2$"], "wynik": "$x^2 + 6x + 9$" },
+      { "t": "przyklad", "tytul": "Rozwiń $(2x-5)^2$", "kroki": ["$(2x)^2 - 2\\cdot 2x\\cdot 5 + 5^2$", "Uwaga: $(2x)^2 = 4x^2$, a nie $2x^2$"], "wynik": "$4x^2 - 20x + 25$" },
+      { "t": "przyklad", "tytul": "Rozłóż na czynniki $x^2 - 49$", "kroki": ["$49 = 7^2$", "$x^2 - 7^2 = (x-7)(x+7)$"], "wynik": "$(x-7)(x+7)$" }
+    ]
+  },
+  {
+    "id": 22,
+    "typ": "lekcja",
+    "dzial": "Wyrażenia algebraiczne",
+    "temat": "Wzory skróconego mnożenia z pierwiastkami",
+    "opis": "Typowe zadanie maturalne: wzory skróconego mnożenia z pierwiastkami. Cztery przykłady krok po kroku.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #16", "tytul": "Wzory skróconego mnożenia **z pierwiastkami**", "pod": "Typowe zadanie maturalne 👉", "wzor": "(\\sqrt3 - 1)^2 = \\,?" },
+      { "t": "przyklad", "tytul": "Oblicz $(\\sqrt3 - 1)^2$", "kroki": ["$(\\sqrt3)^2 - 2\\cdot\\sqrt3\\cdot 1 + 1^2$", "$= 3 - 2\\sqrt3 + 1$"], "wynik": "$4 - 2\\sqrt3$" },
+      { "t": "przyklad", "tytul": "Oblicz $(2\\sqrt2 + 3)^2$", "kroki": ["$(2\\sqrt2)^2 = 4\\cdot 2 = 8$", "$2\\cdot 2\\sqrt2\\cdot 3 = 12\\sqrt2$", "$8 + 12\\sqrt2 + 9$"], "wynik": "$17 + 12\\sqrt2$" },
+      { "t": "przyklad", "tytul": "Oblicz $(5-\\sqrt7)(5+\\sqrt7)$", "kroki": ["Wzór: $(a-b)(a+b) = a^2 - b^2$", "$5^2 - (\\sqrt7)^2 = 25 - 7$"], "wynik": "$18$ – liczba wymierna! ✅" },
+      { "t": "przyklad", "tytul": "Uprość $(x+2)^2 - (x-2)^2$", "kroki": ["$(x^2+4x+4) - (x^2-4x+4)$", "Minus przed nawiasem zmienia **wszystkie** znaki", "$x^2 + 4x + 4 - x^2 + 4x - 4$"], "wynik": "$8x$" }
+    ]
+  },
+  {
+    "id": 23,
+    "typ": "quiz",
+    "dzial": "Wyrażenia algebraiczne",
+    "temat": "Quiz: wzory skróconego mnożenia",
+    "opis": "Trzy zadania na wzory skróconego mnożenia. Uważaj na podwojony iloczyn!",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Nie zapomnij o **2ab**", "pod": "Wzory skróconego mnożenia – 3 zadania 👉" },
+      { "t": "pytanie", "tresc": "Liczba $(\\sqrt5 + 2)^2$ jest równa:", "odp": ["$9$", "$9 + 4\\sqrt5$", "$7 + 4\\sqrt5$", "$9 + 2\\sqrt5$"] },
+      { "t": "odpowiedz", "poprawna": "B. $9 + 4\\sqrt5$", "kroki": ["$(\\sqrt5)^2 + 2\\cdot\\sqrt5\\cdot 2 + 2^2$", "$= 5 + 4\\sqrt5 + 4 = 9 + 4\\sqrt5$"] },
+      { "t": "pytanie", "tresc": "Wyrażenie $(3x-1)^2$ jest równe:", "odp": ["$9x^2 - 1$", "$9x^2 - 6x + 1$", "$3x^2 - 6x + 1$", "$9x^2 - 3x + 1$"] },
+      { "t": "odpowiedz", "poprawna": "B. $9x^2 - 6x + 1$", "kroki": ["$(3x)^2 - 2\\cdot 3x\\cdot 1 + 1^2$", "$= 9x^2 - 6x + 1$"] },
+      { "t": "pytanie", "tresc": "Liczba $(\\sqrt{11} - 3)(\\sqrt{11} + 3)$ jest równa:", "odp": ["$2$", "$8$", "$\\sqrt{11}$", "$20$"] },
+      { "t": "odpowiedz", "poprawna": "A. $2$", "kroki": ["$(a-b)(a+b) = a^2 - b^2$", "$11 - 9 = 2$"] }
+    ]
+  },
+  {
+    "id": 24,
+    "typ": "lekcja",
+    "dzial": "Wyrażenia wymierne",
+    "temat": "Wyrażenia wymierne – dziedzina",
+    "opis": "Przez zero się nie dzieli – i na tym opiera się cała dziedzina wyrażenia wymiernego. Zobacz przykłady.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #17", "tytul": "Dziedzina: **mianownik ≠ 0**", "pod": "Wyrażenia wymierne – start 👉", "wzor": "\\frac{x+1}{x-3}" },
+      { "t": "punkty", "tytul": "Co to jest wyrażenie wymierne?", "punkty": [
+        "Ułamek z **wielomianami** w liczniku i mianowniku",
+        "Np. $\\frac{x+1}{x-3}$ albo $\\frac{2}{x^2-4}$",
+        "**Dziedzina** – wszystkie $x$, dla których mianownik $\\ne 0$"
+      ] },
+      { "t": "przyklad", "tytul": "Dziedzina $\\frac{x+1}{x-3}$", "kroki": ["$x - 3 \\ne 0$", "$x \\ne 3$"], "wynik": "$D = \\mathbb{R}\\setminus\\{3\\}$" },
+      { "t": "przyklad", "tytul": "Dziedzina $\\frac{5}{x^2 - 4}$", "kroki": ["$x^2 - 4 \\ne 0$", "$(x-2)(x+2) \\ne 0$", "$x \\ne 2$ i $x \\ne -2$"], "wynik": "$D = \\mathbb{R}\\setminus\\{-2;\\ 2\\}$" },
+      { "t": "przyklad", "tytul": "Dziedzina $\\frac{x}{x(x+5)}$", "kroki": ["$x \\ne 0$ i $x + 5 \\ne 0$", "Dziedzinę ustalamy **przed** skracaniem!"], "wynik": "$D = \\mathbb{R}\\setminus\\{-5;\\ 0\\}$" },
+      { "t": "punkty", "tytul": "Pułapki", "numeruj": false, "punkty": [
+        "Dla $\\frac{1}{x^2+1}$: ${D = \\mathbb{R}}$, bo zawsze $x^2+1 > 0$",
+        "Zero w **liczniku** nie przeszkadza",
+        "Zapis: $\\mathbb{R}\\setminus\\{\\dots\\}$ – „wszystkie liczby oprócz”"
+      ] }
+    ]
+  },
+  {
+    "id": 25,
+    "typ": "lekcja",
+    "dzial": "Wyrażenia wymierne",
+    "temat": "Skracanie i dodawanie wyrażeń wymiernych",
+    "opis": "Jak skracać i dodawać ułamki z iksami: najpierw rozkład na czynniki, potem skracanie.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #18", "tytul": "Skracanie ułamków **z iksami**", "pod": "Najpierw rozłóż, potem skracaj 👉" },
+      { "t": "punkty", "tytul": "Złota zasada", "punkty": [
+        "Wyznacz **dziedzinę**",
+        "Rozłóż licznik i mianownik na **czynniki**",
+        "Skracaj tylko czynniki, nigdy składniki!"
+      ], "uwaga": "$\\frac{x+3}{3} \\ne x$ – tu nie ma czego skracać!" },
+      { "t": "przyklad", "tytul": "Skróć $\\frac{x^2 - 9}{x+3}$", "kroki": ["Dziedzina: $x \\ne -3$", "$\\frac{(x-3)(x+3)}{x+3}$"], "wynik": "$x - 3$, dla $x \\ne -3$" },
+      { "t": "przyklad", "tytul": "Skróć $\\frac{x^2+2x}{x^2-4}$", "kroki": ["Dziedzina: $x \\ne -2$ i $x \\ne 2$", "$\\frac{x(x+2)}{(x-2)(x+2)}$"], "wynik": "$\\frac{x}{x-2}$" },
+      { "t": "przyklad", "tytul": "Dodaj $\\frac{2}{x} + \\frac{3}{x+1}$", "kroki": ["Dziedzina: $x \\ne 0$ i $x \\ne -1$", "Wspólny mianownik: $x(x+1)$", "$\\frac{2(x+1) + 3x}{x(x+1)}$"], "wynik": "$\\frac{5x+2}{x(x+1)}$" }
+    ]
+  },
+  {
+    "id": 26,
+    "typ": "lekcja",
+    "dzial": "Równania",
+    "temat": "Równania liniowe",
+    "opis": "Równanie liniowe w trzech krokach – oraz kiedy równanie nie ma rozwiązań, a kiedy ma ich nieskończenie wiele.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #19", "tytul": "Równanie liniowe w **3 krokach**", "pod": "Plus: kiedy nie ma rozwiązań 👉", "wzor": "3(x-2) = x + 4" },
+      { "t": "punkty", "tytul": "Schemat", "punkty": [
+        "Pozbądź się nawiasów i ułamków",
+        "Iksy na lewo, liczby na prawo – przy przenoszeniu **zmieniasz znak**",
+        "Podziel przez liczbę stojącą przy $x$"
+      ] },
+      { "t": "przyklad", "tytul": "Rozwiąż $3(x-2) = x + 4$", "kroki": ["$3x - 6 = x + 4$", "$3x - x = 4 + 6$", "$2x = 10$"], "wynik": "$x = 5$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $\\frac{x}{2} - \\frac{x-1}{3} = 1$", "kroki": ["Mnożymy obie strony przez 6", "$3x - 2(x-1) = 6$", "$3x - 2x + 2 = 6$"], "wynik": "$x = 4$" },
+      { "t": "porownanie", "tytul": "Ile rozwiązań?", "lewa": { "naglowek": "$0\\cdot x = 5$", "punkty": ["**sprzeczne**", "brak rozwiązań", "np. $2x+1 = 2x+6$"] }, "prawa": { "naglowek": "$0 \\cdot x = 0$", "punkty": ["**tożsamościowe**", "każda liczba", "np. $2(x+1) = 2x+2$"] } }
+    ]
+  },
+  {
+    "id": 27,
+    "typ": "quiz",
+    "dzial": "Równania",
+    "temat": "Quiz: wyrażenia wymierne i równania",
+    "opis": "Dziedzina, skracanie i równanie liniowe – trzy zadania w stylu maturalnym.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Dziedzina, skracanie, **równanie**", "pod": "Sprawdź, czy pamiętasz 👉" },
+      { "t": "pytanie", "tresc": "Dziedziną wyrażenia $\\frac{x+2}{x^2 - 25}$ jest zbiór:", "odp": ["$\\mathbb{R}\\setminus\\{5\\}$", "$\\mathbb{R}\\setminus\\{-2\\}$", "$\\mathbb{R}\\setminus\\{-5;\\ 5\\}$", "$\\mathbb{R}$"] },
+      { "t": "odpowiedz", "poprawna": "C. $\\mathbb{R}\\setminus\\{-5;\\ 5\\}$", "kroki": ["$x^2 - 25 \\ne 0$", "$(x-5)(x+5) \\ne 0$", "$x \\ne 5$ i $x \\ne -5$"] },
+      { "t": "pytanie", "tresc": "Rozwiązaniem równania $2(x+3) = 5x - 9$ jest liczba:", "odp": ["$1$", "$5$", "$-5$", "$3$"] },
+      { "t": "odpowiedz", "poprawna": "B. $5$", "kroki": ["$2x + 6 = 5x - 9$", "$15 = 3x$", "$x = 5$"] },
+      { "t": "pytanie", "tresc": "Dla $x \\ne 1$ wyrażenie $\\frac{x^2 - 1}{x - 1}$ jest równe:", "odp": ["$x$", "$x - 1$", "$x + 1$", "$x^2$"] },
+      { "t": "odpowiedz", "poprawna": "C. $x + 1$", "kroki": ["$x^2 - 1 = (x-1)(x+1)$", "$\\frac{(x-1)(x+1)}{x-1} = x + 1$"] }
+    ]
+  },
+  {
+    "id": 28,
+    "typ": "lekcja",
+    "dzial": "Nierówności",
+    "temat": "Nierówności liniowe",
+    "opis": "Nierówność rozwiązujesz prawie jak równanie. Prawie – bo jest jedna zasada, o której nie wolno zapomnieć.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #20", "tytul": "Kiedy **odwracasz znak** nierówności?", "pod": "Jedna zasada, której nie wolno zapomnieć 👉" },
+      { "t": "punkty", "tytul": "Jak równanie, ale…", "numeruj": false, "punkty": [
+        "Mnożysz lub dzielisz przez liczbę **ujemną** → znak się **odwraca**",
+        "$<$ zmienia się w $>$, a $\\le$ w $\\ge$",
+        "Wynik zapisz jako **przedział**"
+      ] },
+      { "t": "przyklad", "tytul": "Rozwiąż $2x - 3 > 7$", "kroki": ["$2x > 10$", "$x > 5$"], "wynik": "$x \\in (5; +\\infty)$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $4 - 3x \\le 10$", "kroki": ["$-3x \\le 6$", "Dzielimy przez $-3$ → **odwracamy** znak", "$x \\ge -2$"], "wynik": "$x \\in \\langle -2; +\\infty)$" },
+      { "t": "przyklad", "tytul": "Najmniejsza liczba całkowita spełniająca $\\frac{x+1}{2} > 3$", "kroki": ["Mnożymy przez 2: $x + 1 > 6$", "$x > 5$", "5 nie spełnia (nierówność ostra)"], "wynik": "$x = 6$" }
+    ]
+  },
+  {
+    "id": 29,
+    "typ": "lekcja",
+    "dzial": "Układy równań",
+    "temat": "Układy równań – podstawianie",
+    "opis": "Metoda podstawiania krok po kroku: wyznacz, wstaw, policz i wróć po drugą niewiadomą.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #21", "tytul": "Układ równań: metoda **podstawiania**", "pod": "Krok po kroku na przykładzie 👉", "wzor": "\\begin{cases} x + y = 5 \\\\ 2x - y = 4 \\end{cases}" },
+      { "t": "punkty", "tytul": "Schemat", "punkty": [
+        "Z jednego równania wyznacz $x$ albo $y$",
+        "Wstaw to do **drugiego** równania",
+        "Rozwiąż i **wróć** po drugą niewiadomą"
+      ], "uwaga": "Na koniec sprawdź wynik w **obu** równaniach ✅" },
+      { "t": "przyklad", "tytul": "Rozwiąż układ", "tresc": "$\\begin{cases} x + y = 5 \\\\ 2x - y = 4 \\end{cases}$", "kroki": ["Z 1. równania: $y = 5 - x$", "$2x - (5 - x) = 4 \\Rightarrow 3x = 9 \\Rightarrow x = 3$", "$y = 5 - 3 = 2$"], "wynik": "$x = 3$, $y = 2$" },
+      { "t": "przyklad", "tytul": "Rozwiąż układ", "tresc": "$\\begin{cases} y = 2x - 1 \\\\ 3x + 2y = 12 \\end{cases}$", "kroki": ["$y$ jest już wyznaczony – wstawiamy", "$3x + 2(2x-1) = 12 \\Rightarrow 7x = 14$", "$x = 2$, $y = 2\\cdot 2 - 1 = 3$"], "wynik": "$x = 2$, $y = 3$" }
+    ]
+  },
+  {
+    "id": 30,
+    "typ": "lekcja",
+    "dzial": "Układy równań",
+    "temat": "Układy równań – przeciwne współczynniki",
+    "opis": "Dodajesz równania stronami i jedna niewiadoma znika. Do tego: kiedy układ jest sprzeczny, a kiedy nieoznaczony.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #22", "tytul": "Dodaj równania – **niewiadoma znika**", "pod": "Metoda przeciwnych współczynników 👉" },
+      { "t": "przyklad", "tytul": "Współczynniki już są przeciwne", "tresc": "$\\begin{cases} 3x + 2y = 7 \\\\ 5x - 2y = 9 \\end{cases}$", "kroki": ["Przy $y$ mamy $+2$ i $-2$ – dodajemy stronami", "$8x = 16 \\Rightarrow x = 2$", "$3\\cdot 2 + 2y = 7 \\Rightarrow y = \\frac12$"], "wynik": "$x = 2$, $y = \\frac12$" },
+      { "t": "przyklad", "tytul": "Najpierw trzeba pomnożyć", "tresc": "$\\begin{cases} x + 3y = 5 \\\\ 2x + y = 5 \\end{cases}$", "kroki": ["1. równanie razy $(-2)$: $-2x - 6y = -10$", "Dodajemy: $-5y = -5 \\Rightarrow y = 1$", "$x = 5 - 3\\cdot 1 = 2$"], "wynik": "$x = 2$, $y = 1$" },
+      { "t": "punkty", "tytul": "Ile rozwiązań ma układ?", "punkty": [
+        "**Jedno** – proste się przecinają",
+        "**Brak** (sprzeczny) – wychodzi np. $0 = 3$",
+        "**Nieskończenie wiele** (nieoznaczony) – wychodzi $0 = 0$"
+      ] },
+      { "t": "przyklad", "tytul": "Ile rozwiązań?", "tresc": "$\\begin{cases} x + y = 2 \\\\ 2x + 2y = 7 \\end{cases}$", "kroki": ["1. równanie razy $(-2)$: $-2x - 2y = -4$", "Dodajemy: $0 = 3$ – fałsz"], "wynik": "Układ **sprzeczny** – brak rozwiązań" }
+    ]
+  },
+  {
+    "id": 31,
+    "typ": "quiz",
+    "dzial": "Układy równań",
+    "temat": "Quiz: nierówności i układy równań",
+    "opis": "Nierówność liniowa i układy równań – trzy zadania. Pamiętasz, kiedy odwraca się znak?",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Nierówności i układy: **3 zadania**", "pod": "Odpowiedzi z rozwiązaniem w środku 👉" },
+      { "t": "pytanie", "tresc": "Zbiorem rozwiązań nierówności $5 - 2x \\ge 1$ jest:", "odp": ["$\\langle 2; +\\infty)$", "$(-\\infty; 2\\rangle$", "$(-\\infty; -2\\rangle$", "$(-\\infty; 2)$"] },
+      { "t": "odpowiedz", "poprawna": "B. $(-\\infty; 2\\rangle$", "kroki": ["$-2x \\ge -4$", "Dzielimy przez $-2$ → odwracamy znak: $x \\le 2$", "Znak $\\le$ – nawias **ostry** przy 2"] },
+      { "t": "pytanie", "tresc": "Rozwiązaniem układu\n$\\begin{cases} x - y = 1 \\\\ x + y = 7 \\end{cases}$\njest para liczb:", "odp": ["$x = 3$, $y = 4$", "$x = 4$, $y = 3$", "$x = 4$, $y = -3$", "$x = 8$, $y = -1$"] },
+      { "t": "odpowiedz", "poprawna": "B. $x = 4$, $y = 3$", "kroki": ["Dodajemy stronami: $2x = 8 \\Rightarrow x = 4$", "$y = 7 - 4 = 3$", "Sprawdzenie: $4 - 3 = 1$ ✅"] },
+      { "t": "pytanie", "tresc": "Układ\n$\\begin{cases} 2x - y = 3 \\\\ 4x - 2y = 6 \\end{cases}$\nma:", "odp": ["dokładnie jedno rozwiązanie", "dokładnie dwa rozwiązania", "nieskończenie wiele rozwiązań", "brak rozwiązań"] },
+      { "t": "odpowiedz", "poprawna": "C. nieskończenie wiele rozwiązań", "kroki": ["2. równanie to 1. pomnożone przez 2", "1. razy $(-2)$ i dodajemy: $0 = 0$", "Układ **nieoznaczony**"] }
+    ]
+  },
+  {
+    "id": 32,
+    "typ": "lekcja",
+    "dzial": "Równania kwadratowe",
+    "temat": "Równania kwadratowe – delta",
+    "opis": "Delta i wzory na pierwiastki równania kwadratowego – z dwoma przykładami policzonymi krok po kroku.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #23", "tytul": "Równanie kwadratowe: **delta** krok po kroku", "pod": "Najważniejszy wzór działu 👉", "wzor": "\\Delta = b^2 - 4ac" },
+      { "t": "wzor", "tytul": "Wzory", "wzor": ["ax^2 + bx + c = 0,\\quad a \\ne 0", "\\Delta = b^2 - 4ac", "x_1 = \\frac{-b - \\sqrt\\Delta}{2a}, \\quad x_2 = \\frac{-b + \\sqrt\\Delta}{2a}"] },
+      { "t": "punkty", "tytul": "Znak delty mówi wszystko", "numeruj": false, "punkty": [
+        "$\\Delta > 0$ – **dwa** rozwiązania",
+        "$\\Delta = 0$ – **jedno**: $x_0 = \\frac{-b}{2a}$",
+        "$\\Delta < 0$ – **brak** rozwiązań"
+      ], "uwaga": "Uważaj na znak $b$: dla $b = -5$ mamy $b^2 = 25$ i $-b = 5$." },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 - 5x + 6 = 0$", "kroki": ["$a=1$, $b=-5$, $c=6$", "$\\Delta = 25 - 24 = 1$, $\\sqrt\\Delta = 1$", "$x_1 = \\frac{5-1}{2} = 2$, $x_2 = \\frac{5+1}{2} = 3$"], "wynik": "$x = 2$ lub $x = 3$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $2x^2 + 3x - 2 = 0$", "kroki": ["$\\Delta = 9 - 4\\cdot2\\cdot(-2) = 9 + 16 = 25$", "$\\sqrt\\Delta = 5$", "$x_1 = \\frac{-3-5}{4} = -2$, $x_2 = \\frac{-3+5}{4} = \\frac12$"], "wynik": "$x = -2$ lub $x = \\frac12$" }
+    ]
+  },
+  {
+    "id": 33,
+    "typ": "lekcja",
+    "dzial": "Równania kwadratowe",
+    "temat": "Równania kwadratowe bez delty",
+    "opis": "Nie każde równanie kwadratowe wymaga delty. Zobacz szybsze sposoby i najczęstsze pułapki.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #24", "tytul": "Kiedy **nie liczyć** delty?", "pod": "Szybsze sposoby na równania kwadratowe 👉" },
+      { "t": "przyklad", "tytul": "Brak wyrazu wolnego: $x^2 - 4x = 0$", "kroki": ["Wyłączamy $x$: $x(x - 4) = 0$", "Iloczyn $= 0$, gdy któryś czynnik $= 0$"], "wynik": "$x = 0$ lub $x = 4$" },
+      { "t": "przyklad", "tytul": "Brak wyrazu z $x$: $2x^2 - 18 = 0$", "kroki": ["$2x^2 = 18 \\Rightarrow x^2 = 9$", "Pamiętaj o **dwóch** rozwiązaniach!"], "wynik": "$x = -3$ lub $x = 3$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 + 4 = 0$", "kroki": ["$x^2 = -4$", "Kwadrat liczby nie może być ujemny"], "wynik": "Brak rozwiązań" },
+      { "t": "przyklad", "tytul": "Postać iloczynowa: $(x+1)(2x-6) = 0$", "kroki": ["$x + 1 = 0$ lub $2x - 6 = 0$"], "wynik": "$x = -1$ lub $x = 3$" },
+      { "t": "punkty", "tytul": "Uważaj!", "numeruj": false, "punkty": [
+        "$x^2 = 4x$ – nie dziel przez $x$! Zgubisz $x = 0$",
+        "$x^2 = 9$ – to $x = 3$ **lub** $x = -3$",
+        "$x^2 - 6x + 9 = (x-3)^2$ – wzór skróconego mnożenia też działa"
+      ] }
+    ]
+  },
+  {
+    "id": 34,
+    "typ": "quiz",
+    "dzial": "Równania kwadratowe",
+    "temat": "Quiz: równania kwadratowe",
+    "opis": "Delta, brak rozwiązań i równanie bez wyrazu wolnego – trzy zadania z równań kwadratowych.",
+    "slajdy": [
+      { "t": "okladka", "nad": "QUIZ 🧠", "tytul": "Równania kwadratowe: **sprawdź się**", "pod": "3 zadania, rozwiązania w środku 👉" },
+      { "t": "pytanie", "tresc": "Rozwiązaniami równania $x^2 - 2x - 8 = 0$ są liczby:", "odp": ["$-4$ i $2$", "$4$ i $-2$", "$8$ i $-1$", "$2$ i $4$"] },
+      { "t": "odpowiedz", "poprawna": "B. $4$ i $-2$", "kroki": ["$\\Delta = 4 + 32 = 36$, $\\sqrt\\Delta = 6$", "$x_1 = \\frac{2-6}{2} = -2$, $x_2 = \\frac{2+6}{2} = 4$"] },
+      { "t": "pytanie", "tresc": "Równanie $x^2 + 2x + 5 = 0$:", "odp": ["ma dwa rozwiązania", "ma jedno rozwiązanie", "nie ma rozwiązań", "ma rozwiązanie $x = -1$"] },
+      { "t": "odpowiedz", "poprawna": "C. nie ma rozwiązań", "kroki": ["$\\Delta = 2^2 - 4\\cdot 1\\cdot 5 = 4 - 20 = -16$", "$\\Delta < 0$ → brak rozwiązań"] },
+      { "t": "pytanie", "tresc": "Zbiorem rozwiązań równania $3x^2 = 12x$ jest:", "odp": ["$\\{4\\}$", "$\\{0;\\ 4\\}$", "$\\{-4;\\ 4\\}$", "$\\{-4;\\ 0\\}$"] },
+      { "t": "odpowiedz", "poprawna": "B. $\\{0;\\ 4\\}$", "kroki": ["$3x^2 - 12x = 0$", "$3x(x - 4) = 0$", "$x = 0$ lub $x = 4$ – dzielenie przez $x$ zgubiłoby zero!"] }
+    ]
+  },
+  {
+    "id": 35,
+    "typ": "lekcja",
+    "dzial": "Nierówności kwadratowe",
+    "temat": "Nierówności kwadratowe",
+    "opis": "Miejsca zerowe, szkic paraboli i odczytanie wyniku – schemat, który działa przy każdej nierówności kwadratowej.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #25", "tytul": "Nierówność kwadratowa? **Narysuj parabolę**", "pod": "Schemat, który zawsze działa 👉" },
+      { "t": "punkty", "tytul": "Schemat", "punkty": [
+        "Znajdź **miejsca zerowe** (delta lub rozkład)",
+        "Szkic paraboli: $a > 0$ – ramiona w górę, $a < 0$ – w dół",
+        "Odczytaj, gdzie wykres jest **nad** osią ($>0$), a gdzie **pod** ($<0$)"
+      ] },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 - x - 6 < 0$", "kroki": ["$\\Delta = 1 + 24 = 25$, więc $x_1 = -2$, $x_2 = 3$", "$a = 1 > 0$ – ramiona w górę", "Pod osią jest część **między** miejscami zerowymi"], "wynik": "$x \\in (-2; 3)$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $-x^2 + 4x \\le 0$", "kroki": ["$-x(x - 4) = 0 \\Rightarrow x = 0$ lub $x = 4$", "$a = -1 < 0$ – ramiona w dół", "Pod osią: **na zewnątrz**, z końcami"], "wynik": "$x \\in (-\\infty; 0\\rangle \\cup \\langle 4; +\\infty)$" },
+      { "t": "porownanie", "tytul": "Ściąga dla $a > 0$", "lewa": { "naglowek": "Znak $<$ lub $\\le$", "punkty": ["**między** miejscami zerowymi", "jeden przedział"] }, "prawa": { "naglowek": "Znak $>$ lub $\\ge$", "punkty": ["**na zewnątrz**", "suma dwóch przedziałów"] }, "uwaga": "Dla $a < 0$ jest odwrotnie!" }
+    ]
+  },
+  {
+    "id": 36,
+    "typ": "lekcja",
+    "dzial": "Nierówności kwadratowe",
+    "temat": "Nierówności kwadratowe – przypadki szczególne",
+    "opis": "Co zrobić, gdy delta jest ujemna albo równa zero? Cztery krótkie przykłady, które często pojawiają się w zadaniach.",
+    "slajdy": [
+      { "t": "okladka", "nad": "MATMA OD ZERA #26", "tytul": "Delta ujemna? **Nie panikuj**", "pod": "Nierówności, gdy parabola nie przecina osi 👉" },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 + x + 3 > 0$", "kroki": ["$\\Delta = 1 - 12 = -11 < 0$ – brak miejsc zerowych", "$a > 0$ – cała parabola jest **nad** osią"], "wynik": "$x \\in \\mathbb{R}$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 + x + 3 < 0$", "kroki": ["Ta sama parabola – cała nad osią", "Nigdy nie schodzi pod oś"], "wynik": "Brak rozwiązań: $x \\in \\varnothing$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 - 6x + 9 \\le 0$", "kroki": ["$x^2 - 6x + 9 = (x-3)^2$", "Kwadrat nie bywa ujemny, więc musi być $(x-3)^2 = 0$"], "wynik": "$x = 3$" },
+      { "t": "przyklad", "tytul": "Rozwiąż $x^2 - 6x + 9 > 0$", "kroki": ["$(x-3)^2 > 0$", "Kwadrat jest dodatni dla każdego $x$ oprócz $x = 3$"], "wynik": "$x \\in \\mathbb{R}\\setminus\\{3\\}$" }
+    ]
+  }
+]
