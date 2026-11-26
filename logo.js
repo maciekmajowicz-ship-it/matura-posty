@@ -31,7 +31,7 @@ body{width:1080px;height:1080px;overflow:hidden;background:radial-gradient(circl
 </style></head><body>
 <div class="blask"></div><div class="ring2"></div><div class="ring"></div>
 ${ZNAK[p]}
-<div class="pas">MATURA</div>
+<div class="pas" style="${p === "angielski" ? "font-size:54px;letter-spacing:5px" : ""}">${{ polski: "POLSKI", matma: "MATMA", angielski: "ANGIELSKI" }[p]}</div>
 <div class="iskra" style="left:250px;top:300px;width:56px;height:56px"></div>
 <div class="iskra" style="left:320px;top:250px;width:30px;height:30px;opacity:.7"></div>
 </body></html>`;
