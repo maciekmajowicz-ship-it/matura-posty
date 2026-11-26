@@ -10,7 +10,7 @@ export const PRZEDMIOTY = {
   },
   polski: {
     nazwa: "Polski na maturę",
-    handle: "@polski.matura",
+    handle: "@matura.polski",
     seria: "POLSKI",
     emoji: "📚",
     kolory: { tlo: "#1a0914", tlo2: "#5a1236", akcent: "#ffc857", akcent2: "#ff5a6e", tekst: "#fff5ee", przygaszony: "#e8b9c6" },
