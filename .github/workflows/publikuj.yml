@@ -31,9 +31,13 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: Instalacja
         run: |
           npm ci
+          pip install -q edge-tts
           sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -42,13 +46,17 @@ jobs:
           CHROME_PATH: /usr/bin/google-chrome
         run: |
           node publikuj.js $TRYB --plan | tee plan.txt
-          [ -s plan.txt ] || exit 0
+          if [ -n "$TRYB" ]; then node publikuj_rolke.js --auto --plan | tee rolki.txt; else : > rolki.txt; fi
+          [ -s plan.txt ] || [ -s rolki.txt ] || exit 0
           while read p id; do node render.js $p --id $id; done < plan.txt
+          while read p id; do node render.js $p --id $id && node rolka.js $p $id; done < rolki.txt
           cd output && git init -q -b obrazki && git add . && git commit -qm "obrazki" \
             && git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" obrazki
           sleep 20
       - name: Publikacja
-        run: node publikuj.js $TRYB
+        run: |
+          node publikuj.js $TRYB
+          if [ -n "$TRYB" ]; then node publikuj_rolke.js --auto; fi
       - name: Zapis stanu
         if: always()
         run: |

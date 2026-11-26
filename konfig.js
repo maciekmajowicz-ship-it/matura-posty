@@ -28,3 +28,6 @@ export const PRZEDMIOTY = {
 
 // Godziny publikacji (czas polski) – co 2 godziny od 8 do 20.
 export const GODZINY = [8, 10, 12, 14, 16, 18, 20];
+
+// Rolki (Reels) z lektorem – raz dziennie o podanych godzinach (czas PL), z lekcji, które już wyszły.
+export const ROLKI = { polski: [19] };
