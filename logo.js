@@ -6,7 +6,7 @@ import puppeteer from "puppeteer-core";
 import { PRZEDMIOTY } from "./konfig.js";
 
 const ZNAK = {
-  polski: `<span class="z pl">Ą</span>`,
+  polski: `<span class="z pl">POL<br>SKI</span>`,
   matma: `<span class="z">x<sup>2</sup></span>`,
   angielski: `<span class="z en">Hi!</span>`,
 };
@@ -24,16 +24,16 @@ body{width:1080px;height:1080px;overflow:hidden;background:radial-gradient(circl
 .ring2{position:absolute;inset:70px;border-radius:50%;border:4px dashed ${c.tekst}33}
 .z{position:absolute;left:0;right:0;top:50%;transform:translateY(-63%);text-align:center;font-weight:900;font-size:520px;line-height:1;color:${c.tekst};letter-spacing:-20px;text-shadow:0 24px 60px #0008}
 .z sup{font-size:.45em;color:${c.akcent};vertical-align:.95em;margin-left:6px}
-.z.pl{font-size:470px}
+.z.pl{font-size:250px;line-height:.92;letter-spacing:-6px;transform:translateY(-58%)}
 .z.en{font-size:400px;letter-spacing:-24px}
-.pas{position:absolute;bottom:180px;left:50%;transform:translateX(-50%) rotate(-4deg);background:${c.akcent};color:${c.tlo};font-weight:800;font-size:64px;letter-spacing:8px;padding:14px 40px;border-radius:18px;box-shadow:0 16px 40px #0007}
+.pas{white-space:nowrap;position:absolute;bottom:180px;left:50%;transform:translateX(-50%) rotate(-4deg);background:${c.akcent};color:${c.tlo};font-weight:800;font-size:64px;letter-spacing:8px;padding:14px 40px;border-radius:18px;box-shadow:0 16px 40px #0007}
 .iskra{position:absolute;width:70px;height:70px;background:${c.akcent};clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
 </style></head><body>
 <div class="blask"></div><div class="ring2"></div><div class="ring"></div>
 ${ZNAK[p]}
-<div class="pas" style="${p === "angielski" ? "font-size:54px;letter-spacing:5px" : ""}">${{ polski: "POLSKI", matma: "MATMA", angielski: "ANGIELSKI" }[p]}</div>
-<div class="iskra" style="left:250px;top:300px;width:56px;height:56px"></div>
-<div class="iskra" style="left:320px;top:250px;width:30px;height:30px;opacity:.7"></div>
+<div class="pas" style="${p !== "matma" ? "font-size:54px;letter-spacing:5px" : ""}">${{ polski: "MATURA 2027", matma: "MATMA", angielski: "ANGIELSKI" }[p]}</div>
+<div class="iskra" style="${p === "polski" ? "right:215px;top:190px" : "left:250px;top:300px"};width:56px;height:56px"></div>
+<div class="iskra" style="${p === "polski" ? "right:180px;top:270px" : "left:320px;top:250px"};width:30px;height:30px;opacity:.7"></div>
 </body></html>`;
 };
 
