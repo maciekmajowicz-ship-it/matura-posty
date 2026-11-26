@@ -14,7 +14,8 @@ const TEST = args.includes("--test");
 const AUTO = args.includes("--auto");
 const PLAN = args.includes("--plan"); // tylko wypisz "przedmiot id" postów do wyrenderowania
 const BASE = (cfg("BASE_URL") || "<BASE_URL>").replace(/\/$/, "");
-const API = "https://graph.facebook.com/v23.0";
+// tokeny z logowania przez Instagram (IGAA…) idą do graph.instagram.com – bez strony na Facebooku
+const apiDla = (token) => token?.startsWith("IG") ? "https://graph.instagram.com/v23.0" : "https://graph.facebook.com/v23.0";
 const nr3 = (n) => String(n).padStart(3, "0");
 
 const teraz = new Date();
@@ -33,6 +34,7 @@ if (AUTO && !GODZINY.includes(godz)) {
 
 async function api(token, sciezka, params, method = "POST") {
   const body = new URLSearchParams({ ...params, access_token: token });
+  const API = apiDla(token);
   const res = await fetch(method === "GET" ? `${API}/${sciezka}?${body}` : `${API}/${sciezka}`, method === "GET" ? {} : { method, body });
   const json = await res.json();
   if (json.error) throw new Error(`${sciezka}: ${json.error.message}`);
