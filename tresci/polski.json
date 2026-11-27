@@ -2050,5 +2050,1217 @@
         "tresc": "Kontekst biograficzny dotyczy **życia autora**."
       }
     ]
+  },
+  {
+    "id": 37,
+    "typ": "lekcja",
+    "dzial": "Barok",
+    "temat": "Barok – ramy i cechy epoki",
+    "opis": "Epoka kontrastów, niepokoju i marności świata. Najważniejsze cechy baroku w pigułce.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #25",
+        "tytul": "Barok: epoka **kontrastów**",
+        "pod": "Ramy, cechy i nurty 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "Europa: koniec **XVI w.** – połowa **XVIII w.**",
+          "Polska: ok. **1580/1600** – ok. **1730–1740**",
+          "Nazwa: port. „barroco” – **perła o nieregularnym kształcie**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "**Kontrast** i niepokój zamiast renesansowej harmonii",
+          "**Vanitas** – marność świata i przemijanie",
+          "**Konceptyzm** – zaskakujący pomysł, gra słów, puenta",
+          "Bogactwo ozdób, **przepych**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Tło epoki",
+        "punkty": [
+          "**Kontrreformacja** – odpowiedź Kościoła na reformację",
+          "**Sobór trydencki** (1545–1563)",
+          "Wojny, zarazy – poczucie **niepewności losu**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Trzy nurty w Polsce",
+        "punkty": [
+          "**Metafizyczny** – Mikołaj Sęp Szarzyński",
+          "**Dworski** – Jan Andrzej Morsztyn",
+          "**Sarmacki** – np. Jan Chryzostom Pasek („Pamiętniki”)"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Renesans vs barok",
+        "lewa": {
+          "naglowek": "Renesans",
+          "punkty": [
+            "Harmonia i ład",
+            "Ufność w człowieka",
+            "Prostota formy"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Barok",
+          "punkty": [
+            "Kontrast i niepokój",
+            "Człowiek **zagubiony**",
+            "Ozdobność, koncept"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "typ": "lekcja",
+    "dzial": "Barok",
+    "temat": "Sęp Szarzyński – życie jako walka",
+    "opis": "Poeta metafizyczny polskiego baroku. Jak widzi człowieka i dlaczego życie to dla niego „bojowanie”?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #26",
+        "tytul": "Życie to **wojna**",
+        "pod": "Mikołaj Sęp Szarzyński 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kim był?",
+        "punkty": [
+          "**Mikołaj Sęp Szarzyński** (ok. 1550–1581)",
+          "Najważniejszy poeta **metafizyczny** w Polsce",
+          "Zbiór „**Rytmy abo wiersze polskie**” (wyd. pośmiertnie, 1601)",
+          "Mistrz **sonetu**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Pokój – szczęśliwość, ale bojowanie\nByt nasz podniebny.",
+        "autor": "M. Sęp Szarzyński, Sonet IV",
+        "opis": "Pokój jest szczęściem, ale życie na ziemi to **ciągła walka**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Sonet IV – trzej wrogowie",
+        "punkty": [
+          "Pełny tytuł: „O wojnie naszej, którą wiedziemy z **szatanem, światem i ciałem**”",
+          "Człowiek jest **słaby** i sam nie wygra",
+          "Ratunek: **łaska Boga**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Inne sonety",
+        "punkty": [
+          "**Sonet I** – o krótkości i niepewności ludzkiego życia",
+          "**Sonet V** – o nietrwałej miłości rzeczy świata tego",
+          "Wniosek: kochaj to, co **wieczne**, a nie to, co przemija"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "typ": "lekcja",
+    "dzial": "Barok",
+    "temat": "Morsztyn i konceptyzm",
+    "opis": "Poezja dworska, gra słów i zaskakująca puenta. Na czym polega konceptyzm Jana Andrzeja Morsztyna?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #27",
+        "tytul": "Poezja jak **łamigłówka**",
+        "pod": "Morsztyn i konceptyzm 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kim był?",
+        "punkty": [
+          "**Jan Andrzej Morsztyn** (1621–1693)",
+          "Dworzanin, dyplomata, **poeta dworski**",
+          "Zbiory: „**Kanikuła albo Psia gwiazda**”, „**Lutnia**”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Konceptyzm",
+        "punkty": [
+          "**Koncept** – zaskakujący, błyskotliwy pomysł",
+          "Gra słów, **paradoksy**, oksymorony",
+          "Wiersz kończy się mocną **puentą**",
+          "Celem jest **zadziwić** czytelnika"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Leżysz zabity i jam też zabity,\nTy – strzałą śmierci, ja – strzałą miłości",
+        "autor": "J.A. Morsztyn, „Do trupa”",
+        "opis": "Zakochany porównuje się do **zmarłego** – i wychodzi, że ma gorzej."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Inne wiersze",
+        "punkty": [
+          "„**Niestatek**” – lista rzeczy niemożliwych; prędzej się zdarzą niż **stałość kobiety**",
+          "„**Cuda miłości**” – miłość pełna sprzeczności"
+        ],
+        "uwaga": "Tematem Morsztyna jest głównie **miłość** – ujęta lekko i dowcipnie."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "typ": "quiz",
+    "dzial": "Barok",
+    "temat": "Quiz: barok",
+    "opis": "Sęp Szarzyński, Morsztyn i cechy baroku – sprawdź się.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Barok: **ile pamiętasz?**",
+        "pod": "3 pytania – sprawdź się 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Z czym według Sonetu IV Sępa Szarzyńskiego walczy człowiek?",
+        "odp": [
+          "z losem, czasem i śmiercią",
+          "z szatanem, światem i ciałem",
+          "z rozumem, sercem i wiarą",
+          "z królem, szlachtą i Kościołem"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. z szatanem, światem i ciałem",
+        "tresc": "Życie to dla poety **„bojowanie”** – ciągła walka."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Który poeta jest przedstawicielem **konceptyzmu** dworskiego?",
+        "odp": [
+          "Mikołaj Rej",
+          "Mikołaj Sęp Szarzyński",
+          "Jan Andrzej Morsztyn",
+          "Ignacy Krasicki"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Jan Andrzej Morsztyn",
+        "tresc": "Np. „Do trupa” – zakochany porównuje się do **zmarłego**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Czym jest **vanitas**?",
+        "odp": [
+          "radością z życia",
+          "motywem marności i przemijania",
+          "wiarą w rozum",
+          "pochwałą życia na wsi"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. motywem marności i przemijania",
+        "tresc": "Źródło: Księga Koheleta – „**marność nad marnościami**”."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Rodzaje liryki i podmiot liryczny",
+    "opis": "Kto mówi w wierszu i do kogo? Rodzaje liryki, które musisz rozpoznawać na maturze.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #5",
+        "tytul": "Kto **mówi** w wierszu?",
+        "pod": "Podmiot liryczny i rodzaje liryki 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podmiot liryczny",
+        "punkty": [
+          "To **„ja” mówiące** w wierszu",
+          "**Nie** utożsamiaj go automatycznie z autorem",
+          "Pisz: „podmiot liryczny…”, a nie „poeta czuje…”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Rodzaje liryki",
+        "punkty": [
+          "**Bezpośrednia** – podmiot mówi wprost o sobie („ja”)",
+          "**Pośrednia** – opis lub sytuacja; podmiot ukryty",
+          "**Inwokacyjna (apelu)** – zwrot do adresata („ty”, „wy”)",
+          "**Roli** – mówi wyraźnie określona postać"
+        ]
+      },
+      {
+        "t": "przyklad",
+        "tytul": "Rozpoznaj rodzaj liryki",
+        "kroki": [
+          "„Lament świętokrzyski” – mówi **Matka Boża** → liryka roli",
+          "„Treny” – ojciec mówi o swoim bólu → liryka **bezpośrednia**",
+          "„Bogurodzica” – prośba do Maryi i Chrystusa → liryka **inwokacyjna**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Jeszcze dwa pojęcia",
+        "punkty": [
+          "**Adresat** – osoba, do której mówi podmiot",
+          "**Sytuacja liryczna** – kto, do kogo, w jakich okolicznościach mówi"
+        ],
+        "uwaga": "Analizę wiersza zacznij od pytania: **kto mówi i do kogo?**"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "typ": "lekcja",
+    "dzial": "Barok",
+    "temat": "„Makbet” – fabuła",
+    "opis": "Tragedia Szekspira o człowieku, którego zniszczyła żądza władzy. Najważniejsze wydarzenia krok po kroku.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #28",
+        "tytul": "Przepowiednia, która **zabija**",
+        "pod": "„Makbet” Szekspira 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Autor: **William Szekspir**",
+          "Powstanie: ok. **1606 r.**",
+          "Akcja: średniowieczna **Szkocja**",
+          "Gatunek: **tragedia**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Początek",
+        "punkty": [
+          "**Trzy czarownice** przepowiadają Makbetowi koronę",
+          "**Bankowi** – że jego potomkowie będą królami",
+          "**Lady Makbet** namawia męża do zbrodni",
+          "Makbet zabija **króla Dunkana** w swoim zamku"
+        ],
+        "numeruj": true
+      },
+      {
+        "t": "punkty",
+        "tytul": "Spirala zbrodni",
+        "punkty": [
+          "Makbet zostaje królem i każe zabić **Banka**",
+          "Na uczcie widzi **ducha Banka**",
+          "Każe wymordować **rodzinę Makdufa**",
+          "Lady Makbet popada w obłęd i **umiera**"
+        ],
+        "numeruj": true
+      },
+      {
+        "t": "punkty",
+        "tytul": "Druga przepowiednia i upadek",
+        "punkty": [
+          "Nie pokona go nikt **zrodzony z kobiety**",
+          "Nie przegra, dopóki **las birnamski** nie ruszy na Dunzynan",
+          "Żołnierze idą z gałęziami – **las „rusza”**",
+          "**Makduf** (wyjęty z łona matki przed czasem) zabija Makbeta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "typ": "lekcja",
+    "dzial": "Barok",
+    "temat": "„Makbet” – władza i wina",
+    "opis": "Dlaczego Makbet z bohatera staje się tyranem? Motywy władzy, winy i sumienia, przydatne w wypracowaniu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #29",
+        "tytul": "Od bohatera do **tyrana**",
+        "pod": "Najważniejsze motywy „Makbeta” 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Przemiana Makbeta",
+        "punkty": [
+          "Na początku – **dzielny rycerz**, wierny królowi",
+          "Po pierwszej zbrodni nie umie się zatrzymać",
+          "Każde morderstwo pociąga **kolejne**",
+          "Na końcu – samotny, **obojętny** nawet na śmierć żony"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Makbet vs Lady Makbet",
+        "lewa": {
+          "naglowek": "Makbet",
+          "punkty": [
+            "Na początku **waha się**",
+            "Potem zabija coraz łatwiej"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Lady Makbet",
+          "punkty": [
+            "Na początku **bezwzględna**",
+            "Potem dręczą ją **wyrzuty sumienia**"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Lady Makbet lunatykuje",
+        "punkty": [
+          "Chodzi nocą i **zmywa z rąk** niewidzialną krew",
+          "Krew to symbol **winy**, której nie da się zmyć",
+          "Sumienie **niszczy** ją psychicznie"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Do wypracowania",
+        "punkty": [
+          "**Władza** – żądza władzy prowadzi do zła",
+          "**Wina i kara** – zbrodnia niszczy sprawcę",
+          "**Los** – czy przepowiednia zmusiła go do zbrodni?"
+        ],
+        "uwaga": "Barokowy kontekst: świat **niepewny**, człowiek zagubiony."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "typ": "quiz",
+    "dzial": "Barok",
+    "temat": "Quiz: „Makbet” i liryka",
+    "opis": "Sprawdź, czy pamiętasz „Makbeta” i rodzaje liryki.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "„Makbet”: **test**",
+        "pod": "Plus jedno pytanie z liryki 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto zabija Makbeta w finale tragedii?",
+        "odp": [
+          "Banko",
+          "Malkolm",
+          "Makduf",
+          "Dunkan"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. Makduf",
+        "tresc": "Został **wyjęty z łona matki** przed czasem – więc przepowiednia nie chroniła Makbeta."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Co symbolizuje krew, którą Lady Makbet próbuje zmyć z rąk?",
+        "odp": [
+          "władzę",
+          "winę i wyrzuty sumienia",
+          "miłość do męża",
+          "odwagę"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. winę i wyrzuty sumienia",
+        "tresc": "Tej krwi **nie da się zmyć** – tak jak winy."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "W „Lamencie świętokrzyskim” mówi Matka Boża. To przykład liryki…",
+        "odp": [
+          "pośredniej",
+          "opisowej",
+          "roli",
+          "inwokacyjnej"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. roli",
+        "tresc": "Podmiot to **wyraźnie określona postać**."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "typ": "lekcja",
+    "dzial": "Oświecenie",
+    "temat": "Oświecenie – ramy i cechy epoki",
+    "opis": "Wiek rozumu. Ramy czasowe, filozofia i najważniejsze wydarzenia polskiego oświecenia.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #30",
+        "tytul": "Wiek **rozumu** 💡",
+        "pod": "Oświecenie w pigułce 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "Europa: koniec **XVII w.** – koniec **XVIII w.**",
+          "Polska: **1764** (koronacja Stanisława Augusta) – ok. **1822**",
+          "Nazwa: „oświecić” umysły – **rozumem i wiedzą**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Filozofia",
+        "punkty": [
+          "**Racjonalizm** – Kartezjusz: „Myślę, więc jestem”",
+          "**Empiryzm** – wiedza z doświadczenia (Locke)",
+          "**Deizm** – Bóg stworzył świat, ale w niego nie ingeruje"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "Wiara w **rozum** i naukę",
+          "**Dydaktyzm** – literatura ma uczyć",
+          "Krytyka zabobonów i **wad społecznych**",
+          "„**Encyklopedia**” Diderota i d’Alemberta"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Polska – reformy",
+        "punkty": [
+          "**Komisja Edukacji Narodowej** (1773)",
+          "**Teatr Narodowy** (1765), czasopismo „**Monitor**”",
+          "**Obiady czwartkowe** u króla",
+          "**Konstytucja 3 maja** (1791)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "typ": "lekcja",
+    "dzial": "Oświecenie",
+    "temat": "Klasycyzm, sentymentalizm, rokoko",
+    "opis": "Trzy nurty oświecenia. Czym się różnią i z czym je kojarzyć?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #31",
+        "tytul": "Trzy twarze **oświecenia**",
+        "pod": "Klasycyzm, sentymentalizm, rokoko 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Klasycyzm",
+        "punkty": [
+          "Wzory z **antyku**, ład i jasność",
+          "**Rozum** ponad uczuciem",
+          "Gatunki: **bajka, satyra**, poemat heroikomiczny",
+          "Np. **Ignacy Krasicki**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Sentymentalizm",
+        "punkty": [
+          "Liczy się **uczucie** i wrażliwość",
+          "Kult **natury**, życie z dala od cywilizacji",
+          "Inspiracja: **Jean-Jacques Rousseau**",
+          "Np. sielanka Karpińskiego „**Laura i Filon**”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Rokoko",
+        "punkty": [
+          "**Lekkość**, zabawa, elegancja",
+          "Tematy: miłość, flirt, uroki życia",
+          "Krótkie, **wdzięczne** formy (np. erotyk)"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Klasycyzm vs sentymentalizm",
+        "lewa": {
+          "naglowek": "Klasycyzm",
+          "punkty": [
+            "**Rozum**",
+            "Uczy i poucza",
+            "Ład, reguły"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Sentymentalizm",
+          "punkty": [
+            "**Serce**",
+            "Wzrusza",
+            "Natura, prostota"
+          ]
+        },
+        "uwaga": "Sentymentalizm zapowiada już **romantyzm**."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "typ": "quiz",
+    "dzial": "Oświecenie",
+    "temat": "Quiz: oświecenie",
+    "opis": "Rozum, reformy i nurty epoki – szybki sprawdzian.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Oświecenie: **3 pytania**",
+        "pod": "Sprawdź, czy zapamiętałeś 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kto jest autorem zdania „Myślę, więc jestem”?",
+        "odp": [
+          "John Locke",
+          "Kartezjusz",
+          "Wolter",
+          "Jean-Jacques Rousseau"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. Kartezjusz",
+        "tresc": "To fundament **racjonalizmu**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "W którym roku powołano **Komisję Edukacji Narodowej**?",
+        "odp": [
+          "1764",
+          "1765",
+          "1773",
+          "1791"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. 1773",
+        "tresc": "1764 – koronacja króla, 1765 – Teatr Narodowy, 1791 – Konstytucja 3 maja."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Który nurt oświecenia stawia **uczucie i naturę** ponad rozumem?",
+        "odp": [
+          "klasycyzm",
+          "sentymentalizm",
+          "rokoko",
+          "barok"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. sentymentalizm",
+        "tresc": "Inspiracją był **Rousseau**."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "typ": "lekcja",
+    "dzial": "Oświecenie",
+    "temat": "Krasicki – bajki",
+    "opis": "Krótkie historie o zwierzętach, które mówią o ludziach. Cechy bajki i najważniejsze utwory Krasickiego.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #32",
+        "tytul": "Zwierzęta, a mowa o **ludziach**",
+        "pod": "Bajki Ignacego Krasickiego 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Kim był?",
+        "punkty": [
+          "**Ignacy Krasicki** (1735–1801)",
+          "Biskup warmiński, zwany **„księciem poetów”**",
+          "„**Bajki i przypowieści**” (1779), „**Bajki nowe**” (wyd. 1802)"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Cechy bajki",
+        "punkty": [
+          "Bohaterowie to **zwierzęta** – alegorie ludzkich cech",
+          "**Morał** – jawny albo ukryty",
+          "Cel: **pouczyć** (dydaktyzm)",
+          "**Epigramatyczna** (krótka, z puentą) lub **narracyjna**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Zawżdy znajdzie przyczynę, kto zrobić chce zwadę.",
+        "autor": "I. Krasicki, „Jagnię i wilcy”",
+        "opis": "Silniejszy nie potrzebuje racji – wystarczy mu **przewaga siły**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Warto znać",
+        "punkty": [
+          "„**Ptaszki w klatce**” – wolność; stary czyżyk pamięta życie na swobodzie",
+          "„**Szczur i kot**” – pycha zostaje ukarana",
+          "„**Kruk i lis**” – uwaga na **pochlebców**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "typ": "lekcja",
+    "dzial": "Oświecenie",
+    "temat": "Krasicki – satyry",
+    "opis": "Ironia zamiast kazania. Jak Krasicki wyśmiewa wady szlachty w „Satyrach”?",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #33",
+        "tytul": "Śmiech, który **uczy**",
+        "pod": "Satyry Krasickiego 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Czym jest satyra?",
+        "punkty": [
+          "Utwór, który **ośmiesza** wady ludzi i społeczeństwa",
+          "Główne narzędzie: **ironia**",
+          "Cel: **poprawić** obyczaje"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "„Do króla”",
+        "punkty": [
+          "Pozornie – **zarzuty** szlachty wobec Stanisława Augusta",
+          "Np. że jest **młody**, wykształcony i nie z rodu królewskiego",
+          "Naprawdę to **pochwała** króla",
+          "Ośmieszeni zostają **krytycy** – szlachta"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Inne satyry",
+        "punkty": [
+          "„**Pijaństwo**” – szlachcic potępia picie, ale znów idzie pić",
+          "„**Żona modna**” – Piotr żeni się dla majątku, a żona go **trwoni** na modę",
+          "„**Świat zepsuty**” – upadek obyczajów i ojczyzny"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ironia – jak ją rozpoznać?",
+        "punkty": [
+          "Mówisz **jedno**, a masz na myśli **coś przeciwnego**",
+          "Czytelnik musi odczytać **ukryty sens**"
+        ],
+        "uwaga": "Na maturze pisz: ironia **ośmiesza** …, **demaskuje** …"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Rodzaje narracji",
+    "opis": "Kim jest narrator i ile wie? Rodzaje narracji, które łatwo pomylić.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #6",
+        "tytul": "Kto **opowiada** tę historię?",
+        "pod": "Narrator i rodzaje narracji 👉"
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Narracja 1- i 3-osobowa",
+        "lewa": {
+          "naglowek": "Pierwszoosobowa",
+          "punkty": [
+            "Narrator mówi **„ja”**",
+            "Często uczestnik zdarzeń",
+            "Wie tylko to, co sam przeżył"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Trzecioosobowa",
+          "punkty": [
+            "Narrator mówi **„on, ona”**",
+            "Stoi poza światem przedstawionym",
+            "Często **wszechwiedzący**"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ile wie narrator?",
+        "punkty": [
+          "**Wszechwiedzący** – zna myśli i losy wszystkich bohaterów",
+          "**Ograniczony** – widzi tyle, co jedna postać",
+          "**Narrator-gawędziarz** – opowiada swobodnie, komentuje"
+        ]
+      },
+      {
+        "t": "przyklad",
+        "tytul": "Przykład: „Lalka” Prusa",
+        "kroki": [
+          "Główna narracja: **trzecioosobowa**",
+          "„Pamiętnik starego subiekta”: **pierwszoosobowy** – pisze Rzecki",
+          "Efekt: widzimy Wokulskiego **z dwóch stron**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Pamiętaj",
+        "punkty": [
+          "Narrator **≠ autor** (tak jak podmiot liryczny ≠ poeta)",
+          "Narrator występuje w **epice**, podmiot liryczny – w **liryce**"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "typ": "quiz",
+    "dzial": "Oświecenie",
+    "temat": "Quiz: Krasicki",
+    "opis": "Bajki, satyry i ironia – sprawdź, co pamiętasz z Krasickiego.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Krasicki: **test**",
+        "pod": "Bajki, satyry, narracja 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Którą bajkę Krasickiego odczytuje się jako opowieść o **wolności i niewoli**?",
+        "odp": [
+          "„Kruk i lis”",
+          "„Szczur i kot”",
+          "„Ptaszki w klatce”",
+          "„Jagnię i wilcy”"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. „Ptaszki w klatce”",
+        "tresc": "Stary czyżyk pamięta wolność – młody urodził się **w klatce**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Na czym polega ironia w satyrze „Do króla”?",
+        "odp": [
+          "Krasicki otwarcie krytykuje króla",
+          "pozorne zarzuty są w istocie pochwałą",
+          "król krytykuje szlachtę",
+          "satyra chwali szlachtę"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. pozorne zarzuty są w istocie pochwałą",
+        "tresc": "Ośmieszeni zostają **krytycy króla**."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Narrator, który zna myśli wszystkich bohaterów, to narrator…",
+        "odp": [
+          "pierwszoosobowy",
+          "ograniczony",
+          "wszechwiedzący",
+          "liryczny"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "C. wszechwiedzący"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "typ": "lekcja",
+    "dzial": "Romantyzm",
+    "temat": "Romantyzm – ramy i cechy epoki",
+    "opis": "Uczucie zamiast rozumu, wiara w to, czego nie widać. Najważniejsze cechy romantyzmu.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #34",
+        "tytul": "Serce ważniejsze niż **rozum**",
+        "pod": "Romantyzm w pigułce 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Ramy czasowe",
+        "punkty": [
+          "Europa: koniec **XVIII w.** – połowa **XIX w.**",
+          "Polska: **1822** – **1863** (powstanie styczniowe)",
+          "Początek: „**Ballady i romanse**” Mickiewicza"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Najważniejsze cechy",
+        "punkty": [
+          "**Uczucie, intuicja, wiara** ważniejsze niż rozum",
+          "Fascynacja **ludowością** i folklorem",
+          "**Irracjonalizm**: duchy, zjawy, tajemnica",
+          "**Indywidualizm** – wybitna jednostka"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Bohater romantyczny",
+        "punkty": [
+          "**Samotny**, zbuntowany, nieszczęśliwie zakochany",
+          "Skłócony ze światem",
+          "Często gotowy **poświęcić się** dla ojczyzny"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Romantyzm polski",
+        "punkty": [
+          "Polska **pod zaborami** – literatura walczy o naród",
+          "Wieszczowie: **Mickiewicz, Słowacki, Krasiński**",
+          "**Mesjanizm** – Polska jako „Chrystus narodów”"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "typ": "lekcja",
+    "dzial": "Romantyzm",
+    "temat": "„Romantyczność” – manifest epoki",
+    "opis": "Ballada, od której zaczął się polski romantyzm. Spór rozumu z uczuciem w jednym utworze.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #35",
+        "tytul": "Ballada, która **zaczęła epokę**",
+        "pod": "„Romantyczność” Mickiewicza 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Autor: **Adam Mickiewicz**",
+          "Tom „**Ballady i romanse**” (1822)",
+          "**Ballada programowa** – manifest romantyzmu",
+          "Motto z „**Hamleta**” Szekspira"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Sytuacja",
+        "punkty": [
+          "Dziewczyna, **Karusia**, rozmawia ze zmarłym ukochanym **Jasieńkiem**",
+          "Gromadzi się **lud** – wierzy jej i się modli",
+          "Pojawia się **starzec** – uważa, że to bzdury"
+        ]
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Dwa sposoby poznania",
+        "lewa": {
+          "naglowek": "Starzec",
+          "punkty": [
+            "**Rozum**, nauka",
+            "„szkiełko i oko”",
+            "Klasycyzm"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Narrator i lud",
+          "punkty": [
+            "**Uczucie i wiara**",
+            "Serce",
+            "Romantyzm"
+          ]
+        }
+      },
+      {
+        "t": "cytat",
+        "cytat": "Czucie i wiara silniej mówi do mnie\nNiż mędrca szkiełko i oko.",
+        "autor": "A. Mickiewicz, „Romantyczność”",
+        "opis": "Prawdy o świecie nie poznasz **samym rozumem**."
+      },
+      {
+        "t": "cytat",
+        "cytat": "Miej serce i patrzaj w serce!",
+        "autor": "A. Mickiewicz, „Romantyczność”",
+        "opis": "Najkrótsze **hasło** całego romantyzmu."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "typ": "lekcja",
+    "dzial": "Romantyzm",
+    "temat": "Ballady: „Świtezianka” i „Lilije”",
+    "opis": "Zdrada i zbrodnia, za którymi zawsze idzie kara. Dwie ballady Mickiewicza i ludowa sprawiedliwość.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #36",
+        "tytul": "Zbrodnia **nie ujdzie** płazem",
+        "pod": "Dwie ballady Mickiewicza 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Czym jest ballada?",
+        "punkty": [
+          "Utwór **z pogranicza** epiki, liryki i dramatu",
+          "Fabuła oparta na **ludowych** wierzeniach",
+          "Świat realny miesza się z **fantastycznym**"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "„Świtezianka”",
+        "punkty": [
+          "Strzelec przysięga **wierność** tajemniczej dziewczynie",
+          "Potem ulega urokowi pięknej **nimfy** z jeziora",
+          "Nimfa to ta sama dziewczyna – to była **próba**",
+          "Za złamanie przysięgi **spotyka go kara**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Zbrodnia to niesłychana,\nPani zabija pana",
+        "autor": "A. Mickiewicz, „Lilije”",
+        "opis": "Tak zaczyna się ballada o żonie, która **zabiła męża**."
+      },
+      {
+        "t": "punkty",
+        "tytul": "„Lilije”",
+        "punkty": [
+          "Pani zabija męża i sadzi na grobie **lilie**",
+          "Zmarły mąż **wraca** i wymierza karę",
+          "Przesłanie: zbrodnia **zawsze** zostanie ukarana"
+        ],
+        "uwaga": "To **ludowa sprawiedliwość** – ważny motyw romantyzmu."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "typ": "quiz",
+    "dzial": "Romantyzm",
+    "temat": "Quiz: początek romantyzmu",
+    "opis": "Cechy epoki i ballady Mickiewicza – trzy pytania na rozgrzewkę.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "QUIZ 🧠",
+        "tytul": "Romantyzm: **start**",
+        "pod": "3 pytania z ballad 👉"
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Który rok uznaje się za początek romantyzmu w Polsce?",
+        "odp": [
+          "1795",
+          "1822",
+          "1831",
+          "1863"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. 1822",
+        "tresc": "Wtedy ukazały się „**Ballady i romanse**” Mickiewicza."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Kogo symbolizuje starzec w „Romantyczności”?",
+        "odp": [
+          "ludowego mędrca",
+          "zwolennika rozumu i nauki",
+          "księdza",
+          "zmarłego Jasieńka"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. zwolennika rozumu i nauki",
+        "tresc": "Patrzy przez „**szkiełko i oko**” – jak klasycyści."
+      },
+      {
+        "t": "pytanie",
+        "tresc": "Jaka myśl łączy „Lilije” i „Świteziankę”?",
+        "odp": [
+          "miłość zawsze zwycięża",
+          "zbrodnia i zdrada zostaną ukarane",
+          "rozum jest ważniejszy niż wiara",
+          "natura jest obojętna"
+        ]
+      },
+      {
+        "t": "odpowiedz",
+        "poprawna": "B. zbrodnia i zdrada zostaną ukarane",
+        "tresc": "To **ludowa sprawiedliwość** – typowa dla ballad."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "typ": "lekcja",
+    "dzial": "Romantyzm",
+    "temat": "„Dziady” cz. II – duchy i ich przestrogi",
+    "opis": "Obrzęd przywoływania duchów i trzy nauki moralne. Najważniejsze sceny „Dziadów” cz. II.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "EPOKI #37",
+        "tytul": "Ciemno wszędzie, **głucho wszędzie**",
+        "pod": "„Dziady” cz. II Mickiewicza 👉"
+      },
+      {
+        "t": "punkty",
+        "tytul": "Podstawowe fakty",
+        "punkty": [
+          "Autor: **Adam Mickiewicz**, wyd. **1823**",
+          "Obrzęd **dziadów** – wieczerza dla dusz zmarłych",
+          "Prowadzi go **Guślarz** w kaplicy na cmentarzu",
+          "Motto z „**Hamleta**”"
+        ]
+      },
+      {
+        "t": "punkty",
+        "tytul": "Duchy lekkie: Józio i Rózia",
+        "punkty": [
+          "Dzieci, które **nie zaznały cierpienia**",
+          "Proszą o **dwa ziarnka gorczycy**"
+        ]
+      },
+      {
+        "t": "cytat",
+        "cytat": "Kto nie doznał goryczy ni razu,\nTen nie dozna słodyczy w niebie.",
+        "autor": "A. Mickiewicz, „Dziady” cz. II",
+        "opis": "Aby zaznać szczęścia w niebie, trzeba znać też **cierpienie**."
+      },
+      {
+        "t": "cytat",
+        "cytat": "Bo kto nie był ni razu człowiekiem,\nTemu człowiek nic nie pomoże.",
+        "autor": "A. Mickiewicz, „Dziady” cz. II",
+        "opis": "**Zły Pan** – okrutny dziedzic, dręczony głodem przez ptaki, czyli dawnych poddanych."
+      },
+      {
+        "t": "cytat",
+        "cytat": "Kto nie dotknął ziemi ni razu,\nTen nigdy nie może być w niebie.",
+        "autor": "A. Mickiewicz, „Dziady” cz. II",
+        "opis": "**Pasterka Zosia** – nikogo nie kochała, więc błąka się między niebem a ziemią."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "typ": "lekcja",
+    "dzial": "Język",
+    "temat": "Błędy językowe, które tracą punkty",
+    "opis": "Pięć błędów, które często wracają w wypracowaniach. Sprawdź, czy ich nie robisz.",
+    "slajdy": [
+      {
+        "t": "okladka",
+        "nad": "JĘZYK #7",
+        "tytul": "Błędy, które **kosztują punkty**",
+        "pod": "Sprawdź, czy je robisz 👉"
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Formy wyrazów",
+        "lewa": {
+          "naglowek": "Źle ❌",
+          "punkty": [
+            "poszłem",
+            "wziąść",
+            "półtorej roku"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Dobrze ✅",
+          "punkty": [
+            "**poszedłem**",
+            "**wziąć**",
+            "**półtora** roku"
+          ]
+        }
+      },
+      {
+        "t": "porownanie",
+        "tytul": "Tę czy tą?",
+        "lewa": {
+          "naglowek": "Biernik (kogo? co?)",
+          "punkty": [
+            "Czytam **tę** książkę",
+            "Widzę **tę** postać"
+          ]
+        },
+        "prawa": {
+          "naglowek": "Narzędnik (kim? czym?)",
+          "punkty": [
+            "Zachwycam się **tą** książką",
+            "Interesuję się **tą** postacią"
+          ]
+        }
+      },
+      {
+        "t": "punkty",
+        "tytul": "Związki wyrazowe",
+        "punkty": [
+          "❌ w każdym bądź razie → ✅ **w każdym razie** / **bądź co bądź**",
+          "❌ odnośnie tematu → ✅ **odnośnie do** tematu",
+          "❌ bynajmniej (= przynajmniej) → ✅ **przynajmniej**"
+        ],
+        "uwaga": "„Bynajmniej” znaczy **„wcale nie”**: „Bynajmniej się nie nudziłem”."
+      },
+      {
+        "t": "punkty",
+        "tytul": "Pleonazmy",
+        "punkty": [
+          "To **powtórzenie** tej samej treści",
+          "❌ cofać się do tyłu → ✅ **cofać się**",
+          "❌ akwen wodny → ✅ **akwen**",
+          "❌ fakt autentyczny → ✅ **fakt**"
+        ]
+      }
+    ]
   }
 ]
